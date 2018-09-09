@@ -1,0 +1,1636 @@
+{
+  "e558112a-ebd3-4420-8ca7-b9e69c6f4adb": {
+    "metrics": {
+      "amount": {
+        "count": 119401,
+        "sum": -3043.59948998288,
+        "avg": -0.025490569509324715,
+        "min": -15.00292791706847,
+        "max": 0
+      }
+    },
+    "uniqueValues": {
+      "DataCentreLocation": [
+        "Croydon",
+        "Paris PDC",
+        "Earl St"
+      ],
+      "OperatingSystem": [
+        "Windows"
+      ],
+      "servers_id": [
+        "e558112a-ebd3-4420-8ca7-b9e69c6f4adb"
+      ],
+      "SerialNumber": [
+        "CZ214503P8"
+      ],
+      "Platform": [
+        "Physical"
+      ],
+      "Memory": [
+        "1.03068520448E11"
+      ],
+      "ServerName": [],
+      "Model": [
+        "ProLiant DL380 G7"
+      ],
+      "Environment": [
+        "Production"
+      ],
+      "Make": [
+        "HP"
+      ]
+    }
+  },
+  "77f99e9c-ddd5-4a8e-b4dc-f454b0d9641a": {
+    "metrics": {
+      "amount": {
+        "count": 119407,
+        "sum": -3042.9755238206826,
+        "avg": -0.02548406311037613,
+        "min": -15.00292791706847,
+        "max": 0
+      }
+    },
+    "uniqueValues": {
+      "DataCentreLocation": [
+        "Croydon",
+        "Paris PDC",
+        "Earl St"
+      ],
+      "OperatingSystem": [
+        "Windows"
+      ],
+      "servers_id": [
+        "77f99e9c-ddd5-4a8e-b4dc-f454b0d9641a"
+      ],
+      "SerialNumber": [
+        "CZC8084ZVB"
+      ],
+      "Platform": [
+        "Physical"
+      ],
+      "Memory": [
+        "8.587780096E9"
+      ],
+      "ServerName": [],
+      "Model": [
+        "ProLiant DL380 G5"
+      ],
+      "Environment": [
+        "Production"
+      ],
+      "Make": [
+        "HP"
+      ]
+    }
+  },
+  "a5b7a0a6-b1bb-431a-81e8-19524d8998fb": {
+    "metrics": {
+      "amount": {
+        "count": 124556,
+        "sum": -3074.0219482121934,
+        "avg": -0.024679838371593446,
+        "min": -15.00292791706847,
+        "max": 0.0889420464705239
+      }
+    },
+    "uniqueValues": {
+      "DataCentreLocation": [
+        "Croydon",
+        "Paris PDC",
+        "Earl St"
+      ],
+      "OperatingSystem": [
+        "Windows"
+      ],
+      "servers_id": [
+        "a5b7a0a6-b1bb-431a-81e8-19524d8998fb"
+      ],
+      "SerialNumber": [
+        "8194-6373-5026-5128-0314-1655-69"
+      ],
+      "Platform": [
+        "Virtual"
+      ],
+      "Memory": [
+        "3.220758528E9"
+      ],
+      "ServerName": [],
+      "Model": [
+        "Virtual Machine"
+      ],
+      "Environment": [
+        "Test"
+      ],
+      "Make": [
+        "Unknown"
+      ]
+    }
+  },
+  "30b03887-5b1c-48f9-9dba-17dc88b84613": {
+    "metrics": {
+      "amount": {
+        "count": 119391,
+        "sum": -3042.9387912318084,
+        "avg": -0.025487170651320522,
+        "min": -15.00292791706847,
+        "max": 0
+      }
+    },
+    "uniqueValues": {
+      "DataCentreLocation": [
+        "Croydon",
+        "Paris PDC",
+        "Earl St"
+      ],
+      "OperatingSystem": [
+        "Windows"
+      ],
+      "servers_id": [
+        "30b03887-5b1c-48f9-9dba-17dc88b84613"
+      ],
+      "SerialNumber": [
+        "CZC8084ZVH"
+      ],
+      "Platform": [
+        "Physical"
+      ],
+      "Memory": [
+        "8.587780096E9"
+      ],
+      "ServerName": [],
+      "Model": [
+        "ProLiant DL380 G5"
+      ],
+      "Environment": [
+        "Production"
+      ],
+      "Make": [
+        "HP"
+      ]
+    }
+  },
+  "f918cc2f-77c3-4619-86f0-48692ef1a54c": {
+    "metrics": {
+      "amount": {
+        "count": 119396,
+        "sum": -3043.0524669942565,
+        "avg": -0.025487055403818022,
+        "min": -15.00292791706847,
+        "max": 0
+      }
+    },
+    "uniqueValues": {
+      "DataCentreLocation": [
+        "Croydon",
+        "Paris PDC",
+        "Earl St"
+      ],
+      "OperatingSystem": [
+        "Windows"
+      ],
+      "servers_id": [
+        "f918cc2f-77c3-4619-86f0-48692ef1a54c"
+      ],
+      "SerialNumber": [
+        "CZ214508BZ"
+      ],
+      "Platform": [
+        "Physical"
+      ],
+      "Memory": [
+        "2.575910912E10"
+      ],
+      "ServerName": [],
+      "Model": [
+        "ProLiant DL380 G7"
+      ],
+      "Environment": [
+        "Production"
+      ],
+      "Make": [
+        "HP"
+      ]
+    }
+  },
+  "4be29471-b4ab-4221-b4ad-b3bcd9a566a1": {
+    "metrics": {
+      "amount": {
+        "count": 119405,
+        "sum": -3043.3784200951427,
+        "avg": -0.02548786416058911,
+        "min": -15.00292791706847,
+        "max": 0
+      }
+    },
+    "uniqueValues": {
+      "DataCentreLocation": [
+        "Croydon",
+        "Paris PDC",
+        "Earl St"
+      ],
+      "OperatingSystem": [
+        "Windows"
+      ],
+      "servers_id": [
+        "4be29471-b4ab-4221-b4ad-b3bcd9a566a1"
+      ],
+      "SerialNumber": [
+        "GB8808C2FT"
+      ],
+      "Platform": [
+        "Physical"
+      ],
+      "Memory": [
+        "6.8716204032E10"
+      ],
+      "ServerName": [],
+      "Model": [
+        "ProLiant DL580 G5"
+      ],
+      "Environment": [
+        "CDS"
+      ],
+      "Make": [
+        "HP"
+      ]
+    }
+  },
+  "61216268-39d7-48f1-bb58-512e8cca164e": {
+    "metrics": {
+      "amount": {
+        "count": 119388,
+        "sum": -3043.042218607034,
+        "avg": -0.025488677409848847,
+        "min": -15.00292791706847,
+        "max": 0
+      }
+    },
+    "uniqueValues": {
+      "DataCentreLocation": [
+        "Croydon",
+        "Paris PDC",
+        "Earl St"
+      ],
+      "OperatingSystem": [
+        "Windows"
+      ],
+      "servers_id": [
+        "61216268-39d7-48f1-bb58-512e8cca164e"
+      ],
+      "SerialNumber": [
+        "CZJ1450DQQ"
+      ],
+      "Platform": [
+        "Physical"
+      ],
+      "Memory": [
+        "2.575910912E10"
+      ],
+      "ServerName": [],
+      "Model": [
+        "ProLiant DL360 G7"
+      ],
+      "Environment": [
+        "Production"
+      ],
+      "Make": [
+        "HP"
+      ]
+    }
+  },
+  "d5b17ce2-e0e9-4e3d-bd27-ce76b542f790": {
+    "metrics": {
+      "amount": {
+        "count": 124545,
+        "sum": -3074.2031650786594,
+        "avg": -0.024683473162942386,
+        "min": -15.00292791706847,
+        "max": 0.0889420464705239
+      }
+    },
+    "uniqueValues": {
+      "DataCentreLocation": [
+        "Croydon",
+        "Paris PDC",
+        "Earl St"
+      ],
+      "OperatingSystem": [
+        "Windows"
+      ],
+      "servers_id": [
+        "d5b17ce2-e0e9-4e3d-bd27-ce76b542f790"
+      ],
+      "SerialNumber": [
+        "4749-4510-6913-2280-5267-0714-75"
+      ],
+      "Platform": [
+        "Virtual"
+      ],
+      "Memory": [
+        "4.294500352E9"
+      ],
+      "ServerName": [],
+      "Model": [
+        "Virtual Machine"
+      ],
+      "Environment": [
+        "CDS"
+      ],
+      "Make": [
+        "Unknown"
+      ]
+    }
+  },
+  "20f54718-db50-40a6-87a7-23d8c8ce3a82": {
+    "metrics": {
+      "amount": {
+        "count": 119386,
+        "sum": -3043.417850133299,
+        "avg": -0.025492250767538062,
+        "min": -15.00292791706847,
+        "max": 0
+      }
+    },
+    "uniqueValues": {
+      "DataCentreLocation": [
+        "Croydon",
+        "Paris PDC",
+        "Earl St"
+      ],
+      "OperatingSystem": [
+        "Windows"
+      ],
+      "servers_id": [
+        "20f54718-db50-40a6-87a7-23d8c8ce3a82"
+      ],
+      "SerialNumber": [
+        "CZ214508BX"
+      ],
+      "Platform": [
+        "Physical"
+      ],
+      "Memory": [
+        "2.575910912E10"
+      ],
+      "ServerName": [],
+      "Model": [
+        "ProLiant DL380 G7"
+      ],
+      "Environment": [
+        "Production"
+      ],
+      "Make": [
+        "HP"
+      ]
+    }
+  },
+  "4047a5b0-3160-4826-a707-6b638a495ec9": {
+    "metrics": {
+      "amount": {
+        "count": 119386,
+        "sum": -3043.2946370912446,
+        "avg": -0.025491218711500886,
+        "min": -15.00292791706847,
+        "max": 0
+      }
+    },
+    "uniqueValues": {
+      "DataCentreLocation": [
+        "Croydon",
+        "Paris PDC",
+        "Earl St"
+      ],
+      "OperatingSystem": [
+        "Windows"
+      ],
+      "servers_id": [
+        "4047a5b0-3160-4826-a707-6b638a495ec9"
+      ],
+      "SerialNumber": [
+        "CZ214508C4"
+      ],
+      "Platform": [
+        "Physical"
+      ],
+      "Memory": [
+        "2.575910912E10"
+      ],
+      "ServerName": [],
+      "Model": [
+        "ProLiant DL380 G7"
+      ],
+      "Environment": [
+        "Production"
+      ],
+      "Make": [
+        "HP"
+      ]
+    }
+  },
+  "bb90ea9d-8392-4777-a4a7-d36b48a25942": {
+    "metrics": {
+      "amount": {
+        "count": 119389,
+        "sum": -3043.0050820616343,
+        "avg": -0.02548815286217017,
+        "min": -15.00292791706847,
+        "max": 0
+      }
+    },
+    "uniqueValues": {
+      "DataCentreLocation": [
+        "Croydon",
+        "Paris PDC",
+        "Earl St"
+      ],
+      "OperatingSystem": [
+        "Windows"
+      ],
+      "servers_id": [
+        "bb90ea9d-8392-4777-a4a7-d36b48a25942"
+      ],
+      "SerialNumber": [
+        "CZ214508C2"
+      ],
+      "Platform": [
+        "Physical"
+      ],
+      "Memory": [
+        "2.575910912E10"
+      ],
+      "ServerName": [],
+      "Model": [
+        "ProLiant DL380 G7"
+      ],
+      "Environment": [
+        "Production"
+      ],
+      "Make": [
+        "HP"
+      ]
+    }
+  },
+  "849e126f-aafe-427a-9a34-25e4b0cd19e8": {
+    "metrics": {
+      "amount": {
+        "count": 119358,
+        "sum": -3043.1386819568907,
+        "avg": -0.025495892038714545,
+        "min": -15.00292791706847,
+        "max": 0
+      }
+    },
+    "uniqueValues": {
+      "DataCentreLocation": [
+        "Croydon",
+        "Paris PDC",
+        "Earl St"
+      ],
+      "OperatingSystem": [
+        "Windows"
+      ],
+      "servers_id": [
+        "849e126f-aafe-427a-9a34-25e4b0cd19e8"
+      ],
+      "SerialNumber": [
+        "CZC8084ZSM"
+      ],
+      "Platform": [
+        "Physical"
+      ],
+      "Memory": [
+        "8.587780096E9"
+      ],
+      "ServerName": [],
+      "Model": [
+        "ProLiant DL380 G5"
+      ],
+      "Environment": [
+        "Production"
+      ],
+      "Make": [
+        "HP"
+      ]
+    }
+  },
+  "17c92a26-ab76-487e-9a85-3617c672511b": {
+    "metrics": {
+      "amount": {
+        "count": 124537,
+        "sum": -3073.8960636172187,
+        "avg": -0.024682592832790406,
+        "min": -15.00292791706847,
+        "max": 0.0889420464705239
+      }
+    },
+    "uniqueValues": {
+      "DataCentreLocation": [
+        "Croydon",
+        "Paris PDC",
+        "Earl St"
+      ],
+      "OperatingSystem": [
+        "Windows"
+      ],
+      "servers_id": [
+        "17c92a26-ab76-487e-9a85-3617c672511b"
+      ],
+      "SerialNumber": [
+        "7632-8304-5128-5155-4801-8759-17"
+      ],
+      "Platform": [
+        "Virtual"
+      ],
+      "Memory": [
+        "8.589467648E9"
+      ],
+      "ServerName": [],
+      "Model": [
+        "Virtual Machine"
+      ],
+      "Environment": [
+        "CDS"
+      ],
+      "Make": [
+        "Unknown"
+      ]
+    }
+  },
+  "021425e2-84c9-4794-be34-3d28250ccaa4": {
+    "metrics": {
+      "amount": {
+        "count": 124543,
+        "sum": -3073.8726467399915,
+        "avg": -0.024681215698513698,
+        "min": -15.00292791706847,
+        "max": 0.0889420464705239
+      }
+    },
+    "uniqueValues": {
+      "DataCentreLocation": [
+        "Croydon",
+        "Paris PDC",
+        "Earl St"
+      ],
+      "OperatingSystem": [
+        "Windows"
+      ],
+      "servers_id": [
+        "021425e2-84c9-4794-be34-3d28250ccaa4"
+      ],
+      "SerialNumber": [
+        "7284-7647-0098-1603-4695-8045-30"
+      ],
+      "Platform": [
+        "Virtual"
+      ],
+      "Memory": [
+        "5.043183616E9"
+      ],
+      "ServerName": [],
+      "Model": [
+        "Virtual Machine"
+      ],
+      "Environment": [
+        "Development"
+      ],
+      "Make": [
+        "Unknown"
+      ]
+    }
+  },
+  "b8ae7b1d-4bf7-4aa8-9d66-c72d0cd86604": {
+    "metrics": {
+      "amount": {
+        "count": 119426,
+        "sum": -3043.6617398952776,
+        "avg": -0.02548575469240599,
+        "min": -15.00292791706847,
+        "max": 0
+      }
+    },
+    "uniqueValues": {
+      "DataCentreLocation": [
+        "Croydon",
+        "Paris PDC",
+        "Earl St"
+      ],
+      "OperatingSystem": [
+        "Windows"
+      ],
+      "servers_id": [
+        "b8ae7b1d-4bf7-4aa8-9d66-c72d0cd86604"
+      ],
+      "SerialNumber": [
+        "CZC8084ZTY"
+      ],
+      "Platform": [
+        "Physical"
+      ],
+      "Memory": [
+        "8.587780096E9"
+      ],
+      "ServerName": [],
+      "Model": [
+        "ProLiant DL380 G5"
+      ],
+      "Environment": [
+        "Production"
+      ],
+      "Make": [
+        "HP"
+      ]
+    }
+  },
+  "26460ac6-3443-4182-bbd3-8a4e0032651b": {
+    "metrics": {
+      "amount": {
+        "count": 119365,
+        "sum": -3042.9103951264706,
+        "avg": -0.02549248435576987,
+        "min": -15.00292791706847,
+        "max": 0
+      }
+    },
+    "uniqueValues": {
+      "DataCentreLocation": [
+        "Croydon",
+        "Paris PDC",
+        "Earl St"
+      ],
+      "OperatingSystem": [
+        "Windows"
+      ],
+      "servers_id": [
+        "26460ac6-3443-4182-bbd3-8a4e0032651b"
+      ],
+      "SerialNumber": [
+        "CZ214508BY"
+      ],
+      "Platform": [
+        "Physical"
+      ],
+      "Memory": [
+        "2.575910912E10"
+      ],
+      "ServerName": [],
+      "Model": [
+        "ProLiant DL380 G7"
+      ],
+      "Environment": [
+        "Production"
+      ],
+      "Make": [
+        "HP"
+      ]
+    }
+  },
+  "aa3ffc57-9e55-41c0-b98b-2eeb69d68051": {
+    "metrics": {
+      "amount": {
+        "count": 124519,
+        "sum": -3073.811164649929,
+        "avg": -0.02468547904054746,
+        "min": -15.00292791706847,
+        "max": 0.0889420464705239
+      }
+    },
+    "uniqueValues": {
+      "DataCentreLocation": [
+        "Croydon",
+        "Paris PDC",
+        "Earl St"
+      ],
+      "OperatingSystem": [
+        "Windows"
+      ],
+      "servers_id": [
+        "aa3ffc57-9e55-41c0-b98b-2eeb69d68051"
+      ],
+      "SerialNumber": [
+        "0475-7755-9466-7583-0578-4214-90"
+      ],
+      "Platform": [
+        "Virtual"
+      ],
+      "Memory": [
+        "3.220758528E9"
+      ],
+      "ServerName": [],
+      "Model": [
+        "Virtual Machine"
+      ],
+      "Environment": [
+        "Test"
+      ],
+      "Make": [
+        "Unknown"
+      ]
+    }
+  },
+  "3e2c16d3-0d86-49bf-bf55-faff1314b812": {
+    "metrics": {
+      "amount": {
+        "count": 119384,
+        "sum": -3043.1361962180868,
+        "avg": -0.02549031860398451,
+        "min": -15.00292791706847,
+        "max": 0
+      }
+    },
+    "uniqueValues": {
+      "DataCentreLocation": [
+        "Croydon",
+        "Paris PDC",
+        "Earl St"
+      ],
+      "OperatingSystem": [
+        "Windows"
+      ],
+      "servers_id": [
+        "3e2c16d3-0d86-49bf-bf55-faff1314b812"
+      ],
+      "SerialNumber": [
+        "CZC8084ZTH"
+      ],
+      "Platform": [
+        "Physical"
+      ],
+      "Memory": [
+        "8.587780096E9"
+      ],
+      "ServerName": [],
+      "Model": [
+        "ProLiant DL380 G5"
+      ],
+      "Environment": [
+        "Production"
+      ],
+      "Make": [
+        "HP"
+      ]
+    }
+  },
+  "fca40837-57ac-411d-be48-60bc1f054c16": {
+    "metrics": {
+      "amount": {
+        "count": 119356,
+        "sum": -3043.111739925684,
+        "avg": -0.025496093534683503,
+        "min": -15.00292791706847,
+        "max": 0
+      }
+    },
+    "uniqueValues": {
+      "DataCentreLocation": [
+        "Croydon",
+        "Paris PDC",
+        "Earl St"
+      ],
+      "OperatingSystem": [
+        "Windows"
+      ],
+      "servers_id": [
+        "fca40837-57ac-411d-be48-60bc1f054c16"
+      ],
+      "SerialNumber": [
+        "CZ214508C0"
+      ],
+      "Platform": [
+        "Physical"
+      ],
+      "Memory": [
+        "2.575910912E10"
+      ],
+      "ServerName": [],
+      "Model": [
+        "ProLiant DL380 G7"
+      ],
+      "Environment": [
+        "Production"
+      ],
+      "Make": [
+        "HP"
+      ]
+    }
+  },
+  "669b3a6b-e0fe-451b-82e9-da158f841bcf": {
+    "metrics": {
+      "amount": {
+        "count": 119374,
+        "sum": -3042.962491256084,
+        "avg": -0.02549099880422943,
+        "min": -15.00292791706847,
+        "max": 0
+      }
+    },
+    "uniqueValues": {
+      "DataCentreLocation": [
+        "Croydon",
+        "Paris PDC",
+        "Earl St"
+      ],
+      "OperatingSystem": [
+        "Windows"
+      ],
+      "servers_id": [
+        "669b3a6b-e0fe-451b-82e9-da158f841bcf"
+      ],
+      "SerialNumber": [
+        "GB8830XB61"
+      ],
+      "Platform": [
+        "Physical"
+      ],
+      "Memory": [
+        "8.587780096E9"
+      ],
+      "ServerName": [],
+      "Model": [
+        "ProLiant DL380 G5"
+      ],
+      "Environment": [
+        "Production"
+      ],
+      "Make": [
+        "HP"
+      ]
+    }
+  },
+  "68230cb2-ff36-4156-8895-c303baa36db6": {
+    "metrics": {
+      "amount": {
+        "count": 124560,
+        "sum": -3074.195376477333,
+        "avg": -0.02468043815412117,
+        "min": -15.00292791706847,
+        "max": 0.0889420464705239
+      }
+    },
+    "uniqueValues": {
+      "DataCentreLocation": [
+        "Croydon",
+        "Paris PDC",
+        "Earl St"
+      ],
+      "OperatingSystem": [
+        "Windows"
+      ],
+      "servers_id": [
+        "68230cb2-ff36-4156-8895-c303baa36db6"
+      ],
+      "SerialNumber": [
+        "9272-0620-0972-9134-2122-4871-40"
+      ],
+      "Platform": [
+        "Virtual"
+      ],
+      "Memory": [
+        "3.220758528E9"
+      ],
+      "ServerName": [],
+      "Model": [
+        "Virtual Machine"
+      ],
+      "Environment": [
+        "Test"
+      ],
+      "Make": [
+        "Unknown"
+      ]
+    }
+  },
+  "9df2542d-032e-4923-888a-b076ca6bfcf0": {
+    "metrics": {
+      "amount": {
+        "count": 124512,
+        "sum": -3073.8191261632437,
+        "avg": -0.024686930787098785,
+        "min": -15.00292791706847,
+        "max": 0.0889420464705239
+      }
+    },
+    "uniqueValues": {
+      "DataCentreLocation": [
+        "Croydon",
+        "Paris PDC",
+        "Earl St"
+      ],
+      "OperatingSystem": [
+        "Windows"
+      ],
+      "servers_id": [
+        "9df2542d-032e-4923-888a-b076ca6bfcf0"
+      ],
+      "SerialNumber": [
+        "4643-9533-4630-2374-4105-3848-16"
+      ],
+      "Platform": [
+        "Virtual"
+      ],
+      "Memory": [
+        "4.294500352E9"
+      ],
+      "ServerName": [],
+      "Model": [
+        "Virtual Machine"
+      ],
+      "Environment": [
+        "CDS"
+      ],
+      "Make": [
+        "Unknown"
+      ]
+    }
+  },
+  "d9f7c020-fb67-42de-9cf1-a86d787a0af9": {
+    "metrics": {
+      "amount": {
+        "count": 119383,
+        "sum": -3043.2091706911006,
+        "avg": -0.025491143384661973,
+        "min": -15.00292791706847,
+        "max": 0
+      }
+    },
+    "uniqueValues": {
+      "DataCentreLocation": [
+        "Croydon",
+        "Paris PDC",
+        "Earl St"
+      ],
+      "OperatingSystem": [
+        "Windows"
+      ],
+      "servers_id": [
+        "d9f7c020-fb67-42de-9cf1-a86d787a0af9"
+      ],
+      "SerialNumber": [
+        "GB8808C637"
+      ],
+      "Platform": [
+        "Physical"
+      ],
+      "Memory": [
+        "3.4357583872E10"
+      ],
+      "ServerName": [],
+      "Model": [
+        "ProLiant DL380 G5"
+      ],
+      "Environment": [
+        "Test"
+      ],
+      "Make": [
+        "HP"
+      ]
+    }
+  },
+  "245d49c9-2444-4d6d-85b5-76b28e516d77": {
+    "metrics": {
+      "amount": {
+        "count": 119409,
+        "sum": -3043.412463591205,
+        "avg": -0.02548729546006754,
+        "min": -15.00292791706847,
+        "max": 0
+      }
+    },
+    "uniqueValues": {
+      "DataCentreLocation": [
+        "Croydon",
+        "Paris PDC",
+        "Earl St"
+      ],
+      "OperatingSystem": [
+        "Windows"
+      ],
+      "servers_id": [
+        "245d49c9-2444-4d6d-85b5-76b28e516d77"
+      ],
+      "SerialNumber": [
+        "GB8943768T"
+      ],
+      "Platform": [
+        "Physical"
+      ],
+      "Memory": [
+        "5.152884736E10"
+      ],
+      "ServerName": [],
+      "Model": [
+        "ProLiant DL380 G6"
+      ],
+      "Environment": [
+        "Test"
+      ],
+      "Make": [
+        "HP"
+      ]
+    }
+  },
+  "de5ae069-2198-44a1-b5b7-378a5cc8a8a2": {
+    "metrics": {
+      "amount": {
+        "count": 119419,
+        "sum": -3043.3382491605607,
+        "avg": -0.025484539722829373,
+        "min": -15.00292791706847,
+        "max": 0
+      }
+    },
+    "uniqueValues": {
+      "DataCentreLocation": [
+        "Croydon",
+        "Paris PDC",
+        "Earl St"
+      ],
+      "OperatingSystem": [
+        "Windows"
+      ],
+      "servers_id": [
+        "de5ae069-2198-44a1-b5b7-378a5cc8a8a2"
+      ],
+      "SerialNumber": [
+        "GB8808C7S5"
+      ],
+      "Platform": [
+        "Physical"
+      ],
+      "Memory": [
+        "6.8716138496E10"
+      ],
+      "ServerName": [],
+      "Model": [
+        "ProLiant DL580 G5"
+      ],
+      "Environment": [
+        "CDS"
+      ],
+      "Make": [
+        "HP"
+      ]
+    }
+  },
+  "e62f356d-7b0c-4423-ad4c-8e0dcf705f4d": {
+    "metrics": {
+      "amount": {
+        "count": 119362,
+        "sum": -3042.7426706445244,
+        "avg": -0.025491719899503395,
+        "min": -15.00292791706847,
+        "max": 0
+      }
+    },
+    "uniqueValues": {
+      "DataCentreLocation": [
+        "Croydon",
+        "Paris PDC",
+        "Earl St"
+      ],
+      "OperatingSystem": [
+        "Windows"
+      ],
+      "servers_id": [
+        "e62f356d-7b0c-4423-ad4c-8e0dcf705f4d"
+      ],
+      "SerialNumber": [
+        "GB8830XB6K"
+      ],
+      "Platform": [
+        "Physical"
+      ],
+      "Memory": [
+        "8.587780096E9"
+      ],
+      "ServerName": [],
+      "Model": [
+        "ProLiant DL380 G5"
+      ],
+      "Environment": [
+        "Production"
+      ],
+      "Make": [
+        "HP"
+      ]
+    }
+  },
+  "a20b9834-5f51-4529-b3cb-ce0c8e79ad05": {
+    "metrics": {
+      "amount": {
+        "count": 119344,
+        "sum": -3042.7651380271436,
+        "avg": -0.025495752932926195,
+        "min": -15.00292791706847,
+        "max": 0
+      }
+    },
+    "uniqueValues": {
+      "DataCentreLocation": [
+        "Croydon",
+        "Paris PDC",
+        "Earl St"
+      ],
+      "OperatingSystem": [
+        "Windows"
+      ],
+      "servers_id": [
+        "a20b9834-5f51-4529-b3cb-ce0c8e79ad05"
+      ],
+      "SerialNumber": [
+        "CZ214508C1"
+      ],
+      "Platform": [
+        "Physical"
+      ],
+      "Memory": [
+        "2.575910912E10"
+      ],
+      "ServerName": [],
+      "Model": [
+        "ProLiant DL380 G7"
+      ],
+      "Environment": [
+        "Production"
+      ],
+      "Make": [
+        "HP"
+      ]
+    }
+  },
+  "a0bdad13-fbc0-45aa-b867-3be690bf41cf": {
+    "metrics": {
+      "amount": {
+        "count": 119442,
+        "sum": -3043.372105605359,
+        "avg": -0.02547991582195006,
+        "min": -15.00292791706847,
+        "max": 0
+      }
+    },
+    "uniqueValues": {
+      "DataCentreLocation": [
+        "Croydon",
+        "Paris PDC",
+        "Earl St"
+      ],
+      "OperatingSystem": [
+        "Windows"
+      ],
+      "servers_id": [
+        "a0bdad13-fbc0-45aa-b867-3be690bf41cf"
+      ],
+      "SerialNumber": [
+        "CZC8084ZTS"
+      ],
+      "Platform": [
+        "Physical"
+      ],
+      "Memory": [
+        "8.587780096E9"
+      ],
+      "ServerName": [],
+      "Model": [
+        "ProLiant DL380 G5"
+      ],
+      "Environment": [
+        "Production"
+      ],
+      "Make": [
+        "HP"
+      ]
+    }
+  },
+  "741bf443-5fc4-42e6-915c-d4a53190d765": {
+    "metrics": {
+      "amount": {
+        "count": 124541,
+        "sum": -3074.219670520182,
+        "avg": -0.02468439847536299,
+        "min": -15.00292791706847,
+        "max": 0.0889420464705239
+      }
+    },
+    "uniqueValues": {
+      "DataCentreLocation": [
+        "Croydon",
+        "Paris PDC",
+        "Earl St"
+      ],
+      "OperatingSystem": [
+        "Windows"
+      ],
+      "servers_id": [
+        "741bf443-5fc4-42e6-915c-d4a53190d765"
+      ],
+      "SerialNumber": [
+        "4248-8716-7488-7896-3002-4695-90"
+      ],
+      "Platform": [
+        "Virtual"
+      ],
+      "Memory": [
+        "4.294500352E9"
+      ],
+      "ServerName": [],
+      "Model": [
+        "Virtual Machine"
+      ],
+      "Environment": [
+        "CDS"
+      ],
+      "Make": [
+        "Unknown"
+      ]
+    }
+  },
+  "08111a9d-f6a1-4a4d-b51a-b7e561548c98": {
+    "metrics": {
+      "amount": {
+        "count": 119468,
+        "sum": -3043.686358614434,
+        "avg": -0.025477001026337046,
+        "min": -15.00292791706847,
+        "max": 0
+      }
+    },
+    "uniqueValues": {
+      "DataCentreLocation": [
+        "Croydon",
+        "Paris PDC",
+        "Earl St"
+      ],
+      "OperatingSystem": [
+        "Windows"
+      ],
+      "servers_id": [
+        "08111a9d-f6a1-4a4d-b51a-b7e561548c98"
+      ],
+      "SerialNumber": [
+        "CZC8084ZRX"
+      ],
+      "Platform": [
+        "Physical"
+      ],
+      "Memory": [
+        "8.587780096E9"
+      ],
+      "ServerName": [],
+      "Model": [
+        "ProLiant DL380 G5"
+      ],
+      "Environment": [
+        "Production"
+      ],
+      "Make": [
+        "HP"
+      ]
+    }
+  },
+  "530e7cd7-c308-4cd4-a4a4-13e4d97e1524": {
+    "metrics": {
+      "amount": {
+        "count": 119454,
+        "sum": -3043.6730725541406,
+        "avg": -0.02547987570574565,
+        "min": -15.00292791706847,
+        "max": 0
+      }
+    },
+    "uniqueValues": {
+      "DataCentreLocation": [
+        "Croydon",
+        "Paris PDC",
+        "Earl St"
+      ],
+      "OperatingSystem": [
+        "Windows"
+      ],
+      "servers_id": [
+        "530e7cd7-c308-4cd4-a4a4-13e4d97e1524"
+      ],
+      "SerialNumber": [
+        "CZ214503PB"
+      ],
+      "Platform": [
+        "Physical"
+      ],
+      "Memory": [
+        "1.03068520448E11"
+      ],
+      "ServerName": [],
+      "Model": [
+        "ProLiant DL380 G7"
+      ],
+      "Environment": [
+        "Production"
+      ],
+      "Make": [
+        "HP"
+      ]
+    }
+  },
+  "ccd90ac5-71b3-4164-8aea-ae06179ea485": {
+    "metrics": {
+      "amount": {
+        "count": 119387,
+        "sum": -3043.0061061918987,
+        "avg": -0.025488588424132434,
+        "min": -15.00292791706847,
+        "max": 0
+      }
+    },
+    "uniqueValues": {
+      "DataCentreLocation": [
+        "Croydon",
+        "Paris PDC",
+        "Earl St"
+      ],
+      "OperatingSystem": [
+        "Windows"
+      ],
+      "servers_id": [
+        "ccd90ac5-71b3-4164-8aea-ae06179ea485"
+      ],
+      "SerialNumber": [
+        "CZ214503P9"
+      ],
+      "Platform": [
+        "Physical"
+      ],
+      "Memory": [
+        "1.03068520448E11"
+      ],
+      "ServerName": [],
+      "Model": [
+        "ProLiant DL380 G7"
+      ],
+      "Environment": [
+        "Production"
+      ],
+      "Make": [
+        "HP"
+      ]
+    }
+  },
+  "156d38f5-7e1d-4e0f-b1a7-a2c9baa56fb5": {
+    "metrics": {
+      "amount": {
+        "count": 119397,
+        "sum": -3043.1780814652834,
+        "avg": -0.025487894012959148,
+        "min": -15.00292791706847,
+        "max": 0
+      }
+    },
+    "uniqueValues": {
+      "DataCentreLocation": [
+        "Croydon",
+        "Paris PDC",
+        "Earl St"
+      ],
+      "OperatingSystem": [
+        "Windows"
+      ],
+      "servers_id": [
+        "156d38f5-7e1d-4e0f-b1a7-a2c9baa56fb5"
+      ],
+      "SerialNumber": [
+        "CZC8084ZT3"
+      ],
+      "Platform": [
+        "Physical"
+      ],
+      "Memory": [
+        "8.587780096E9"
+      ],
+      "ServerName": [],
+      "Model": [
+        "ProLiant DL380 G5"
+      ],
+      "Environment": [
+        "Production"
+      ],
+      "Make": [
+        "HP"
+      ]
+    }
+  },
+  "49cf9ea3-0c64-43c9-9b88-6251308a5e2f": {
+    "metrics": {
+      "amount": {
+        "count": 124534,
+        "sum": -3073.9618976029915,
+        "avg": -0.024683716074349105,
+        "min": -15.00292791706847,
+        "max": 0.0889420464705239
+      }
+    },
+    "uniqueValues": {
+      "DataCentreLocation": [
+        "Croydon",
+        "Paris PDC",
+        "Earl St"
+      ],
+      "OperatingSystem": [
+        "Windows"
+      ],
+      "servers_id": [
+        "49cf9ea3-0c64-43c9-9b88-6251308a5e2f"
+      ],
+      "SerialNumber": [
+        "7894-8205-1871-3198-1503-0127-30"
+      ],
+      "Platform": [
+        "Virtual"
+      ],
+      "Memory": [
+        "4.294500352E9"
+      ],
+      "ServerName": [],
+      "Model": [
+        "Virtual Machine"
+      ],
+      "Environment": [
+        "CDS"
+      ],
+      "Make": [
+        "Unknown"
+      ]
+    }
+  },
+  "f36d3b56-2700-48b4-97fb-fe82015ced0f": {
+    "metrics": {
+      "amount": {
+        "count": 119440,
+        "sum": -3043.549130015659,
+        "avg": -0.025481824598255685,
+        "min": -15.00292791706847,
+        "max": 0
+      }
+    },
+    "uniqueValues": {
+      "DataCentreLocation": [
+        "Croydon",
+        "Paris PDC",
+        "Earl St"
+      ],
+      "OperatingSystem": [
+        "Windows"
+      ],
+      "servers_id": [
+        "f36d3b56-2700-48b4-97fb-fe82015ced0f"
+      ],
+      "SerialNumber": [
+        "CZ214508C3"
+      ],
+      "Platform": [
+        "Physical"
+      ],
+      "Memory": [
+        "2.575910912E10"
+      ],
+      "ServerName": [],
+      "Model": [
+        "ProLiant DL380 G7"
+      ],
+      "Environment": [
+        "Production"
+      ],
+      "Make": [
+        "HP"
+      ]
+    }
+  },
+  "b0e06d77-8c1d-4607-8695-0c405463d8ee": {
+    "metrics": {
+      "amount": {
+        "count": 119374,
+        "sum": -3042.86437021769,
+        "avg": -0.025490176841001307,
+        "min": -15.00292791706847,
+        "max": 0
+      }
+    },
+    "uniqueValues": {
+      "DataCentreLocation": [
+        "Croydon",
+        "Paris PDC",
+        "Earl St"
+      ],
+      "OperatingSystem": [
+        "Windows"
+      ],
+      "servers_id": [
+        "b0e06d77-8c1d-4607-8695-0c405463d8ee"
+      ],
+      "SerialNumber": [
+        "CZJ1450DQL"
+      ],
+      "Platform": [
+        "Physical"
+      ],
+      "Memory": [
+        "2.575910912E10"
+      ],
+      "ServerName": [],
+      "Model": [
+        "ProLiant DL360 G7"
+      ],
+      "Environment": [
+        "Production"
+      ],
+      "Make": [
+        "HP"
+      ]
+    }
+  },
+  "a881b057-d8e0-435b-8dd0-3cfc1eb96756": {
+    "metrics": {
+      "amount": {
+        "count": 119398,
+        "sum": -3042.9456735761796,
+        "avg": -0.025485734045596908,
+        "min": -15.00292791706847,
+        "max": 0
+      }
+    },
+    "uniqueValues": {
+      "DataCentreLocation": [
+        "Croydon",
+        "Paris PDC",
+        "Earl St"
+      ],
+      "OperatingSystem": [
+        "Windows"
+      ],
+      "servers_id": [
+        "a881b057-d8e0-435b-8dd0-3cfc1eb96756"
+      ],
+      "SerialNumber": [
+        "CZ214503PC"
+      ],
+      "Platform": [
+        "Physical"
+      ],
+      "Memory": [
+        "1.03068520448E11"
+      ],
+      "ServerName": [],
+      "Model": [
+        "ProLiant DL380 G7"
+      ],
+      "Environment": [
+        "Production"
+      ],
+      "Make": [
+        "HP"
+      ]
+    }
+  },
+  "2f3942a3-faa2-4423-b574-e60568f5d839": {
+    "metrics": {
+      "amount": {
+        "count": 124519,
+        "sum": -3074.300087172157,
+        "avg": -0.024689405529856143,
+        "min": -15.00292791706847,
+        "max": 0.0889420464705239
+      }
+    },
+    "uniqueValues": {
+      "DataCentreLocation": [
+        "Croydon",
+        "Paris PDC",
+        "Earl St"
+      ],
+      "OperatingSystem": [
+        "Windows"
+      ],
+      "servers_id": [
+        "2f3942a3-faa2-4423-b574-e60568f5d839"
+      ],
+      "SerialNumber": [
+        "0238-4073-7135-3135-7054-8860-54"
+      ],
+      "Platform": [
+        "Virtual"
+      ],
+      "Memory": [
+        "1.247338496E9"
+      ],
+      "ServerName": [],
+      "Model": [
+        "Virtual Machine"
+      ],
+      "Environment": [
+        "Test"
+      ],
+      "Make": [
+        "Unknown"
+      ]
+    }
+  }
+}

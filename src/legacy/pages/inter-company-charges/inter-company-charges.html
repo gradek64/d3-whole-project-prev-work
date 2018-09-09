@@ -1,0 +1,27 @@
+<app-header opts="{showOutput: true}"></app-header>
+<side-nav></side-nav>
+<top-nav-map opts="{page: 'inter-company-charges'}"></top-nav-map>
+<div class="content">
+
+  <div class="container" style="opacity: {{currentSnapshot?'1':'0'}}">
+    <div class="row" style="padding-top: 10px;">
+      <div class="col s12">
+        <div class="right" style="white-space: nowrap; text-align: center">
+          <span>Total cost of IT Department</span>
+          <br>
+          <span>{{amount}}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" ng-if="currentSnapshot && ready">
+    <div data-see-chart data-info="component"></div>
+  </div>
+  <div class="container no-output" ng-if="!currentSnapshot">
+    <h1>Please select primary output</h1>
+  </div>
+</div>
+<notifications></notifications>
+<app-footer></app-footer>
+<login-form></login-form>

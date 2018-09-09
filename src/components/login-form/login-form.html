@@ -1,0 +1,33 @@
+<div data-modal="{showOn: ['LOGOUT_SUCCESS', 'NOT_AUTHENTICATED'], hideOn: 'LOGIN_SUCCESS', closeButton: false,
+            overlayColor: 'white-login', freeze: true}" class="modal login-form">
+  <div class="modal-content">
+    <h4>Login</h4>
+    <div data-ng-show="error" class="card-panel red lighten-2 z-depth-0">
+      <span class="white-text">{{error}}</span>
+    </div>
+    <form name="form" data-ng-submit="onSubmit($event, credentials)" novalidate>
+      <div class="input-field">
+        <i class="material-icons prefix">perm_identity</i>
+        <input id="email" type="email" name="username" data-ng-model="credentials.username"
+        data-ng-model-options="{allowInvalid: true}" data-ng-class="{invalid: (form.username.$touched && !form.username.$viewValue),
+                                    valid: (form.username.$touched && form.username.$viewValue)}">
+        <label for="email">Email</label>
+      </div>
+      <div class="input-field">
+        <i class="material-icons prefix">lock_outline</i>
+        <input id="password" type="password" name="password" data-ng-model="credentials.password"
+        data-ng-class="{invalid: (form.password.$touched && !form.password.$viewValue),
+                                    valid: (form.password.$touched && form.password.$viewValue)}">
+        <label for="password">Password</label>
+      </div>
+      <p>
+        <input id="remember" type="checkbox" data-ng-model="credentials.remember">
+        <label for="remember">Remember me</label>
+      </p>
+      <br>
+      <button class="btn waves-effect waves-light" type="submit">Login</button>
+    </form>
+
+    <loading opts="{color: 'teal'}" data-ng-show="isLoading"></loading>
+  </div>
+</div>

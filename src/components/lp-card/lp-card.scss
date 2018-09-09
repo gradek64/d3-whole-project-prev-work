@@ -1,0 +1,45 @@
+/**
+ * Created by Greg on 23/12/2017
+ */
+
+@import '../../vars';
+
+.card.lp {
+  box-shadow: none;
+  position: relative;
+  height: 90%;
+  width: 80%;
+  margin: 5% auto;
+
+  &.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+
+  .card-content {
+    &:hover {
+      background-color: #edf2f6;
+      border-radius: 10px;
+    }
+
+    a {
+      color: $primary-color-light;
+      i {
+        display: block;
+        width: 80%;
+        max-height: 175px;
+        max-width: 175px;
+        margin: 0 auto;
+      }
+      .title {
+        font-size: 23px;
+        color: $primary-color-light;
+        margin: 20px 0 20px 0;
+      }
+      .description {
+        color: $primary-color;
+        font-size: 16px;
+      }
+    }
+  }
+}

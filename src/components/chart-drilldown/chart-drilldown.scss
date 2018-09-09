@@ -1,0 +1,77 @@
+/**
+ * Created by Sergiu Ghenciu on 11/03/2018
+ */
+
+@import '../../vars';
+
+.chart-drilldown {
+  .first {
+    .chart-inner {
+      width: 100%;
+      float: left;
+      //outline: 1px solid red;
+      transition: width 300ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+    }
+    .canvas {
+      transition: max-height 300ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+    }
+  }
+
+  .second {
+    //outline: 1px solid green;
+    width: 70%;
+    float: right;
+    padding-left: $gutter-width;
+    .canvas {
+      max-height: 150px;
+    }
+  }
+  .third {
+    //outline: 1px solid black;
+    width: 70%;
+    float: right;
+    padding-left: $gutter-width;
+    .canvas {
+      max-height: 400px;
+    }
+  }
+}
+
+.chart-drilldown.shrunk {
+  .first {
+    .legend,
+    .labelText,
+    .labelLine,
+    .breakdowns,
+    .waterfall .axis text,
+    .waterfall .bar text {
+      display: none;
+    }
+
+    .chart-inner {
+      width: 30%;
+      transition: width 200ms cubic-bezier(0.4, 0, 0.6, 1);
+    }
+    .canvas {
+      max-height: 350px;
+    }
+    .chart:after {
+      display: none;
+    }
+  }
+
+  .second {
+    .chart-toolbar {
+      > .center-align {
+        text-align: left;
+      }
+    }
+  }
+
+  .table {
+    td {
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+  }
+}

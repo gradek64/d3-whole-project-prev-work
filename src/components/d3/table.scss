@@ -1,0 +1,106 @@
+/**
+ * Created by Sergiu Ghenciu on 21/02/2018
+ */
+@import '../../vars';
+
+.table.chart {
+  .floating-header {
+    &.bordered {
+      border-bottom: 1px solid $table-border-color;
+    }
+
+    .sorting {
+      position: relative;
+      cursor: pointer;
+      padding-right: 9px;
+      width: 100%;
+      display: inline-block;
+
+      i {
+        position: absolute;
+        top: 0;
+        right: -2px;
+        bottom: 0;
+        font-style: normal;
+      }
+
+      i:before {
+        content: '▲';
+        position: absolute;
+        margin-top: -10px;
+        top: 50%;
+        right: 0;
+        color: #dcdcdc;
+        font-size: 11px;
+        width: 11px;
+        height: 11px;
+        line-height: 11px;
+      }
+      i:after {
+        content: '▼';
+        position: absolute;
+        margin-bottom: -10px;
+        bottom: 50%;
+        right: 0;
+        color: #dcdcdc;
+        font-size: 11px;
+        width: 11px;
+        height: 11px;
+        line-height: 11px;
+      }
+    }
+    .ascending {
+      .sorting i:before {
+        //color: #7b80dd;
+        color: $secondary-color;
+      }
+      .sorting i:after {
+        display: none;
+      }
+    }
+    .descending {
+      .sorting i:before {
+        display: none;
+      }
+      .sorting i:after {
+        color: $secondary-color;
+      }
+    }
+
+    input.select-dropdown {
+      margin-top: 5px;
+      margin-bottom: 0;
+
+      border: $input-border;
+      border-radius: 4px;
+      padding: 0 10px;
+      transition: none;
+    }
+    .select-wrapper span.caret {
+      right: 10px;
+    }
+  }
+
+  table td {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  // table right alignment
+  .diagram {
+    .currency,
+    .percentage,
+    .int {
+      text-align: right !important;
+    }
+  }
+
+  .floating-header {
+    .currency,
+    .percentage,
+    .int {
+      text-align: right !important;
+      padding-right: 20px;
+    }
+  }
+}

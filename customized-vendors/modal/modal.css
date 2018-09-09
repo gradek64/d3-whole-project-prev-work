@@ -1,0 +1,320 @@
+/*
+ *
+ * @author Sergiu Ghenciu
+ * License: Dedicated to the public domain.
+ *
+ */
+
+/* Default Animation */
+.modal.create-content {
+    display: block;
+    opacity: 0;
+    /* out */
+    transform: scale(0.8) translate(0, -6%); /* Equal to scaleX(0.8) scaleY(0.8) */
+    transform-origin: top center;
+    transition: transform 250ms cubic-bezier(0.215, 0.61, 0.355, 1),
+    opacity 250ms cubic-bezier(0.215, 0.61, 0.355, 1); /* easeOutCubic */
+}
+
+.modal.create-content.open {
+    display: block;
+    opacity: 1;
+    /* in */
+    transform: scale(1) translate(0, 0);
+    transform-origin: top center;
+    transition: transform 250ms cubic-bezier(0.215, 0.61, 0.355, 1),
+    opacity 250ms cubic-bezier(0.215, 0.61, 0.355, 1); /* easeOutCubic */
+}
+
+.modal-overlay.create-content {
+    display: block;
+    opacity: 0;
+    /* out */
+    transition: opacity 250ms cubic-bezier(0.165, 0.84, 0.44, 1); /* easeOutQuart */
+}
+
+.modal-overlay.create-content.open {
+    display: block;
+    opacity: 1;
+    /* in */
+    transition: opacity 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94); /* easeOutQuad */
+}
+
+/* fade and drop */
+.modal.fade-and-drop {
+    display: block;
+    opacity: 0;
+
+    -webkit-transform: translate(0, -50px);
+    transform: translate(0, -50px);
+
+    -webkit-transition: -webkit-transform 300ms ease-out, opacity 300ms ease-out;
+    transition: transform 300ms ease-out, opacity 300ms ease-out;
+}
+
+.modal.fade-and-drop.open {
+    display: block;
+    opacity: 1;
+
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+
+    -webkit-transition: -webkit-transform 300ms ease-out 150ms, opacity 300ms ease-out 150ms;
+    transition: transform 300ms ease-out 150ms, opacity 300ms ease-out 150ms;
+}
+
+.modal-overlay.fade-and-drop {
+    display: block;
+    opacity: 0;
+
+    -webkit-transition: opacity 150ms ease 300ms;
+    transition: opacity 150ms ease 300ms;
+}
+
+.modal-overlay.fade-and-drop.open {
+    display: block;
+    opacity: 1;
+
+    -webkit-transition: opacity 150ms linear;
+    transition: opacity 150ms linear;
+}
+
+/* bottom left material design */
+.modal.bottom-left {
+    display: block;
+    opacity: 0;
+    transform: translate(-30%, 30%);
+    transition: transform 200ms ease-out, opacity 200ms ease-out;
+}
+
+.modal.bottom-left.open {
+    opacity: 1;
+    transform: translate(0, 0);
+    transition: transform 200ms ease-out, opacity 200ms ease-out;
+}
+
+.modal-overlay.bottom-left {
+    display: block;
+    opacity: 0;
+    transition: opacity 150ms ease 300ms;
+}
+
+.modal-overlay.bottom-left.open {
+    opacity: 1;
+    transition: opacity 150ms linear;
+}
+
+/* bottom right material design */
+.modal.bottom-right {
+    display: block;
+    opacity: 0;
+    transform: translate(30%, 30%);
+    transition: transform 200ms ease-out, opacity 200ms ease-out;
+}
+
+.modal.bottom-right.open {
+    opacity: 1;
+    transform: translate(0, 0);
+    transition: transform 200ms ease-out, opacity 200ms ease-out;
+}
+
+/* slide left to right */
+.modal.slide-left {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+    -webkit-transition: -webkit-transform 200ms cubic-bezier(0.4, 0.0, 0.6, 1);
+    transition: transform 200ms cubic-bezier(0.4, 0.0, 0.6, 1); /* Sharp curve (when closing) */
+}
+
+.modal.slide-left.open {
+    -webkit-transform: translate(100%, 0);
+    transform: translate(100%, 0);
+    -webkit-transition: -webkit-transform 300ms cubic-bezier(0.0, 0.0, 0.2, 1) 0ms;
+    transition: transform 300ms cubic-bezier(0.0, 0.0, 0.2, 1) 0ms; /* Deceleration curve (when opening) */
+}
+
+.modal-overlay.slide-left {
+    display: block;
+    opacity: 0;
+
+    -webkit-transition: opacity 150ms ease 0ms;
+    transition: opacity 150ms ease 0ms;
+}
+
+.modal-overlay.slide-left.open {
+    display: block;
+    opacity: 1;
+
+    -webkit-transition: opacity 150ms linear;
+    transition: opacity 150ms linear;
+}
+
+/* slide right to left */
+.modal.slide-right {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+    -webkit-transition: -webkit-transform 200ms cubic-bezier(0.4, 0.0, 0.6, 1);
+    transition: transform 200ms cubic-bezier(0.4, 0.0, 0.6, 1); /* Sharp curve (when closing) */
+}
+
+.modal.slide-right.open {
+    -webkit-transform: translate(-100%, 0);
+    transform: translate(-100%, 0);
+    -webkit-transition: -webkit-transform 300ms cubic-bezier(0.0, 0.0, 0.2, 1) 0ms;
+    transition: transform 300ms cubic-bezier(0.0, 0.0, 0.2, 1) 0ms; /* Deceleration curve (when opening) */
+}
+
+.modal-overlay.slide-right {
+    display: block;
+    opacity: 0;
+
+    -webkit-transition: opacity 150ms ease 0ms;
+    transition: opacity 150ms ease 0ms;
+}
+
+.modal-overlay.slide-right.open {
+    display: block;
+    opacity: 1;
+
+    -webkit-transition: opacity 150ms linear;
+    transition: opacity 150ms linear;
+}
+
+/* ------------- Modal and Overlay styles (copied from Materializecss)------------ */
+/* ------------- Modal and Overlay styles (copied from Materializecss)------------ */
+/* ------------- Modal and Overlay styles (copied from Materializecss)------------ */
+
+/* Overlay */
+.modal-overlay {
+    position: fixed;
+    z-index: 999;
+    top: -100%;
+    left: -100%;
+    width: 300%;
+    height: 300%;
+    background-color: rgba(0, 0, 0, .5);
+
+    display: none;
+    opacity: 0;
+}
+
+.modal-overlay.open {
+    display: block;
+    opacity: 1;
+}
+
+.modal-overlay.white {
+    background-color: rgba(255, 255, 255, .5)!important;
+}
+
+/* Modal */
+.modal {
+    z-index: 1020;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 0;
+    width: 55%;
+    background-color: #fafafa;
+    border-radius: 2px;
+
+    display: none;
+    opacity: 0;
+}
+
+.modal.open {
+    display: block;
+    opacity: 1;
+}
+
+@media only screen and (max-width: 992px) {
+    .modal {
+        width: 80%;
+    }
+}
+
+.modal.open.anchored {
+    top: 20px;
+}
+
+.modal h1, .modal h2, .modal h3, .modal h4 {
+    margin-top: 0;
+}
+
+.modal .modal-content {
+    padding: 24px;
+}
+
+.modal .modal-footer {
+    border-radius: 0 0 2px 2px;
+    background-color: #fafafa;
+    padding: 4px 6px;
+    height: 56px;
+    width: 100%;
+    text-align: right;
+}
+
+.modal .modal-footer .btn,
+.modal .modal-footer .btn-flat {
+    margin: 6px 0;
+}
+
+.modal .modal-close {
+    cursor: pointer;
+}
+
+/* Modal with fixed action footer */
+.modal.modal-fixed-footer {
+    padding: 0;
+    height: 70%;
+}
+
+.modal.modal-fixed-footer .modal-content {
+    position: absolute;
+    height: calc(100% - 56px);
+    max-height: 100%;
+    width: 100%;
+    overflow-y: auto;
+}
+
+.modal.modal-fixed-footer .modal-footer {
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    position: absolute;
+    bottom: 0;
+}
+
+/* Close Button */
+.modal .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-family: "Material Icons";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    border: 0;
+    padding: 0;
+    outline: none;
+    color: #aaa;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.modal .close:before {
+    content: "\e5CD";
+}
+
+.modal .close:hover {
+    color: #555;
+}
+
+.modal.transition-off {
+    -webkit-transition: none !important;
+    transition: none !important;
+}

@@ -1,0 +1,14 @@
+/**
+ * Created by Sergiu Ghenciu on 02/04/2018
+ */
+
+@import '../../../vars';
+
+.cost-flow {
+  .content {
+    min-height: calc(
+      100vh - #{$header-height + $footer-height + $top-nav-height +
+        $reports-nav-height}
+    );
+  }
+}

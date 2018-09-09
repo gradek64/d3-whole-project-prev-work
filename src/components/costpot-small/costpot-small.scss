@@ -1,0 +1,21 @@
+/**
+ * Created by Sergiu Ghenciu on 06/01/2018
+ */
+
+.costpot-small {
+  padding: 15px;
+  span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  i {
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    padding: 3px;
+    margin-top: -5px;
+    margin-bottom: -5px;
+    border-radius: 50%;
+  }
+}

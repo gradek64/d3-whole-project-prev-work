@@ -1,0 +1,108 @@
+/**
+ * Created by Sergiu Ghenciu on 28/03/2018
+ */
+
+@import '../../vars';
+
+$arrowContainer: 30px;
+$itemsToDisplay: 4;
+$allItems: $itemsToDisplay + 1;
+$itemsContainerWidth: 100 / $itemsToDisplay * $allItems * 1%;
+
+.attributes-toolbar {
+  position: relative;
+  height: $filter-toolbar-height;
+  line-height: $filter-toolbar-height;
+
+  .container > * {
+    height: inherit;
+    line-height: inherit;
+  }
+
+  background-color: #e6edf0;
+
+  .container {
+    max-width: initial;
+    width: 100%;
+    padding-right: $gutter-width / 2;
+    padding-left: $gutter-width / 2;
+    background-color: black;
+  }
+
+  .title {
+    color: $secondary-color;
+    font-size: 1.5rem;
+    float: left;
+  }
+
+  .attributes-component {
+    width: 70%;
+    height: inherit;
+    margin: 0 auto;
+    @media screen and (max-width: 1200px) {
+      float: right;
+      margin: 0 auto 0 5%;
+    }
+
+    span.arrows {
+      float: left;
+      width: $arrowContainer;
+      height: $filter-toolbar-height;
+      line-height: $filter-toolbar-height;
+      z-index: 100;
+    }
+    span.arrows:first-child {
+      transform: rotate(180deg);
+    }
+
+    div.boxes-wrapper {
+      position: relative;
+      width: calc(100% - #{$arrowContainer * 2});
+      height: $filter-toolbar-height;
+      float: left;
+      overflow: hidden;
+      .boxes {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: $itemsContainerWidth;
+        @media screen and (max-width: 1000px) {
+          width: 150%;
+        }
+        margin: 0 auto;
+        overflow-y: scroll;
+
+        > * {
+          width: calc(100% / #{$allItems});
+          @media screen and (max-width: 1000px) {
+            width: calc(100% / 3);
+          }
+          float: left;
+          background-color: #e6edf0;
+          /*  padding-right: $gutter-width / 2; */
+          padding-left: 3px;
+        }
+      }
+
+      .transition {
+        transition: left 0.5s ease;
+      }
+
+      .boxes.move-right {
+        left: -$itemsContainerWidth/ $allItems;
+        @media screen and (max-width: 1000px) {
+          left: -50%;
+        }
+      }
+      .boxes.move-left-align {
+        left: -$itemsContainerWidth/ $allItems;
+        @media screen and (max-width: 1000px) {
+          left: -50%;
+        }
+      }
+      .boxes.move-left {
+        left: 0;
+      }
+    }
+  }
+}

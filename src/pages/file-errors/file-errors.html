@@ -1,0 +1,42 @@
+<app-header logo="{title:'CostLens Admin',href:'#!/cost-models'}"></app-header>
+<side-nav></side-nav>
+<div class="content">
+  <breadcrumbs items="breadcrumbs"></breadcrumbs>
+
+  <div class="container">
+    <div class="section" st-pipe="onGetAll" st-table="items">
+      <br>
+      <div style="position: relative">
+        <div class="row">
+          <div class="col s12 flex valign-center">
+            <h1 class="stretch"><span>{{file.fileName || 'loading...'}}</span></h1>
+          </div>
+        </div>
+        <table class="bordered">
+          <thead>
+            <tr>
+              <th>
+                <span>Code</span>
+              </th>
+              <th>
+                <span>Message</span>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr ng-if="items" data-ng-repeat="row in items track by $index">
+              <td>{{row.id}}</td>
+              <td style="max-width: 400px;"><span class="truncate">{{row.description}}</span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <loading data-ng-show="isLoading"></loading>
+      </div>
+    </div>
+  </div>
+</div>
+
+<notifications></notifications>
+<app-footer></app-footer>
+<login-form></login-form>

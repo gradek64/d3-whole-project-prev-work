@@ -1,0 +1,118 @@
+.kpi {
+  .chart .breakdowns .disabled {
+    display: inline-block;
+  }
+
+  position: relative;
+
+  //body {
+  //  font: sans-serif;
+  //  position: relative;
+  //}
+
+  .sm {
+    font-size: 18px;
+    color: white;
+  }
+
+  .fa-blue {
+    color: #3070b2;
+    margin-top: 10px;
+  }
+
+  #report {
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  #report.expanded {
+    height: 90%;
+  }
+
+  .kpi-panel .panel {
+    margin: 15px 0 0 0;
+    padding: 15px 15px;
+    box-sizing: border-box;
+    border: 1px solid #e8ecea;
+    height: 250px;
+
+    .title {
+      float: left;
+      width: 100%;
+      font-size: 20px;
+    }
+
+    .border {
+      border: 1px solid #e8ecea;
+    }
+  }
+
+  .kpi-panel.expanded .panel {
+    height: 100%;
+  }
+
+  .panel.benchmark {
+    height: 150px;
+  }
+
+  .kpi-panel.expanded {
+    width: 100%;
+    height: 100%;
+  }
+
+  .row.expanded {
+    width: 100%;
+    height: 100%;
+  }
+
+  .cone {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+
+    path {
+      fill: #eaeef3;
+    }
+
+    circle {
+      fill: #b3bac3;
+    }
+
+    text {
+      font-size: 25px;
+      fill: #fff;
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .cone {
+      right: 20%;
+    }
+  }
+
+  .kpi-table {
+    padding: 10px;
+    margin-top: 10px;
+
+    .row {
+      padding: 10px;
+      border-top: 1px solid #b3bac3;
+    }
+
+    .totalRow,
+    .headerRow {
+      font-weight: bold;
+      border-bottom: 1px solid #b3bac3;
+    }
+  }
+
+  .kpi-icon .fa-stack {
+    float: left;
+  }
+
+  .icon-title {
+    font-size: 20px;
+    float: left;
+    padding: 25px;
+  }
+}

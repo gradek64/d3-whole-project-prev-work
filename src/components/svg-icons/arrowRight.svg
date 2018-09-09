@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewbox="0 0 24 24" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+    <g>
+        <path transform="rotate(180 11.951939582824707,11.994384765625)"
+              d="m17.196931,22.486418l-10.489989,-10.491632l10.489989,-10.492434"
+              fill-opacity="null" stroke-width="0.5" stroke="{{::opts.color}}" fill="none"></path>
+    </g>
+</svg>

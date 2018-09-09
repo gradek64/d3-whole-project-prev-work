@@ -1,0 +1,72 @@
+/**
+ * Created by Sergiu Ghenciu on 20/02/2018
+ */
+
+@import '../../vars';
+
+.advanced-analysis {
+  .content {
+    min-height: calc(
+      100vh - #{$header-height + $footer-height + $top-nav-height}
+    );
+  }
+
+  form {
+    .section {
+      position: relative;
+      border-bottom: 1px solid #e0e0e0;
+    }
+
+    .level {
+      > .row {
+        margin-bottom: 0;
+      }
+    }
+
+    .level {
+      .input-field {
+        min-width: 300px;
+      }
+    }
+
+    .filters {
+      .s5 {
+        padding-left: 16.66%;
+      }
+      .s1 {
+        .btn {
+          width: 100%;
+          max-width: 74px;
+          padding: 0;
+        }
+      }
+    }
+
+    .header {
+      //margin-left: 35px;
+      margin-bottom: 5px;
+    }
+
+    .filter {
+      margin-bottom: 0;
+      //margin-left: 35px;
+      position: relative;
+    }
+
+    .operand {
+      //position: absolute;
+      //top: -18px;
+      //left: -25px;
+      display: none;
+    }
+
+    .input-field {
+      margin-top: 0;
+    }
+  }
+
+  table td {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+}

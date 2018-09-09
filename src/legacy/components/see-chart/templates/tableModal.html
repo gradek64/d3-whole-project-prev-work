@@ -1,0 +1,37 @@
+<!-- table Modal -->
+<div class="modal table-wrap fade" id="{{ chartInfo.type + '-' + chartInfo.id }}-table" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">{{ chartInfo.name }} <span ng-if="chartInfo.type === 'table'">: {{ selectedGroup }}</span></h4>
+            </div>
+            <div class="modal-body">
+                <div class="data-table" ng-if="chartInfo.type === 'sankey'">
+                    <table>
+                        <thead>
+                        <tr>
+                            <td class="source">Source</td>
+                            <td class="total">Source Total Cost</td>
+                            <td class="target">Target</td>
+                            <td class="total">Target Cost</td>
+                            <td class="perc">Total %</td>
+                        </tr>
+                        <tbody>
+                        <tr class="row-a">
+                            <td class="source">{{ chartInfo.selectedPath.source.name }}</td>
+                            <td class="source total">{{ chartInfo.selectedPath.source.value }}</td>
+                            <td class="target">{{ chartInfo.selectedPath.target.name }}</td>
+                            <td class="target total">{{ chartInfo.selectedPath.value }}</td>
+                            <td class="perc">{{ chartInfo.selectedPath.perc }}</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <see-chart-table ng-if="chartInfo.type !== 'sankey'" info="selectedTable"></see-chart-table>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!--/table Modal -->

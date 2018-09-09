@@ -1,0 +1,63 @@
+/**
+ * Created by Sergiu Ghenciu on 28/03/2018
+ */
+
+@import '../../vars';
+
+.filter-toolbar {
+  position: relative;
+  height: $filter-toolbar-height;
+  line-height: $filter-toolbar-height;
+
+  .container > * {
+    height: inherit;
+    line-height: inherit;
+  }
+
+  background-color: #e6edf0;
+
+  .container {
+    max-width: initial;
+    width: 100%;
+    padding-right: $gutter-width / 2;
+    padding-left: $gutter-width / 2;
+  }
+
+  .title {
+    color: $secondary-color;
+    font-size: 1.5rem;
+    float: left;
+  }
+
+  .filters {
+    width: 80%;
+    margin: 0 auto;
+
+    > * {
+      width: 33.3333333333%;
+      float: left;
+      //outline: 1px solid grey;
+      padding-right: $gutter-width / 2;
+      padding-left: $gutter-width / 2;
+    }
+  }
+
+  .input-field {
+    margin-top: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+  }
+
+  input.select-dropdown {
+    margin-bottom: 4px;
+    font-size: 14px;
+    height: 42px;
+    line-height: 42px;
+  }
+
+  .select-wrapper + label {
+    line-height: 1.5;
+    font-size: 12px;
+  }
+}

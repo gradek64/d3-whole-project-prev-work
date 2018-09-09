@@ -1,0 +1,382 @@
+{
+  "ace38369-8d9c-4226-9522-247f554ea98f": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -2987142.96,
+        "avg": -248928.58,
+        "min": -248928.58,
+        "max": -248928.58
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "CostCentre": [
+        "CC52104_BSL"
+      ]
+    }
+  },
+  "c40ff1d7-77c3-4372-93c6-05f505f418aa": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -330840,
+        "avg": -27570,
+        "min": -27570,
+        "max": -27570
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "CostCentre": [
+        "CC57005_BSL"
+      ]
+    }
+  },
+  "61d1201f-0dd9-454f-8999-4db2df70682a": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -420000,
+        "avg": -35000,
+        "min": -35000,
+        "max": -35000
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "CostCentre": [
+        "CC56001_BSL"
+      ]
+    }
+  },
+  "4b870986-d759-496c-a6c2-4b552ede9bf0": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -486243.96,
+        "avg": -40520.33,
+        "min": -40520.33,
+        "max": -40520.33
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "CostCentre": [
+        "CC56001_BSL"
+      ]
+    }
+  },
+  "cd9e470b-b238-407c-b3cb-0228b791d9b0": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -1831479.96,
+        "avg": -152623.33,
+        "min": -152623.33,
+        "max": -152623.33
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "CostCentre": [
+        "CC56001_BSL"
+      ]
+    }
+  },
+  "86ebbc58-13da-403d-bb4d-a4dff610a4be": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -7112123.040000001,
+        "avg": -592676.92,
+        "min": -592676.92,
+        "max": -592676.92
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "CostCentre": [
+        "CC52101_BSL"
+      ]
+    }
+  },
+  "b57683e6-0fae-49eb-9812-d99c139a36f7": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -4860,
+        "avg": -405,
+        "min": -405,
+        "max": -405
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "CostCentre": [
+        "CC57005_BSL"
+      ]
+    }
+  },
+  "253ac795-05c4-4ab1-b09d-fd788d452f51": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -417126,
+        "avg": -34760.5,
+        "min": -34760.5,
+        "max": -34760.5
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "CostCentre": [
+        "CC56001_BSL"
+      ]
+    }
+  },
+  "24f1faeb-1db4-4bff-a7df-1dc250dce33f": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -110280,
+        "avg": -9190,
+        "min": -9190,
+        "max": -9190
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "CostCentre": [
+        "CC57005_BSL"
+      ]
+    }
+  },
+  "d17ca92b-2e90-4664-b790-5aa35fa3aa74": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -1190400,
+        "avg": -99200,
+        "min": -99200,
+        "max": -99200
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "CostCentre": [
+        "CC58405_BSL"
+      ]
+    }
+  },
+  "4c8e53f5-c7d8-44fc-88e5-8873956e171d": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -2322600,
+        "avg": -193550,
+        "min": -193550,
+        "max": -193550
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "CostCentre": [
+        "CC56802_BSL"
+      ]
+    }
+  },
+  "08f3865f-3409-494d-8b4c-ae37dcbaed9c": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -1020,
+        "avg": -85,
+        "min": -85,
+        "max": -85
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "CostCentre": [
+        "CC57005_BSL"
+      ]
+    }
+  },
+  "51dcaf4b-77df-4f87-8b2d-79d2861a1112": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -8220,
+        "avg": -685,
+        "min": -685,
+        "max": -685
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "CostCentre": [
+        "CC57005_BSL"
+      ]
+    }
+  },
+  "b5bcd660-e011-46d8-b555-3ae670d96dd0": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -267840,
+        "avg": -22320,
+        "min": -22320,
+        "max": -22320
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "CostCentre": [
+        "CC57005_BSL"
+      ]
+    }
+  },
+  "1ce19ceb-789d-4c7f-b418-ce5139cc3d86": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -46056,
+        "avg": -3838,
+        "min": -3838,
+        "max": -3838
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "CostCentre": [
+        "CC56001_BSL"
+      ]
+    }
+  },
+  "8c3b242a-2208-4592-8ace-0330a578a3cb": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -2397756,
+        "avg": -199813,
+        "min": -199813,
+        "max": -199813
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "CostCentre": [
+        "CC56001_BSL"
+      ]
+    }
+  },
+  "92572b44-bc0e-4d2e-aeff-0b53414e7ee5": {
+    "metrics": {
+      "amount": {
+        "count": 24,
+        "sum": -3800000.04,
+        "avg": -158333.335,
+        "min": -316666.67,
+        "max": 0
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "CostCentre": [
+        "CC50101_BSL"
+      ]
+    }
+  },
+  "e12744ad-0427-4808-b75a-98172977a2eb": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -324162.9600000001,
+        "avg": -27013.580000000005,
+        "min": -27013.58,
+        "max": -27013.58
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "CostCentre": [
+        "CC56001_BSL"
+      ]
+    }
+  },
+  "11a7365a-b20f-4c8c-9de1-32cd51143a6d": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -365441.04,
+        "avg": -30453.42,
+        "min": -30453.42,
+        "max": -30453.42
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "CostCentre": [
+        "CC56001_BSL"
+      ]
+    }
+  },
+  "81b606fa-4abf-4440-86f4-d24c200dc906": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -5073999.96,
+        "avg": -422833.33,
+        "min": -422833.33,
+        "max": -422833.33
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "CostCentre": [
+        "CC57005_BSL"
+      ]
+    }
+  }
+}

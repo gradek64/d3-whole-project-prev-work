@@ -1,0 +1,27 @@
+<app-header opts="{showOutput: true}"></app-header>
+<top-nav-map opts="{page: pageName}"></top-nav-map>
+<attributes-toolbar opts="attributeArray"></attributes-toolbar>
+<side-nav></side-nav>
+<div class="content">
+  <breadcrumbs items="breadcrumbs" total-label="'Total cost of IT Department'" total="total"></breadcrumbs>
+
+  <div class="container">
+    <br>
+    <div style="position: relative">
+      <div class="row">
+        <div class="col s12 flex valign-center">
+          <h1 class="stretch"><span>Services</span></h1>
+        </div>
+      </div>
+
+      <a href="/#!/scenario-analytics/remove/services/report">Create Scenario</a>
+
+      <loading data-ng-show="isLoading"></loading>
+    </div>
+  </div>
+</div>
+</div>
+
+<notifications></notifications>
+<app-footer></app-footer>
+<login-form></login-form>

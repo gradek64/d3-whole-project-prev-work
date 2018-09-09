@@ -1,0 +1,35 @@
+<div ng-class="'chart-swap-wrapper ' + chartInfo.height">
+    <div class="row">
+        <ul class="nav nav-tabs margin-bottom-2">
+            <li ng-repeat="t in chartInfo.tabs"
+                ng-class="chartInfo.selectedTab.groupBy === t.groupBy ? 'active' : ''"
+                ng-click="changeTab(t)"><a>{{ t.tabName }}</a></li>
+        </ul>
+
+        <div class="breakdowns margin-bottom-2">
+            <div ng-repeat="b in chartInfo.breakdowns"
+                 ng-class="chartInfo.selectedBreakdown.groupBy === b.groupBy ? 'btn btn-primary' : 'btn btn-default'"
+                 ng-click="changeBreakdown(b)">
+                {{ b.name }}</div>
+        </div>
+    </div>
+
+    <div class="table-wrapper" ng-if="chartInfo.selectedBreakdown.groupBy !== 'Location'">
+        <!--<see-table info="chartInfo"></see-table>-->
+        <table class="data-table" id='table-holder'></table>
+    </div>
+    <div ng-if="chartInfo.selectedBreakdown.groupBy === 'Location'" ng-class="chartInfo.toggleTable ? 'table-wrapper' : 'map-wrapper'">
+        <div class="col-xs-1">
+            <div ng-click="changeBreakdownChart()" class="btn btn-primary fa-4x">
+                <i ng-class="chartInfo.toggleTable ? 'fa fa-globe' : 'fa fa-table'"></i>
+            </div>
+        </div>
+        <div class="col-xs-11" ng-if="chartInfo.toggleTable === true">
+            <!--<see-table info="chartInfo"></see-table>-->
+            <table class="data-table" id='table-holder'></table>
+        </div>
+        <div class="col-xs-9" ng-if="chartInfo.toggleTable !== true" class="full">
+            <see-chart info="mapInfo"></see-chart>
+        </div>
+    </div>
+</div>

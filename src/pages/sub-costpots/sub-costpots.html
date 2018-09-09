@@ -1,0 +1,125 @@
+<app-header logo="{title:'CostLens Admin',href:'#!/cost-models'}"></app-header>
+<side-nav></side-nav>
+<div class="content">
+  <breadcrumbs items="breadcrumbs"></breadcrumbs>
+
+  <div class="container">
+    <div class="section">
+      <h1>{{costpot.name}}</h1>
+      <!--<br>-->
+
+      <div class="costpots-tree">
+        <div class="row head">
+          <div class="col s4"><b>CostPot</b>
+          </div>
+          <div class="col s4"><b>Sub-CostPot</b>
+          </div>
+          <div class="col s4"><b>Sub-Sub-CostPot</b>
+          </div>
+        </div>
+
+        <div class="row body">
+          <div class="col s12">
+            <div ng-init="level=0;deep=2" class="level{{::level}}" ng-repeat="item in [costpot] track by $index"
+            ng-include="'recursiveTree'"></div>
+          </div>
+        </div>
+        <loading opts="{color: 'teal'}" data-ng-show="isLoading"></loading>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Create sub-costpot modal -->
+<div data-modal="{showOn: 'CLICK_ON_CREATE_COSTPOT', hideOn: ['CLICK_ON_CANCEL_CREATE_COSTPOT', 'NEW_COSTPOT_CREATED'],
+                closeButton: false, freeze: creating}" class="create">
+  <form name="form1" ng-submit="onSubmit(formObj,'create'); $event.preventDefault();">
+    <div class="modal-content">
+      <h4 style="">Create New <span ng-show="focused.level > 0">Sub-</span>Sub-CostPot</h4>
+      <div data-ng-show="error" class="card-panel red lighten-2 z-depth-0">
+        <span class="white-text">{{error}}</span>
+      </div>
+      <div class="f-body">
+        <div class="input-field">
+          <input id="formObj-name" type="text" name="name" ng-model="formObj.name" ng-class="{invalid: (form1.$submitted && !formObj.name),
+                                    valid: (form1.$submitted && formObj.name)}">
+          <label for="formObj-name">Title</label>
+        </div>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button type="submit" class="create btn waves-effect waves-light">Create</button>
+      <a href="#!" ng-click="emit('CLICK_ON_CANCEL_CREATE_COSTPOT'); $event.preventDefault();"
+      class="cancel btn-flat waves-effect waves-red">Cancel</a>
+    </div>
+  </form>
+  <loading data-ng-show="creating"></loading>
+</div>
+
+<!-- confirm delete sub cost pot modal -->
+<div data-modal="{showOn: 'CONFIRM_DELETE_SUB_COSTPOT', hideOn: ['CLICK_ON_CANCEL_DELETE_SUB_COSTPOT', 'SUB_COSTPOT_DELETED'],
+                closeButton: false, freeze: deleting}" class="confirmation">
+  <form ng-submit="onSubmit(focused,'delete'); $event.preventDefault();">
+    <div class="modal-content">
+      <h4>Delete <span ng-show="focused.level > 1">Sub-</span>Sub-CostPot</h4>
+      <div data-ng-show="error" class="card-panel red lighten-2 z-depth-0">
+        <span class="white-text">{{error}}</span>
+      </div>
+      <div class="f-body">
+        <p class="center-align">
+          Do you want to delete the <span>{{focused.name}}</span><span ng-show="focused.level > 1"> Sub-</span> Sub-CostPot?
+          <br>This will delete any associated files, Sub-Sub-CostPots and Data Set filters
+        </p>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button type="submit" class="btn waves-effect waves-light" autofocus>Confirm</button>
+      <a href="#!" ng-click="emit('CLICK_ON_CANCEL_DELETE_SUB_COSTPOT'); $event.preventDefault();"
+      class="btn-flat waves-effect waves-red">Cancel</a>
+    </div>
+  </form>
+  <loading data-ng-show="deleting"></loading>
+</div>
+<!-- confirm delete sub cost pot modal -->
+
+<!-- validate configured file modal -->
+<div data-modal="{showOn: 'VALIDATE_COSTPOT_FILE', hideOn: ['CLICK_ON_CANCEL_VALIDATE_COSTPOT_FILE'],
+                closeButton: false, freeze: deleting}" class="confirmation">
+  <form ng-submit="onSubmit(focused, 'delete'); $event.preventDefault();">
+    <div class="modal-content">
+      <!-- <h4>Delete Cost Model</h4> -->
+      <div class="f-body">
+        <p class="center-align red-text">
+          There are no Active files in this CostPot</br>
+        </p>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <!--  <button type="submit" class="btn waves-effect waves-light">Confirm</button> -->
+      <a href="#!" ng-click="emit('CLICK_ON_CANCEL_VALIDATE_COSTPOT_FILE'); $event.preventDefault();"
+      class="btn-flat waves-effect waves-red">Cancel</a>
+    </div>
+  </form>
+  <loading data-ng-show="deleting"></loading>
+</div>
+<!-- validate configured file modal -->
+
+<notifications></notifications>
+<app-footer></app-footer>
+<login-form></login-form>
+
+<script type="text/ng-template" id="recursiveTree">
+  <costpot-small callback="callbackFactory(item)"
+                   opts="{
+                        name: item.name,
+                        hideAdd: level===deep,
+                        hideFile: level===0,
+                        hideFilter: hasChildren(item),
+                        hideDelete: level===0
+                        }"></costpot-small>
+    <div ng-init="level=level+1" ng-if="level<deep">
+        <div class="level{{::level}}"
+             ng-repeat="item in allItems | filter:{parentId:item.id}:true track by $index"
+             ng-include="'recursiveTree'"></div>
+    </div>
+</script>

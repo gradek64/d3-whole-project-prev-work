@@ -1,0 +1,156 @@
+/**
+ * Created by Sergiu Ghenciu on 05/03/2018
+ */
+
+.legend {
+  margin: 1.46rem 0 1.168rem 0;
+  overflow-y: auto;
+  //outline: 1px solid green;
+
+  .inner-container {
+    width: 100%;
+    margin: 0 auto;
+    //outline: 1px solid red;
+  }
+
+  /* square */
+  > span > span {
+    display: block;
+    width: 15px;
+    height: 15px;
+    margin-top: 2.5px;
+    margin-left: -19px;
+    float: left;
+    border-radius: 50%;
+  }
+
+  > span:hover {
+    > span {
+      border: 1px solid black;
+    }
+  }
+
+  /* items */
+  > span {
+    width: 100%;
+    float: left;
+    padding-left: 21.5px;
+    padding-right: 5px;
+    //outline: 1px dashed grey;
+    transition: opacity 0.3s ease;
+  }
+
+  @media (min-width: 576px) {
+    > span {
+      width: 50%;
+    }
+    > span:nth-of-type(2n + 1) {
+      clear: both;
+    }
+    > span:first-child:nth-last-child(1) {
+      margin-left: 25%;
+    }
+    //&.items-count-1 .inner-container {
+    //  margin-left: 25%;
+    //}
+  }
+  @media (min-width: 768px) {
+    > span {
+      width: 33.3333333%;
+    }
+    > span:nth-of-type(2n + 1) {
+      clear: none;
+    }
+    > span:nth-of-type(3n + 1) {
+      clear: both;
+    }
+    > span:first-child:nth-last-child(2) {
+      margin-left: 16.6666666%;
+    }
+    > span:first-child:nth-last-child(1) {
+      margin-left: 33.3333333%;
+    }
+    //&.items-count-2 .inner-container {
+    //  margin-left: 16.6666666%;
+    //}
+    //&.items-count-1 .inner-container {
+    //  margin-left: 33.3333333%;
+    //}
+  }
+
+  @media (min-width: 992px) {
+    > span {
+      width: 25%;
+    }
+    > span:nth-of-type(3n + 1) {
+      clear: none;
+    }
+    > span:nth-of-type(4n + 1) {
+      clear: both;
+    }
+    > span:first-child:nth-last-child(3) {
+      margin-left: 12.5%;
+    }
+    > span:first-child:nth-last-child(2) {
+      margin-left: 25%;
+    }
+    > span:first-child:nth-last-child(1) {
+      margin-left: 37.5%;
+    }
+    //&.items-count-3 .inner-container {
+    //  margin-left: 12.5%;
+    //}
+    //&.items-count-2 .inner-container {
+    //  margin-left: 25%;
+    //}
+    //&.items-count-1 .inner-container {
+    //  margin-left: 37.5%;
+    //}
+  }
+
+  @media (min-width: 1200px) {
+    > span {
+      width: 20%;
+    }
+    > span:nth-of-type(4n + 1) {
+      clear: none;
+    }
+    > span:nth-of-type(5n + 1) {
+      clear: both;
+    }
+    > span:first-child:nth-last-child(4) {
+      margin-left: 10%;
+    }
+    > span:first-child:nth-last-child(3) {
+      margin-left: 20%;
+    }
+    > span:first-child:nth-last-child(2) {
+      margin-left: 30%;
+    }
+    > span:first-child:nth-last-child(1) {
+      margin-left: 40%;
+    }
+    //&.items-count-4 .inner-container {
+    //  margin-left: 10%;
+    //}
+    //&.items-count-3 .inner-container {
+    //  margin-left: 20%;
+    //}
+    //&.items-count-2 .inner-container {
+    //  margin-left: 30%;
+    //}
+    //&.items-count-1 .inner-container {
+    //  margin-left: 40%;
+    //}
+  }
+}
+
+.mouse-over {
+  .legend {
+    > span.active {
+      > span {
+        border: 1px solid black;
+      }
+    }
+  }
+}

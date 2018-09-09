@@ -1,0 +1,37 @@
+/**
+ * Created by Sergiu Ghenciu on 27/03/2018
+ */
+
+// todo:  .chord to .link
+.chord {
+  svg {
+    overflow: visible;
+  }
+
+  .group {
+    stroke-opacity: 0.8;
+    fill-opacity: 0.8;
+
+    &:hover {
+      stroke-opacity: 1;
+      fill-opacity: 1;
+    }
+  }
+
+  .chord {
+    transition: stroke-opacity 0.35s ease, opacity 0.35s ease;
+    stroke-opacity: 0.2;
+    fill-opacity: 0.2;
+
+    &:hover {
+      stroke-opacity: 0.7;
+      fill-opacity: 0.7;
+    }
+  }
+
+  .diagram {
+    text {
+      font-size: 10px;
+    }
+  }
+}

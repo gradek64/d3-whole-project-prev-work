@@ -1,0 +1,24 @@
+<div ng-class="'col-xs-' + chartInfo.width + ' canvas-wrapper ' + chartInfo.height">
+    <div id="{{ chartInfo.type + '-' + chartInfo.id }}" ng-class="'canvas ' + chartInfo.type">
+        <div class="bar-top">
+            <div class="col-xs-6">
+            </div>
+            <div class="col-xs-6">
+                <div class="col-sm-12">
+                    <div class="btn-group fa-btn pull-right">
+                        <button ng-if="true" class="chart-type btn btn-default"><span class="fa fa-filter"></span></button>
+                        <button ng-if="true" class="chart-type btn btn-default"><span class="fa fa-floppy-o"></span></button>
+                        <button ng-if="chartInfo.type === 'tree' || chartInfo.type === 'partition'"  class="tree-back btn btn-default"><span class="fa fa-level-up"></span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--<div class="loading">-->
+    <!--<i class="fa fa-spinner fa-spin fa-3x fa-fw"></i>-->
+    <!--<span class="sr-only">Loading...</span>-->
+    <!--</div>-->
+
+</div>
+

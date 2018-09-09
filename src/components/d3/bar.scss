@@ -1,0 +1,22 @@
+/**
+ * Created by Sergiu Ghenciu on 10/03/2018
+ */
+
+.bar.chart {
+  svg {
+    overflow: visible;
+  }
+  .axis path,
+  .axis line {
+    fill: none;
+    stroke: #d4d8da;
+    stroke-width: 1px;
+    shape-rendering: crispEdges;
+  }
+
+  .axis.y {
+    path {
+      display: none;
+    }
+  }
+}

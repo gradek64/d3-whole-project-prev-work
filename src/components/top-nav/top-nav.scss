@@ -1,0 +1,72 @@
+/**
+ * Created by Sergiu Ghenciu on 08/12/2017
+ */
+@import '../../vars';
+
+.top-nav {
+  height: $top-nav-height;
+  line-height: $top-nav-height;
+  background-color: #285767;
+
+  .container {
+    max-width: initial;
+    width: 100%;
+    padding-right: $gutter-width / 2;
+    padding-left: $gutter-width / 2;
+  }
+
+  li.active {
+    background: none;
+    a {
+      opacity: 1;
+    }
+  }
+
+  a.disabled {
+    pointer-events: none;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  ul,
+  .item,
+  .item a {
+    height: 100%;
+  }
+
+  .item {
+    a {
+      // outline: 1px solid red;
+      display: block;
+      opacity: 0.6;
+      &:hover {
+        opacity: 1;
+        background: none;
+      }
+    }
+
+    div {
+      // outline: 1px solid yellow;
+      height: 70%;
+      width: 100%;
+      display: block;
+      margin: 0;
+      position: relative;
+    }
+    i {
+      position: absolute;
+      top: 5px;
+      height: calc(100% - 10px);
+    }
+    span {
+      display: block;
+      text-align: center;
+      margin: 0;
+      height: 30%;
+      line-height: 1.8;
+      min-width: 50px;
+    }
+  }
+}

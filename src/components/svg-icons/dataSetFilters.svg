@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 3 21 21" width="100%" height="100%">
+    <g transform="matrix(0.73536181,0,0,0.75831531,-2.5904583,7.0733813)">
+        <path d="M 17.769492,-5.3716149 V 1.5171092 L 8.154774,1.4295998 8.190451,10.431088"
+              style="fill:none;fill-rule:evenodd;stroke:#7d7d7d;stroke-width:1.01011634;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"></path>
+        <path d="m 17.799182,22.320621 -0.02969,-20.8035118 8.997761,0.028569 v 7.8323199"
+              style="fill:none;fill-rule:evenodd;stroke:#7d7d7d;stroke-width:1.01011634;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"></path>
+        <ellipse cy="14.430927" cx="8.145359"
+                 style="fill:none;fill-opacity:1;stroke:#7d7d7d;stroke-width:1.0113914;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                 rx="4.1169114" ry="3.9779274"></ellipse>
+        <rect y="9.7595034" x="21.774591" height="8.0407629" width="9.8003674"
+              style="fill:none;fill-opacity:1;stroke:#7d7d7d;stroke-width:1.01011634;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"></rect>
+    </g>
+</svg>

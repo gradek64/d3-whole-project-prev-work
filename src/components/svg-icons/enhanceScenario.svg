@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" viewBox="0 0 55 55">
+  <g id="transform=&quot;translate(0,31)&quot;">
+    <rect height="47" width="47" y="-1" x="-1" style="fill:none"></rect>
+  </g>
+  <g transform="matrix(2.6008355,0,0,2.6008355,-1.0413291,-6.204485)">
+    <path d="M 11.474584,10.305584 8.2379085,10.779733 10.577879,8.4948576 9.1270176,5.5634879 12.023548,7.0825258 14.035063,5.1175335 14.362301,4.798677 l -0.548538,3.2216029 2.897605,1.5189114 -3.23722,0.4738617 -0.548059,3.225227 z" fill-opacity="null" inkscape:connector-curvature="0" style="fill:none;stroke:{{::opts.color}};stroke-width:0.19224591;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"></path>
+    <path style="fill:none;fill-rule:evenodd;stroke:{{::opts.color}};stroke-width:0.19224591;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" d="m 5.2167394,20.243172 5.3824916,-9.81773 0.875357,-0.119862 0.409146,0.812989 -5.3761606,9.859698 z" inkscape:connector-curvature="0" sodipodi:nodetypes="cccccc"></path>
+  </g>
+</svg>

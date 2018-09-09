@@ -1,0 +1,31 @@
+/**
+ * Created by Sergiu Ghenciu on 08/12/2017
+ */
+
+@import '../../vars';
+
+.page-footer {
+  padding: 0;
+  min-height: $footer-height;
+  line-height: $footer-height;
+
+  .row {
+    margin-bottom: 0;
+  }
+
+  .version {
+    position: absolute;
+    color: color('grey', 'lighten-2');
+  }
+
+  .links-block {
+    text-align: center;
+    color: $primary-color-light;
+
+    a {
+      color: $primary-color-light;
+      margin: 0 6px;
+      cursor: pointer;
+    }
+  }
+}

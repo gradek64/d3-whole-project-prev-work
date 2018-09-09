@@ -1,0 +1,73 @@
+/**
+ * Created by Sergiu Ghenciu on 03/04/2018
+ */
+
+@import '../../vars';
+
+.chart.percentage {
+  .canvas {
+    height: 140px;
+  }
+}
+
+.percentage {
+  .bar {
+    display: inline-block;
+    background-color: #00c0ef;
+    height: 100%;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    border-left: 1px solid #fff;
+    position: relative;
+    transition: none;
+
+    > span {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      margin-top: -10px;
+    }
+  }
+  .bar.too-small {
+    border: none;
+    > span {
+      display: none;
+    }
+  }
+
+  .axis {
+    margin-top: 10px;
+    border-top: 1px solid #ccc;
+    white-space: nowrap;
+    overflow: hidden;
+
+    > * {
+      display: inline-block;
+      box-sizing: border-box;
+      font-size: 18px;
+      font-weight: 200;
+    }
+
+    > *:first-child {
+      overflow: hidden;
+      text-align: right;
+      border-right: 1px solid #ccc;
+      > span {
+        padding-right: 10px;
+      }
+    }
+
+    > *:last-child {
+      overflow: hidden;
+      text-align: left;
+      width: auto;
+      border-left: 1px solid #ccc;
+      margin-left: -1px;
+      > span {
+        padding-left: 10px;
+      }
+    }
+  }
+}

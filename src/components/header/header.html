@@ -1,0 +1,45 @@
+<header>
+  <nav>
+    <div class="nav-wrapper container">
+      <a class="button-collapse logo" href="{{logo.href || '#!/'}}">{{logo.title || 'CostLens'}}</a>
+      <div class="left" ng-if="opts.showOutput">
+        <output-selection></output-selection>
+      </div>
+      <ul class="right" data-ng-hide="opts.isLoggedIn === false">
+        <li class="nav-user-menu">
+          <a class="dropdown-button waves-effect waves-light" href="#" data-dropdown="{activates: 'user-dropdown', beloworigin: true, alignment: 'right'}">
+            <i class="left" data-svg-person opts="{color:'white', height: '100%'}"></i>
+            <span class="hide-on-med-and-down">{{user.username}}</span>
+          </a>
+        </li>
+        <li class="nav-notifications">
+          <a class="waves-effect waves-light" href="#" data-ng-click="emit('CLICK_ON_BELL');$event.preventDefault();"><i data-svg-bell opts="{color:'white', height: '100%'}"></i>
+          </a>
+        </li>
+        <li class="nav-settings">
+          <a class="waves-effect waves-light"><i data-svg-settings
+                                                                    opts="{color:'white', height: '100%'}"></i></a>
+        </li>
+        <li class="nav-search">
+          <a class="waves-effect waves-light"><i data-svg-magnifying-glass
+                                                                    opts="{color:'white', height: '100%'}"></i></a>
+        </li>
+      </ul>
+      <ul class="dropdown-content" id="user-dropdown">
+        <li class="header">Applications</li>
+        <li><a href="/">CostLens</a>
+        </li>
+        <li><a href="/#!/cost-models">CostLens<span class="new badge grey" data-badge-caption="admin"></span></a>
+        </li>
+        <li ng-show="isAuthorised(['USER_MANAGEMENT'])" class="header">Administration</li>
+        <li ng-show="isAuthorised(['USER_MANAGEMENT'])"><a href="/#!/users">User Management</a>
+          <li ng-show="isAuthorised(['USER_MANAGEMENT'])"><a href="/#!/account-settings">Account Settings</a>
+            <li class="divider"></li>
+            <li>
+              <a href="#" data-ng-click="onLogout($event)">
+                <i class="material-icons">keyboard_tab</i>Logout</a>
+            </li>
+      </ul>
+    </div>
+  </nav>
+</header>

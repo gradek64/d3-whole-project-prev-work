@@ -1,0 +1,80 @@
+<div data-ng-class="chartClass" class="chart">
+
+  <loading ng-show="opts.isLoading"></loading>
+
+  <!-- Header -->
+  <div data-ng-if="!opts.disableHeader" class="col s12">
+    <h3 class="title">
+            {{ opts.title || "This is a sample title" }}
+        </h3>
+    <h5 class="subtitle">
+            {{ opts.subtitle || "This is a sample component subtitle explaining the data shown in this chart." }}
+        </h5>
+  </div>
+
+  <div data-ng-if="!opts.disableToolbar" class="col s12 chart-toolbar">
+    <!-- Left controls -->
+    <div class="left">
+      <!-- type toggle -->
+      <div data-ng-if="types && gt1(types.length)">
+        <a class="btn dropdown-button waves-effect waves-light" href="#" data-dropdown="{activates: 'cat' + $id}"
+        ng-class="{disabled: opts.shrunk}">
+          <i class="material-icons">{{icons[value(selected(types))]}}</i>
+          <i class="material-icons">expand_more</i>
+        </a>
+        <ul class="dropdown-content" id="cat{{$id}}">
+          <li data-ng-repeat="type in types track by $index" data-ng-hide="value(type) === value(selected(types))"
+          data-ng-click="changeType(type, $index)">
+            <a><i class="material-icons">{{icons[value(type)]}}</i>{{type.label}}</a>
+          </li>
+        </ul>
+      </div>
+
+      <a data-ng-if="opts.shrunk" class="btn" data-ng-click="exit()"><i class="material-icons">close</i></a>
+    </div>
+
+    <!-- Right controls -->
+    <div class="right chart-controls right-align">
+      <div class="filters">
+
+      </div>
+
+      <div>
+        <a data-ng-if="chartClass === 'treemap'" class="btn waves-effect waves-light" ng-class="{'disabled': !treemapZoomItems.length}"
+        data-ng-click="zoomOut()">
+          <i class="material-icons">undo</i>
+        </a>
+        <a data-ng-if="chartClass === 'table'" class="btn waves-effect waves-light" data-ng-click="download()">
+          <i class="material-icons">file_download</i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Middle toolbar -->
+    <div class="center-align">
+      <div data-button-group data-items="opts.groupByButtons" data-opts="{type: opts.groupByType}"
+      data-callback="onGroupByClick()"></div>
+    </div>
+
+  </div>
+  <!-- ---------------------- CHART INNER ---------------------- -->
+  <div class="chart-inner">
+    <!-- canvas -->
+    <div class="canvas col s12">
+
+      <!-- d3 injected here -->
+      <div class="diagram" style="height:100%;"></div>
+
+      <!-- Tooltip -->
+      <div class="material-tooltip" style="visibility: visible; opacity: 1; left: -9000px;">
+        <span></span>
+        <div class="backdrop" style="top: 0; left: 0; width:100%; height:100%; border-radius: 2px; visibility: visible; opacity: 1;"></div>
+      </div>
+
+    </div>
+
+    <!-- Legend -->
+    <div class="legend col s12" data-ng-show="opts.legend && opts.type !== 'table' && opts.type !== 'treemap'"></div>
+  </div>
+</div>
+

@@ -1,0 +1,66 @@
+/**
+ * Created by Sergiu Ghenciu on 23/05/2018
+ */
+
+@import '../../vars';
+
+[data-zoom-depth='1'] {
+  .treemap {
+    .node.level-1 {
+      //display: none;
+    }
+  }
+}
+
+.treemap {
+  .node.level-0 {
+    z-index: 90;
+    //font-size: 5vmin;
+    display: none !important;
+  }
+  .node.level-1 {
+    z-index: 80;
+    //font-size: 2vmin;
+  }
+  .node.level-2 {
+    z-index: 70;
+    //font-size: 1vmin;
+  }
+  .node.level-3 {
+    z-index: 60;
+    //font-size: 0.5vmin;
+  }
+
+  .node {
+    border: solid 1px white;
+    overflow: hidden;
+    position: absolute;
+    opacity: 0.95;
+    //opacity: 0.7;
+
+    &:hover {
+      //opacity: 0.5;
+    }
+  }
+
+  .node .label {
+    //color: $primary-color;
+    color: white;
+    //font-size: 1rem;
+    //overflow: hidden;
+    //text-overflow: ellipsis;
+    text-align: center;
+    white-space: nowrap;
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    right: 2%;
+    max-height: 100%;
+    transform: translate(0, -50%);
+    //transition: filter 0.3s;
+  }
+  .node:hover .label {
+    //transition: filter 0.3s;
+    //filter: blur(20px);
+  }
+}

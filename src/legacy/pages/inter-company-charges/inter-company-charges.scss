@@ -1,0 +1,13 @@
+/**
+ * Created by Sergiu Ghenciu on 27/03/2018
+ */
+
+@import '../../../vars';
+
+.inter-company-charges {
+  .content {
+    min-height: calc(
+      100vh - #{$header-height + $footer-height + $top-nav-height}
+    );
+  }
+}

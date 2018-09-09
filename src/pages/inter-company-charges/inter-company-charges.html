@@ -1,0 +1,14 @@
+<app-header opts="{showOutput: true}"></app-header>
+<side-nav></side-nav>
+<top-nav-map opts="{page: page}"></top-nav-map>
+<div class="content">
+  <div class="container" ng-if="true">
+    <div data-chart-no-drilldown data-component="component"></div>
+  </div>
+  <div class="container no-output" ng-if="false">
+    <h1>Please select primary output</h1>
+  </div>
+</div>
+<notifications></notifications>
+<app-footer></app-footer>
+<login-form></login-form>

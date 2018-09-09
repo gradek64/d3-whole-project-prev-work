@@ -1,0 +1,16 @@
+/**
+ * Created by Sergiu Ghenciu on 16/03/2018
+ */
+
+.sunburst {
+  .arc {
+    path {
+      stroke: #fff;
+    }
+  }
+
+  svg > g .arc:first-child {
+    fill-opacity: 0;
+    //pointer-events: none;
+  }
+}

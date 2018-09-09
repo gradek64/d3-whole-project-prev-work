@@ -1,0 +1,14 @@
+/**
+ * Created by Sergiu Ghenciu on 23/02/2018
+ */
+
+@import '../../vars';
+
+.departmental-charges {
+  .content {
+    min-height: calc(
+      100vh - #{$header-height + $footer-height + $top-nav-height +
+        $reports-nav-height + $filter-toolbar-height}
+    );
+  }
+}

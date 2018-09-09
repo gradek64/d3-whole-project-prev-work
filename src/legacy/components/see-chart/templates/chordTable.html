@@ -1,0 +1,26 @@
+<!-- Chord table -->
+<div ng-if="chartInfo.type === 'chord' && chartInfo.toggleTable" class="chord-table">
+    <table>
+        <thead>
+        <tr>
+            <td class="source">Source Legal Entity</td>
+            <td class="target">Target Legal Entity</td>
+            <td class="total">Total Cost</td>
+            <td class="perc">Total %</td>
+        </tr>
+        <tbody>
+        <tr class="row-a">
+            <td class="source" ng-click="goToSelectedPath('regular')">{{ chartInfo.selectedPath.route.source }}</td>
+            <td class="target">{{ chartInfo.selectedPath.route.target }}</td>
+            <td class="total">{{ chartInfo.selectedPath.values[0].total }}</td>
+            <td class="perc">{{ chartInfo.selectedPath.values[0].perc }}</td>
+        </tr>
+        <tr class="row-b">
+            <td class="source" ng-click="goToSelectedPath('reverse')">{{ chartInfo.selectedPath.route.target }}</td>
+            <td class="target">{{ chartInfo.selectedPath.route.source }}</td>
+            <td class="total">{{ chartInfo.selectedPath.values[1].total }}</td>
+            <td class="perc">{{ chartInfo.selectedPath.values[1].perc }}</td>
+        </tr>
+        </tbody>
+    </table>
+</div>

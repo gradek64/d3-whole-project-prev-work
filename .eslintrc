@@ -1,0 +1,8 @@
+{
+  "extends": ["google"],
+  "parser": "babel-eslint",
+  "rules": {
+    // Additional, per-project rules...
+    "require-jsdoc": 0
+  }
+}

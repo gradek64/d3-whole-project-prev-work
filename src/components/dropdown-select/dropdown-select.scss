@@ -1,0 +1,42 @@
+/**
+ * Created by Sergiu Ghenciu on 28/12/2017
+ *
+ * This styles are shared with the `multiple-select` component!
+ */
+
+.select-wrapper {
+  input.select-dropdown {
+    padding-right: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-overflow: ellipsis;
+  }
+
+  .dropdown-content {
+    max-width: 100%;
+
+    li > span {
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+}
+
+.select-wrapper + label {
+  transform: none !important;
+  top: -14px;
+}
+
+.input-field.no-label {
+  margin-top: 0;
+
+  &.inline {
+    vertical-align: baseline;
+  }
+
+  .select-wrapper {
+    + label {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,110 @@
+<app-header logo="{title:'CostLens Admin',href:'#!/cost-models'}"></app-header>
+<side-nav></side-nav>
+<div class="content">
+  <breadcrumbs items="[
+    {href: '/#!/cost-models', label: 'Cost Models'},
+    {href: '/#!/cost-models/' + configId + '/costpots', label: 'Model Config'}]"></breadcrumbs>
+
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s12 flex valign-center">
+          <h1 class="stretch">{{configuration.name}}</h1>
+          <dropdown-menu opts="{className: 'btn', alignment:'right'}" class="main-actions"
+          text="Actions" class-name="btn" alignment="right" items="[
+                                    {label: 'Create CostPot', action: 'onCreate'},
+                                    {label: 'View DataSet Filters', action: 'notImplemented'},
+                                    {label: 'Output Management', action: 'onOutputView'},
+                               ]" callback="callbackFactory()"></dropdown-menu>
+        </div>
+      </div>
+      <!--<div class="section" ng-repeat="level in levels track by $index">
+                <h5>LEVEL {{level}} <span ng-if="classificationMap[level]">({{classificationMap[level]}})</span></h5>
+                <costpot ng-repeat="item in costpots[level] track by $index"
+                        opts="{name:item.name, href: '/#!/cost-models/' + id+ '/costpots/' + item.id}"></costpot>
+            </div>-->
+      <div class="section graph">
+        <div class="row" ng-repeat="level in allLevels track by $index">
+          <div class="col s12 flex hspace-evenly domain-{{level.domainId}}">
+            <h6 class="level-name">{{level.name}}</h6>
+            <costpot ng-repeat="item in allCostpots | filter:{levelId: level.id}:true | filter:{parentId: null} | filter:{parentId: undefined} track by $index"
+            opts="{
+                                        name: item.name,
+                                        icon: getSvgIcon(item, level),
+                                        hideAdd: level.domainId !== 3,
+                                        hideFile: false,
+                                        hideFilter: item.name !== 'IT Functional Breakdown',
+                                        hideDelete: level.domainId !== 3,
+                                    }" callback="costpotCallbackFactory(item)"></costpot>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- create a new cost pot  -->
+    <div data-modal="{showOn: 'CLICK_ON_CREATE_COSTPOT', hideOn: ['CLICK_ON_CANCEL_CREATE_COSTPOT', 'NEW_COSTPOT_CREATED'],
+                    closeButton: false, freeze: creating}" class="create">
+      <form name="form1" ng-submit="onSubmit(formObj,'create'); $event.preventDefault();">
+        <div class="modal-content">
+          <h4 style="">Create New CostPot</h4>
+          <div data-ng-show="error" class="card-panel red lighten-2 z-depth-0">
+            <span class="white-text">{{error}}</span>
+          </div>
+          <div class="f-body">
+            <div class="input-field">
+              <input id="formObj-title" type="text" name="title" ng-model="formObj.title" ng-class="{invalid: (form1.$submitted && !formObj.title),
+                                    valid: (form1.$submitted && formObj.title)}">
+              <label for="formObj-title">Title</label>
+            </div>
+            <div class="input-field">
+              <dropdown-select text="Please select" label="Cost Pot Level" name="level" ng-model="formObj.level"
+              class-name="{invalid: (form1.$submitted && !formObj.level),
+                                            valid: (form1.$submitted && formObj.level)}"
+              items="infrastructureLevels" reset-factory="dropdownResetFactory('resetLevel')"></dropdown-select>
+            </div>
+            <div class="input-field">
+              <dropdown-select text="Please select" label="CDM type" name="resourceType" ng-model="formObj.resourceType"
+              class-name="{invalid: (form1.$submitted && !formObj.resourceType),
+                                            valid: (form1.$submitted && formObj.resourceType)}"
+              items="resourceTypeItems" reset-factory="dropdownResetFactory('resetResourceType')"></dropdown-select>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn waves-effect waves-light">Create</button>
+          <a href="#!" ng-click="emit('CLICK_ON_CANCEL_CREATE_COSTPOT'); $event.preventDefault();"
+          class="btn-flat waves-effect waves-red">Cancel</a>
+        </div>
+      </form>
+      <loading data-ng-show="creating"></loading>
+    </div>
+  </div>
+  <!-- confirm delete sub cost pot modal -->
+  <div data-modal="{showOn: 'CONFIRM_DELETE_COSTPOT', hideOn: ['CLICK_ON_CANCEL_DELETE_COSTPOT', 'COSTPOT_DELETED'],
+                    closeButton: false, freeze:deleting}" class="confirmation">
+    <form ng-submit="onSubmit(focused,'delete'); $event.preventDefault();">
+      <div class="modal-content">
+        <h4>Delete CostPot</h4>
+        <div data-ng-show="error" class="card-panel red lighten-2 z-depth-0">
+          <span class="white-text">{{error}}</span>
+        </div>
+        <div class="f-body">
+          <p class="center-align">
+            Do you want to delete the {{focused.name}} CostPot?
+            <br>This will delete any associated files, Sub and Sub-Sub-CostPots and Data
+            Set filters
+          </p>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="submit" class="btn waves-effect waves-light" autofocus>Confirm</button>
+        <a href="#!" ng-click="emit('CLICK_ON_CANCEL_DELETE_COSTPOT'); $event.preventDefault();"
+        class="btn-flat waves-effect waves-red">Cancel</a>
+      </div>
+    </form>
+    <loading data-ng-show="deleting"></loading>
+  </div>
+  <!-- confirm delete sub cost pot modal -->
+</div>
+<notifications></notifications>
+<app-footer></app-footer>
+<login-form></login-form>

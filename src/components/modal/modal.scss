@@ -1,0 +1,18 @@
+/**
+ * Created by Sergiu Ghenciu on 28/12/2017
+ */
+
+.modal {
+  max-width: 760px;
+}
+
+.modal-content {
+  [data-ng-show='error'],
+  [ng-show='error'] {
+    padding: 10px 15px;
+  }
+  form,
+  .f-body {
+    margin-top: 40px;
+  }
+}

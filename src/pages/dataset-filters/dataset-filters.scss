@@ -1,0 +1,96 @@
+/**
+ * Created by Sergiu Ghenciu on 25/01/2018
+ */
+@import '../../vars';
+
+.dataset-filters {
+  .modal.create {
+    max-width: 1280px;
+    width: 90%;
+  }
+  @media #{$medium-and-up} {
+    .modal.create {
+      width: 85%;
+    }
+  }
+  @media #{$large-and-up} {
+    .modal.create {
+      width: 70%;
+    }
+  }
+
+  .modal.create {
+    .f-body {
+      position: relative;
+      > .overlay {
+        z-index: 2;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        position: absolute;
+        background-color: rgba(250, 250, 250, 0.2);
+      }
+    }
+
+    .f-body > .section:nth-child(1) {
+      padding-top: 0;
+    }
+
+    .f-body > .section:nth-child(1) .input-field,
+    .section.by-match .input-field {
+      max-width: 500px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .section {
+      position: relative;
+      border-bottom: 1px solid #e0e0e0;
+
+      .overlay {
+        z-index: 1;
+        top: 72px;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        position: absolute;
+        background-color: rgba(250, 250, 250, 0.7);
+      }
+
+      &.by-match {
+      }
+
+      &.by-filter {
+        .header {
+          margin-left: 35px;
+          margin-bottom: 5px;
+        }
+
+        .filter {
+          margin-bottom: 0;
+          margin-left: 35px;
+          position: relative;
+        }
+
+        .operand {
+          position: absolute;
+          top: -18px;
+          left: -25px;
+        }
+
+        .input-field {
+          margin-top: 0;
+        }
+      }
+
+      &.distribution {
+        .input-field {
+          max-width: 300px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+    }
+  }
+}

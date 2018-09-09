@@ -1,0 +1,60 @@
+/**
+ * Created by Greg Gil
+ */
+@import '../../vars';
+
+.consumer,
+.provider,
+.analytics {
+  .body {
+    .items-5 {
+      width: 20%;
+      float: left;
+    }
+
+    .items-4 {
+      width: 25%;
+      float: left;
+    }
+
+    .items-3 {
+      width: 33.3333333%;
+      float: left;
+    }
+    .items-2 {
+      width: 50%;
+      float: left;
+    }
+  }
+
+  /* ----------- iPad 1, 2, Mini and Air ----------- */
+
+  /* Portrait and Landscape */
+  @media only screen and (max-width : #{$large-screen}) {
+    .body {
+      text-align: center;
+      .items-5 {
+        width: 33.3333333%;
+        float: none;
+        vertical-align: top;
+        display: inline-block;
+        .lp.card {
+          .card-content {
+            border: 1px solid #edf2f6;
+            min-height: 191px;
+            i {
+              max-height: 55px;
+              max-width: 55px;
+            }
+            .title {
+              font-size: 16px;
+            }
+            .description {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}

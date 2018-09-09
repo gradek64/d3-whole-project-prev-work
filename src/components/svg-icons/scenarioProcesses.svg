@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" viewBox="0 0 55 55">
+  <g transform="translate(0,31)"></g>
+  <g transform="matrix(2.4230965,0,0,2.4230965,-2.134971,0.1192724)">
+    <ellipse ry="2.0416551" rx="3.79849" cy="12.051232" cx="5.0665941" fill-opacity="null" stroke-opacity="null" style="fill:none;stroke:{{::opts.color}};stroke-width:0.20634754;stroke-miterlimit:4;stroke-dasharray:none"></ellipse>
+    <rect height="4.4395719" width="6.796382" y="3.5874021" x="5.080297" fill-opacity="null" stroke-opacity="null" style="fill:none;stroke:{{::opts.color}};stroke-width:0.20634754;stroke-miterlimit:4;stroke-dasharray:none"></rect>
+    <rect height="4.4395719" width="6.796382" y="16.193594" x="5.080297" fill-opacity="null" stroke-opacity="null" style="fill:none;stroke:{{::opts.color}};stroke-width:0.20634754;stroke-miterlimit:4;stroke-dasharray:none"></rect>
+    <circle cy="12.109131" cx="17.802111" fill-opacity="null" stroke-opacity="null" r="5.0200081" style="fill:none;stroke:{{::opts.color}};stroke-width:0.20634754;stroke-miterlimit:4;stroke-dasharray:none"></circle>
+    <line stroke-linecap="null" stroke-linejoin="null" y2="8.2531834" x2="14.455439" y1="5.4157872" x1="11.909058" fill-opacity="null" stroke-opacity="null" style="fill:none;stroke:{{::opts.color}};stroke-width:0.20634754;stroke-miterlimit:4;stroke-dasharray:none"></line>
+    <line transform="rotate(90,13.255002,17.420147)" stroke-linecap="null" stroke-linejoin="null" y2="18.838852" x2="14.528192" y1="16.001455" x1="11.981812" fill-opacity="null" stroke-opacity="null" style="fill:none;stroke:{{::opts.color}};stroke-width:0.20634754;stroke-miterlimit:4;stroke-dasharray:none"></line>
+    <line stroke-linecap="null" stroke-linejoin="null" y2="12.082365" x2="12.766967" y1="12.061352" x1="8.9426355" fill-opacity="null" stroke-opacity="null" style="fill:none;stroke:{{::opts.color}};stroke-width:0.20634754;stroke-miterlimit:4;stroke-dasharray:none"></line>
+  </g>
+</svg>

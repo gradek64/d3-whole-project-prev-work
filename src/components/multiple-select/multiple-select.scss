@@ -1,0 +1,43 @@
+/**
+ * Created by Sergiu Ghenciu on 22/02/2018
+ *
+ * This component uses the dropdown-select's styles!
+ */
+
+.multiple {
+  li {
+    cursor: default;
+    label {
+      transform: none;
+      pointer-events: initial;
+    }
+  }
+
+  ul {
+    margin: 0;
+  }
+
+  .input-field {
+    margin: 14px 16px;
+
+    .prefix {
+      top: 9px;
+      left: -4px;
+      width: 2rem;
+
+      + input {
+        width: calc(100% - 2.4rem);
+        margin-left: 2.4rem;
+      }
+    }
+
+    input {
+      margin-bottom: 0;
+    }
+  }
+
+  .none {
+    padding: 14px 16px;
+    text-align: center;
+  }
+}

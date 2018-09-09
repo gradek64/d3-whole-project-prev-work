@@ -1,0 +1,65 @@
+/**
+ * Created by Sergiu Ghenciu on 05/01/2018
+ */
+
+.costpots-tree {
+  .body {
+    max-height: calc(100vh - 403px);
+    overflow-y: auto;
+  }
+
+  costpot-small {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    display: block;
+  }
+
+  .level0 {
+    //outline: 1px solid yellow;
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+
+    > costpot-small {
+      width: 33.333332%;
+      display: block;
+    }
+  }
+
+  .level1 {
+    //outline: 1px solid grey;
+    width: 66.666665%;
+    margin-left: 33.333333%;
+
+    &:first-child {
+      margin-top: -66px;
+    }
+
+    > costpot-small {
+      width: 50%;
+      display: block;
+    }
+
+    /* divider */
+    &:after {
+      content: '';
+      display: block;
+      width: 100%;
+      border-top: 1px solid #e0e0e0;
+      margin: 16px 0;
+    }
+
+    &:last-child:after {
+      display: none;
+    }
+  }
+
+  .level2 {
+    //outline: 1px solid green;
+    width: 50%;
+    margin-left: 50%;
+
+    &:first-child {
+      margin-top: -66px;
+    }
+  }
+}

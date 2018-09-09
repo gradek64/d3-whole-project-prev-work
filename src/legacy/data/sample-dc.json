@@ -1,0 +1,796 @@
+{
+  "de31b7ea-c0ea-4ac0-bef9-7f53ac7a1461": {
+    "metrics": {
+      "amount": {
+        "count": 29640,
+        "sum": -1579.8100349852273,
+        "avg": -0.053299933703955034,
+        "min": -2.463492667841585,
+        "max": -0.0001344200115481144
+      }
+    },
+    "uniqueValues": {
+      "RackNumber": [
+        "1.0"
+      ],
+      "Floor": [
+        "Grd"
+      ],
+      "data_centre_id": [
+        "de31b7ea-c0ea-4ac0-bef9-7f53ac7a1461"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "9d5cab0e-165f-4749-ad2b-6e88ee246819": {
+    "metrics": {
+      "amount": {
+        "count": 29640,
+        "sum": -1579.8100349852352,
+        "avg": -0.053299933703955304,
+        "min": -2.463492667841585,
+        "max": -0.0001344200115481144
+      }
+    },
+    "uniqueValues": {
+      "RackNumber": [
+        "1.0"
+      ],
+      "Floor": [
+        "Grd"
+      ],
+      "data_centre_id": [
+        "9d5cab0e-165f-4749-ad2b-6e88ee246819"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "fa3a6bbb-8c1f-4552-9fb8-6b0ca311b21e": {
+    "metrics": {
+      "amount": {
+        "count": 29640,
+        "sum": -1579.8100349852327,
+        "avg": -0.05329993370395522,
+        "min": -2.463492667841585,
+        "max": -0.0001344200115481144
+      }
+    },
+    "uniqueValues": {
+      "RackNumber": [
+        "1.0"
+      ],
+      "Floor": [
+        "Grd"
+      ],
+      "data_centre_id": [
+        "fa3a6bbb-8c1f-4552-9fb8-6b0ca311b21e"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "5c03426b-dc10-4f80-9cf7-7fe0dd195624": {
+    "metrics": {
+      "amount": {
+        "count": 1824,
+        "sum": -9394.606041932433,
+        "avg": -5.150551558076992,
+        "min": -15.00292791706847,
+        "max": -1.866426105079789
+      }
+    },
+    "uniqueValues": {
+      "RackNumber": [
+        "1.0"
+      ],
+      "Floor": [
+        "B1"
+      ],
+      "data_centre_id": [
+        "5c03426b-dc10-4f80-9cf7-7fe0dd195624"
+      ],
+      "Location": []
+    }
+  },
+  "e554cd0c-2112-4522-8482-f91b4ee1cbed": {
+    "metrics": {
+      "amount": {
+        "count": 29640,
+        "sum": -1579.8100349852384,
+        "avg": -0.053299933703955416,
+        "min": -2.463492667841585,
+        "max": -0.0001344200115481144
+      }
+    },
+    "uniqueValues": {
+      "RackNumber": [
+        "1.0"
+      ],
+      "Floor": [
+        "Grd"
+      ],
+      "data_centre_id": [
+        "e554cd0c-2112-4522-8482-f91b4ee1cbed"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "7de7e379-600a-4d6c-b11b-df38f27a5a4e": {
+    "metrics": {
+      "amount": {
+        "count": 29640,
+        "sum": -1579.8100349852411,
+        "avg": -0.053299933703955506,
+        "min": -2.463492667841585,
+        "max": -0.0001344200115481144
+      }
+    },
+    "uniqueValues": {
+      "RackNumber": [
+        "1.0"
+      ],
+      "Floor": [
+        "Grd"
+      ],
+      "data_centre_id": [
+        "7de7e379-600a-4d6c-b11b-df38f27a5a4e"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "00ddb1de-3b97-4780-994b-4bf89bd766e9": {
+    "metrics": {
+      "amount": {
+        "count": 29640,
+        "sum": -1579.8100349852323,
+        "avg": -0.05329993370395521,
+        "min": -2.463492667841585,
+        "max": -0.0001344200115481144
+      }
+    },
+    "uniqueValues": {
+      "RackNumber": [
+        "1.0"
+      ],
+      "Floor": [
+        "Grd"
+      ],
+      "data_centre_id": [
+        "00ddb1de-3b97-4780-994b-4bf89bd766e9"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "978d45b6-f41a-4a98-bf5c-9daf25390d59": {
+    "metrics": {
+      "amount": {
+        "count": 1824,
+        "sum": -9394.606041932431,
+        "avg": -5.150551558076991,
+        "min": -15.00292791706847,
+        "max": -1.866426105079789
+      }
+    },
+    "uniqueValues": {
+      "RackNumber": [
+        "1.0"
+      ],
+      "Floor": [
+        "B1"
+      ],
+      "data_centre_id": [
+        "978d45b6-f41a-4a98-bf5c-9daf25390d59"
+      ],
+      "Location": []
+    }
+  },
+  "1aae8652-2c52-4833-9463-551dcbfe76b6": {
+    "metrics": {
+      "amount": {
+        "count": 29640,
+        "sum": -1579.8100349852298,
+        "avg": -0.053299933703955124,
+        "min": -2.463492667841585,
+        "max": -0.0001344200115481144
+      }
+    },
+    "uniqueValues": {
+      "RackNumber": [
+        "1.0"
+      ],
+      "Floor": [
+        "Grd"
+      ],
+      "data_centre_id": [
+        "1aae8652-2c52-4833-9463-551dcbfe76b6"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "1feb0c2b-5173-4e70-9208-fc5a44d0e37f": {
+    "metrics": {
+      "amount": {
+        "count": 2736,
+        "sum": -413.4784162706374,
+        "avg": -0.1511251521457008,
+        "min": -0.1511251521457017,
+        "max": -0.1511251521457017
+      }
+    },
+    "uniqueValues": {
+      "RackNumber": [
+        "1.0"
+      ],
+      "Floor": [
+        "Grd"
+      ],
+      "data_centre_id": [
+        "1feb0c2b-5173-4e70-9208-fc5a44d0e37f"
+      ],
+      "Location": []
+    }
+  },
+  "d8879a04-2095-484b-baeb-e9c862a2f474": {
+    "metrics": {
+      "amount": {
+        "count": 29640,
+        "sum": -1579.8100349852152,
+        "avg": -0.05329993370395463,
+        "min": -2.463492667841585,
+        "max": -0.0001344200115481144
+      }
+    },
+    "uniqueValues": {
+      "RackNumber": [
+        "1.0"
+      ],
+      "Floor": [
+        "Grd"
+      ],
+      "data_centre_id": [
+        "d8879a04-2095-484b-baeb-e9c862a2f474"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "613ef23f-6ced-4df4-a1a2-a55abe0b57d2": {
+    "metrics": {
+      "amount": {
+        "count": 29640,
+        "sum": -1579.810034985234,
+        "avg": -0.05329993370395527,
+        "min": -2.463492667841585,
+        "max": -0.0001344200115481144
+      }
+    },
+    "uniqueValues": {
+      "RackNumber": [
+        "1.0"
+      ],
+      "Floor": [
+        "Grd"
+      ],
+      "data_centre_id": [
+        "613ef23f-6ced-4df4-a1a2-a55abe0b57d2"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "5e57d1b8-9420-4283-bf35-6163c3bd224a": {
+    "metrics": {
+      "amount": {
+        "count": 29640,
+        "sum": -1579.8100349852368,
+        "avg": -0.05329993370395536,
+        "min": -2.463492667841585,
+        "max": -0.0001344200115481144
+      }
+    },
+    "uniqueValues": {
+      "RackNumber": [
+        "1.0"
+      ],
+      "Floor": [
+        "Grd"
+      ],
+      "data_centre_id": [
+        "5e57d1b8-9420-4283-bf35-6163c3bd224a"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "d2348ff1-b290-4539-963d-ef758d0e1e21": {
+    "metrics": {
+      "amount": {
+        "count": 29640,
+        "sum": -1579.8100349852239,
+        "avg": -0.05329993370395492,
+        "min": -2.463492667841585,
+        "max": -0.0001344200115481144
+      }
+    },
+    "uniqueValues": {
+      "RackNumber": [
+        "1.0"
+      ],
+      "Floor": [
+        "Grd"
+      ],
+      "data_centre_id": [
+        "d2348ff1-b290-4539-963d-ef758d0e1e21"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "e5d8875e-6aa1-4fca-bbae-e1439b67eed2": {
+    "metrics": {
+      "amount": {
+        "count": 29640,
+        "sum": -1579.8100349852448,
+        "avg": -0.053299933703955624,
+        "min": -2.463492667841585,
+        "max": -0.0001344200115481144
+      }
+    },
+    "uniqueValues": {
+      "RackNumber": [
+        "1.0"
+      ],
+      "Floor": [
+        "Grd"
+      ],
+      "data_centre_id": [
+        "e5d8875e-6aa1-4fca-bbae-e1439b67eed2"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "3c73560c-08b4-4074-9980-8b20686f97b8": {
+    "metrics": {
+      "amount": {
+        "count": 29640,
+        "sum": -1579.810034985236,
+        "avg": -0.053299933703955325,
+        "min": -2.463492667841585,
+        "max": -0.0001344200115481144
+      }
+    },
+    "uniqueValues": {
+      "RackNumber": [
+        "1.0"
+      ],
+      "Floor": [
+        "Grd"
+      ],
+      "data_centre_id": [
+        "3c73560c-08b4-4074-9980-8b20686f97b8"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "3842226e-7f4b-4cb0-af65-02897a26c33d": {
+    "metrics": {
+      "amount": {
+        "count": 29640,
+        "sum": -1579.8100349852407,
+        "avg": -0.05329993370395549,
+        "min": -2.463492667841585,
+        "max": -0.0001344200115481144
+      }
+    },
+    "uniqueValues": {
+      "RackNumber": [
+        "1.0"
+      ],
+      "Floor": [
+        "Grd"
+      ],
+      "data_centre_id": [
+        "3842226e-7f4b-4cb0-af65-02897a26c33d"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "e25c6ec1-cb2f-46eb-9671-773ba4203163": {
+    "metrics": {
+      "amount": {
+        "count": 29640,
+        "sum": -1579.8100349852482,
+        "avg": -0.05329993370395574,
+        "min": -2.463492667841585,
+        "max": -0.0001344200115481144
+      }
+    },
+    "uniqueValues": {
+      "RackNumber": [
+        "1.0"
+      ],
+      "Floor": [
+        "Grd"
+      ],
+      "data_centre_id": [
+        "e25c6ec1-cb2f-46eb-9671-773ba4203163"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "20511043-0b5c-46b9-b1c1-ffe1f220d5ee": {
+    "metrics": {
+      "amount": {
+        "count": 29640,
+        "sum": -1579.8100349852448,
+        "avg": -0.053299933703955624,
+        "min": -2.463492667841585,
+        "max": -0.0001344200115481144
+      }
+    },
+    "uniqueValues": {
+      "RackNumber": [
+        "1.0"
+      ],
+      "Floor": [
+        "Grd"
+      ],
+      "data_centre_id": [
+        "20511043-0b5c-46b9-b1c1-ffe1f220d5ee"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "1b870017-6858-4a79-871e-da5e3d293417": {
+    "metrics": {
+      "amount": {
+        "count": 29640,
+        "sum": -1579.810034985228,
+        "avg": -0.05329993370395506,
+        "min": -2.463492667841585,
+        "max": -0.0001344200115481144
+      }
+    },
+    "uniqueValues": {
+      "RackNumber": [
+        "1.0"
+      ],
+      "Floor": [
+        "Grd"
+      ],
+      "data_centre_id": [
+        "1b870017-6858-4a79-871e-da5e3d293417"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "196e8537-e8a2-46ac-9b2d-216f37194005": {
+    "metrics": {
+      "amount": {
+        "count": 29640,
+        "sum": -1579.8100349852248,
+        "avg": -0.05329993370395495,
+        "min": -2.463492667841585,
+        "max": -0.0001344200115481144
+      }
+    },
+    "uniqueValues": {
+      "RackNumber": [
+        "1.0"
+      ],
+      "Floor": [
+        "Grd"
+      ],
+      "data_centre_id": [
+        "196e8537-e8a2-46ac-9b2d-216f37194005"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "b9f69260-985f-46d1-922f-e85e27560d89": {
+    "metrics": {
+      "amount": {
+        "count": 29640,
+        "sum": -1579.8100349852311,
+        "avg": -0.053299933703955166,
+        "min": -2.463492667841585,
+        "max": -0.0001344200115481144
+      }
+    },
+    "uniqueValues": {
+      "RackNumber": [
+        "1.0"
+      ],
+      "Floor": [
+        "Grd"
+      ],
+      "data_centre_id": [
+        "b9f69260-985f-46d1-922f-e85e27560d89"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "1bf86b41-0fa9-450e-a0da-58a92ab74484": {
+    "metrics": {
+      "amount": {
+        "count": 29640,
+        "sum": -1579.8100349852418,
+        "avg": -0.05329993370395553,
+        "min": -2.463492667841585,
+        "max": -0.0001344200115481144
+      }
+    },
+    "uniqueValues": {
+      "RackNumber": [
+        "1.0"
+      ],
+      "Floor": [
+        "Grd"
+      ],
+      "data_centre_id": [
+        "1bf86b41-0fa9-450e-a0da-58a92ab74484"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "f04d60c3-0fc8-406c-82bb-3bda9a6450d8": {
+    "metrics": {
+      "amount": {
+        "count": 29640,
+        "sum": -1579.8100349852318,
+        "avg": -0.05329993370395519,
+        "min": -2.463492667841585,
+        "max": -0.0001344200115481144
+      }
+    },
+    "uniqueValues": {
+      "RackNumber": [
+        "1.0"
+      ],
+      "Floor": [
+        "Grd"
+      ],
+      "data_centre_id": [
+        "f04d60c3-0fc8-406c-82bb-3bda9a6450d8"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "14a4c274-70d9-4197-843e-bde955aa6a68": {
+    "metrics": {
+      "amount": {
+        "count": 29640,
+        "sum": -1579.8100349852348,
+        "avg": -0.05329993370395529,
+        "min": -2.463492667841585,
+        "max": -0.0001344200115481144
+      }
+    },
+    "uniqueValues": {
+      "RackNumber": [
+        "1.0"
+      ],
+      "Floor": [
+        "Grd"
+      ],
+      "data_centre_id": [
+        "14a4c274-70d9-4197-843e-bde955aa6a68"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "48b505f1-974c-4fbc-8b7c-fbbcf5444a7e": {
+    "metrics": {
+      "amount": {
+        "count": 29640,
+        "sum": -1579.8100349852166,
+        "avg": -0.05329993370395467,
+        "min": -2.463492667841585,
+        "max": -0.0001344200115481144
+      }
+    },
+    "uniqueValues": {
+      "RackNumber": [
+        "1.0"
+      ],
+      "Floor": [
+        "Grd"
+      ],
+      "data_centre_id": [
+        "48b505f1-974c-4fbc-8b7c-fbbcf5444a7e"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "18f8dd08-6857-46c3-a5df-64ef589b7914": {
+    "metrics": {
+      "amount": {
+        "count": 29640,
+        "sum": -1579.8100349852546,
+        "avg": -0.05329993370395596,
+        "min": -2.463492667841585,
+        "max": -0.0001344200115481144
+      }
+    },
+    "uniqueValues": {
+      "RackNumber": [
+        "1.0"
+      ],
+      "Floor": [
+        "Grd"
+      ],
+      "data_centre_id": [
+        "18f8dd08-6857-46c3-a5df-64ef589b7914"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "618be93e-4bf2-42bd-a16f-0d312247799c": {
+    "metrics": {
+      "amount": {
+        "count": 29640,
+        "sum": -1579.8100349852496,
+        "avg": -0.05329993370395579,
+        "min": -2.463492667841585,
+        "max": -0.0001344200115481144
+      }
+    },
+    "uniqueValues": {
+      "RackNumber": [
+        "1.0"
+      ],
+      "Floor": [
+        "Grd"
+      ],
+      "data_centre_id": [
+        "618be93e-4bf2-42bd-a16f-0d312247799c"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "5fd3782e-003c-49fe-8a89-355cae660465": {
+    "metrics": {
+      "amount": {
+        "count": 29640,
+        "sum": -1579.8100349852336,
+        "avg": -0.05329993370395525,
+        "min": -2.463492667841585,
+        "max": -0.0001344200115481144
+      }
+    },
+    "uniqueValues": {
+      "RackNumber": [
+        "1.0"
+      ],
+      "Floor": [
+        "Grd"
+      ],
+      "data_centre_id": [
+        "5fd3782e-003c-49fe-8a89-355cae660465"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "5b13dcf0-8acf-4f3c-bfb7-fe542222a3ec": {
+    "metrics": {
+      "amount": {
+        "count": 29640,
+        "sum": -1579.8100349852289,
+        "avg": -0.05329993370395509,
+        "min": -2.463492667841585,
+        "max": -0.0001344200115481144
+      }
+    },
+    "uniqueValues": {
+      "RackNumber": [
+        "1.0"
+      ],
+      "Floor": [
+        "Grd"
+      ],
+      "data_centre_id": [
+        "5b13dcf0-8acf-4f3c-bfb7-fe542222a3ec"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "fa5d20e4-7298-4359-a648-7503ee8d4bce": {
+    "metrics": {
+      "amount": {
+        "count": 29640,
+        "sum": -1579.810034985234,
+        "avg": -0.05329993370395527,
+        "min": -2.463492667841585,
+        "max": -0.0001344200115481144
+      }
+    },
+    "uniqueValues": {
+      "RackNumber": [
+        "1.0"
+      ],
+      "Floor": [
+        "Grd"
+      ],
+      "data_centre_id": [
+        "fa5d20e4-7298-4359-a648-7503ee8d4bce"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "eea4fc10-dfdd-45ff-942f-2201ab85d3cf": {
+    "metrics": {
+      "amount": {
+        "count": 29640,
+        "sum": -1579.8100349852411,
+        "avg": -0.053299933703955506,
+        "min": -2.463492667841585,
+        "max": -0.0001344200115481144
+      }
+    },
+    "uniqueValues": {
+      "RackNumber": [
+        "1.0"
+      ],
+      "Floor": [
+        "Grd"
+      ],
+      "data_centre_id": [
+        "eea4fc10-dfdd-45ff-942f-2201ab85d3cf"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  }
+}

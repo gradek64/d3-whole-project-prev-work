@@ -1,0 +1,111 @@
+/**
+ * Created by Sergiu Ghenciu on 08/12/2017
+ */
+@import '../../vars';
+
+//nav,
+//nav .nav-wrapper i,
+//nav a.button-collapse,
+//nav a.button-collapse i {
+//  height: 40px;
+//  line-height: 40px;
+//}
+header {
+  nav,
+  nav .nav-wrapper i,
+  nav a.button-collapse,
+  nav a.button-collapse i {
+    height: $header-height;
+    line-height: $header-height;
+  }
+
+  .dropdown-content li > a > i {
+    height: inherit;
+    line-height: inherit;
+  }
+}
+header {
+  .container {
+    max-width: initial;
+    width: 100%;
+    padding-right: $gutter-width / 2;
+    padding-left: $gutter-width / 2;
+  }
+
+  nav {
+    a.button-collapse {
+      display: block;
+      font-size: 1.4rem;
+      margin-left: 0;
+    }
+    ul {
+      a {
+        &:after {
+          content: '';
+          display: block;
+          clear: both;
+        }
+
+        i.left {
+          margin-right: 0;
+        }
+
+        i + span {
+          margin-left: 15px;
+        }
+      }
+    }
+    ul.right {
+      height: 100%;
+    }
+  }
+}
+header {
+  .right {
+    .dropdown-button {
+      white-space: nowrap;
+    }
+  }
+  /* output-selection */
+  .left {
+    height: 100%;
+    form {
+      width: auto;
+      padding: 5px 15px;
+      min-width: 300px;
+    }
+
+    .dropdown-button {
+      padding: 0 15px;
+      font-size: 18px;
+      > * {
+        float: left;
+      }
+      i {
+        width: 20px;
+      }
+    }
+
+    .dropdown-content {
+      h4 {
+        font-size: 18px;
+        color: #555;
+        margin-top: 10px;
+        margin-bottom: 20px;
+      }
+      label {
+        top: -26px;
+      }
+    }
+    .output-name {
+      white-space: nowrap;
+      max-width: 210px;
+      text-overflow: ellipsis;
+      display: inline-block;
+      overflow: hidden;
+    }
+  }
+}
+#output-selection {
+  overflow-y: visible;
+}

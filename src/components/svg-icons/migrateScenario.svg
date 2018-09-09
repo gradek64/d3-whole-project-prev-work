@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" viewBox="0 0 55 55">
+  <g transform="translate(0,31)">
+    <rect height="47" width="47" y="-1" x="-1" style="fill:none"></rect>
+  </g>
+  <g transform="matrix(2.7689988,0,0,2.7689988,-1.1507178,-7.675602)">
+    <path d="m 14.253763,12.080103 h 1.211052 L 11.71377,5.5837061 7.9626909,12.080103 h 1.2994837 c 8.25e-4,1.762835 -0.149839,4.857614 -1.2176037,4.857614 -1.4919185,0 -2.2878169,-3.232135 -2.2878169,-3.232135 H 4.6128586 c 0,0 -0.248094,7.260572 5.2716357,7.260572 4.3365237,0 4.4994787,-6.218406 4.3692687,-8.886051 z" fill-opacity="null" inkscape:connector-curvature="0" style="fill:none;stroke:{{::opts.color}};stroke-width:0.18057068;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"></path>
+  </g>
+</svg>

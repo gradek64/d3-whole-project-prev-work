@@ -1,0 +1,53 @@
+/**
+ * Created by Sergiu Ghenciu on 08/12/2017
+ */
+
+.notifications h5 {
+  margin-top: 1.2rem;
+}
+
+.modal-right-see.modal {
+  width: 100%;
+  min-height: 100%;
+  max-width: none;
+  background-color: #fff;
+  border-radius: 0;
+
+  .scroll {
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+  .container {
+    width: 100%;
+  }
+  &.open.anchored {
+    top: 0;
+  }
+  .close {
+    top: 19px;
+    right: 5px;
+  }
+}
+
+@media (min-width: 768px) {
+  .modal-right-see.modal {
+    position: fixed;
+    right: -290px;
+    top: 0 !important;
+    left: auto;
+    width: 290px;
+    height: 100%;
+    display: block;
+    opacity: 1;
+    .scroll {
+      //height: calc(100% - 64px);
+      //margin-top: 64px;
+      overflow-y: auto;
+      overflow-x: hidden;
+    }
+    .close {
+      top: 12px;
+    }
+  }
+}

@@ -1,0 +1,254 @@
+<app-header logo="{title:'CostLens Admin',href:'#!/cost-models'}"></app-header>
+<side-nav></side-nav>
+<div class="content">
+  <breadcrumbs items="breadcrumbs"></breadcrumbs>
+
+  <div class="container">
+    <div class="section" st-pipe="onGetAll" st-table="items">
+      <br>
+      <div style="position: relative">
+        <div class="row">
+          <div class="col s12 flex valign-center">
+            <h1 class="stretch">File Management for <span>{{costpot.name || 'loading...'}}</span></h1>
+            <div class="main-actions">
+              <button class="btn" ng-click="emit('CLICK_ON_UPLOAD_FILE')">Upload New</button>
+            </div>
+          </div>
+        </div>
+        <table class="bordered">
+          <thead>
+            <tr>
+              <th>
+                <span>Type of File</span>
+              </th>
+              <th>
+                <span>Title</span>
+              </th>
+              <th>
+                <span>Status</span>
+              </th>
+              <th>
+                <span>Active</span>
+              </th>
+              <th>
+                <span>Author</span>
+              </th>
+              <th>
+                <span>Upload Date</span>
+              </th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr ng-if="errorOrNoData">
+              <td colspan="7" class="center-align">{{errorOrNoData}}</td>
+            </tr>
+            <tr ng-if="items" data-ng-repeat="row in items track by $index">
+              <td>{{row.fileTypeName}}</td>
+              <td style="max-width: 400px;"><span class="truncate">{{row.fileName}}</span>
+              </td>
+              <td>{{row.status}}</td>
+              <td>{{row.active}}</td>
+              <td>{{row.createdBy}}</td>
+              <td>{{row.creationDate | date : 'dd/MM/yy HH:mm'}}</td>
+              <td class="actions">
+                <dropdown-menu class-name="btn-flat" icon="more_vert" alignment="right" items="getActions(row)"
+                callback="callbackFactory(row)"></dropdown-menu>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <loading data-ng-show="isLoading"></loading>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- upload-file modal -->
+<div data-modal="{showOn: 'CLICK_ON_UPLOAD_FILE', hideOn: ['CLICK_ON_CANCEL_UPLOAD_FILE', 'FILE_UPLOADED'],
+                closeButton: false, freeze: uploading}" class="create">
+  <form name="form1" ng-submit="onSubmit(formObj1,'upload'); $event.preventDefault();">
+    <div class="modal-content">
+      <h4 style="">Upload File</h4>
+      <div data-ng-show="error" class="card-panel red lighten-2 z-depth-0">
+        <span class="white-text">{{error}}</span>
+      </div>
+      <div class="f-body">
+        <div class="input-field">
+          <dropdown-select text="Please select" label="File Type" name="fileType" ng-model="formObj1.fileType"
+          class-name="{invalid: (form1.$submitted && !formObj1.fileType),
+                                            valid: (form1.$submitted && formObj1.fileType)}"
+          items="fileTypeItems" reset-factory="dropdownResetFactory('resetTemplate')"></dropdown-select>
+        </div>
+        <!-- todo: ng-model on div.file-field is confusing. move it down onto input[type=file] -->
+        <div class="file-field input-field" ng-model="formObj1.files">
+          <div class="btn">
+            <span>File</span>
+            <input type="file" id="file-input" name="fileInput6180">
+          </div>
+          <div class="file-path-wrapper">
+            <input class="file-path" type="text" name="fileName" ng-model="formObj1.fileName"
+            ng-class="{invalid: (form1.$submitted && !formObj1.fileName),
+                                    valid: (form1.$submitted && formObj1.fileName)}">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button type="submit" class="create btn waves-effect waves-light">Upload</button>
+      <a href="#!" ng-click="emit('CLICK_ON_CANCEL_UPLOAD_FILE'); $event.preventDefault();"
+      class="cancel btn-flat waves-effect waves-red">Cancel</a>
+    </div>
+  </form>
+  <loading data-ng-show="uploading"></loading>
+</div>
+<!-- end: upload-file modal -->
+
+<!-- confirm set Acttive file -->
+<div data-modal="{showOn: 'CONFIRM_SET_FILE_ACTIVE', hideOn: ['CLICK_ON_CANCEL_SET_FILE_ACTIVE', 'FILE_UPDATED'],
+                closeButton: false, freeze: updating}" class="confirmation">
+  <form ng-submit="onSubmit(focused, 'setActive'); $event.preventDefault();">
+    <div class="modal-content">
+      <h4>Set Active</h4>
+      <div class="f-body">
+        <p class="center-align">
+          Are you sure you want to set this file as Active?
+          <br>Any other files of this file type will no longer be Active.
+        </p>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button type="submit" class="btn waves-effect waves-light">Confirm</button>
+      <a href="#!" ng-click="emit('CLICK_ON_CANCEL_SET_FILE_ACTIVE'); $event.preventDefault();"
+      class="btn-flat waves-effect waves-red">Cancel</a>
+    </div>
+  </form>
+  <loading data-ng-show="updating"></loading>
+</div>
+<!-- end: confirm set Acttive file -->
+
+<!-- CDM mapping modal -->
+<div data-modal="{showOn: 'CLICK_ON_CDM_MAPPING', hideOn: ['CLICK_ON_CANCEL_CDM_MAPPING', 'FILE_UPDATED'],
+                closeButton: false, freeze: mapping}" class="mapping">
+  <form name="form2" ng-submit="onSubmit(formObj,'mapping'); $event.preventDefault();">
+    <div class="modal-content">
+      <h4 style="">File Mapping</h4>
+      <div data-ng-show="error" class="card-panel red lighten-2 z-depth-0">
+        <span class="white-text">{{error}}</span>
+      </div>
+      <div class="f-body">
+        <div class="row">
+          <div class="col s6"><b>CDM Property</b>
+          </div>
+          <div class="col s6"><b>Heading</b>
+          </div>
+        </div>
+        <div class="row no-margin-bottom flex valign-center" ng-repeat="item in cdmItems track by $index">
+          <div class="col s6">{{item.name}}<span ng-if="!item.mandatory"> (optional)</span>
+          </div>
+          <div class="col s6">
+            <div class="input-field no-label">
+              <dropdown-select text="Please select" label="label" name="$index" ng-model="formObj[$index]"
+              class-name="{invalid: (item.mandatory && form2.$submitted && !formObj[$index]),
+                                            valid: (form2.$submitted && formObj[$index])}"
+              items="getCdmActions(item)"></dropdown-select>
+            </div>
+          </div>
+        </div>
+
+        <div class="input-field">
+
+        </div>
+
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button type="submit" class="create btn waves-effect waves-light">Save</button>
+      <a href="#!" ng-click="emit('CLICK_ON_CANCEL_CDM_MAPPING'); $event.preventDefault();"
+      class="cancel btn-flat waves-effect waves-red">Cancel</a>
+    </div>
+  </form>
+  <loading data-ng-show="mapping"></loading>
+</div>
+<!-- end: CDM mapping modal -->
+
+<!-- CDM mapping modal ratio file -->
+<div data-modal="{showOn: 'CLICK_ON_CDM_MAPPING_RATIO', hideOn: ['CLICK_ON_CANCEL_CDM_MAPPING_RATIO', 'FILE_UPDATED'],
+                closeButton: false, freeze: mapping}" class="mapping">
+  <form name="form3" ng-submit="onSubmit(formObj3,'mappingRatio'); $event.preventDefault();">
+    <div class="modal-content">
+      <h4 style="">File Mapping</h4>
+      <div data-ng-show="error" class="card-panel red lighten-2 z-depth-0">
+        <span class="white-text">{{error}}</span>
+      </div>
+      <div class="f-body">
+        <div class="row">
+          <div class="col s4"><b>CDM Property</b>
+          </div>
+          <div class="col s4"><b>Heading</b>
+          </div>
+          <div class="col s4"><b>Reference</b>
+          </div>
+        </div>
+        <div class="row no-margin-bottom flex valign-center" ng-repeat="item in cdmItems track by $index">
+          <div class="col s4">{{item.name}}<span ng-if="!item.mandatory"> (optional)</span>
+          </div>
+          <div class="col s4">
+            <div class="input-field no-label">
+              <dropdown-select text="Please select" label="label" name="$index" ng-model="formObj3.mapping[$index]"
+              class-name="{invalid: (item.mandatory && form3.$submitted && !formObj3.mapping[$index]),
+                                            valid: (form3.$submitted && formObj3.mapping[$index])}"
+              items="getCdmActions(item)"></dropdown-select>
+            </div>
+          </div>
+          <div class="col s4">
+            <div class="input-field no-label" ng-if="item.name!=='Ratio'">
+              <dropdown-select disabled="!formObj3.mapping[$index]" text="Please select" label="Match By Column Name"
+              ng-model="formObj3.fileRatio[$index]" class-name="{invalid: (form3.$submitted && formObj3.mapping[$index] && !formObj3.fileRatio[$index]),
+                                            valid: (formObj3.mapping[$index] && form3.$submitted && formObj3.fileRatio[$index])}"
+              items="getReferences(item)" label="label" reset-factory="dropdownResetFactory('resetMatch')"></dropdown-select>
+            </div>
+          </div>
+        </div>
+
+        <div class="input-field">
+
+        </div>
+
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button type="submit" class="create btn waves-effect waves-light">Save</button>
+      <a href="#!" ng-click="emit('CLICK_ON_CANCEL_CDM_MAPPING_RATIO'); $event.preventDefault();"
+      class="cancel btn-flat waves-effect waves-red">Cancel</a>
+    </div>
+  </form>
+  <loading data-ng-show="mapping"></loading>
+</div>
+<!-- end: CDM mapping modal -->
+
+<!-- confirm delete file modal -->
+<div data-modal="{showOn: 'CONFIRM_DELETE_FILE', hideOn: ['CLICK_ON_CANCEL_DELETE_FILE', 'FILE_DELETED'],
+                closeButton: false, freeze: deleting}" class="confirmation">
+  <form ng-submit="onSubmit(focused, 'delete'); $event.preventDefault();">
+    <div class="modal-content">
+      <h4>Delete Cost Model</h4>
+      <div class="f-body">
+        <p class="center-align">
+          Do you want to delete {{focused.fileName}}?
+        </p>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button type="submit" class="btn waves-effect waves-light">Confirm</button>
+      <a href="#!" ng-click="emit('CLICK_ON_CANCEL_DELETE_FILE'); $event.preventDefault();"
+      class="btn-flat waves-effect waves-red">Cancel</a>
+    </div>
+  </form>
+  <loading data-ng-show="deleting"></loading>
+</div>
+<!-- end: confirm delete file modal -->
+
+<notifications></notifications>
+<app-footer></app-footer>
+<login-form></login-form>

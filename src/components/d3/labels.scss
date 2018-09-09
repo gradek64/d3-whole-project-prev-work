@@ -1,0 +1,25 @@
+/**
+ * Created by Sergiu Ghenciu on 07/03/2018
+ */
+
+@import '../../vars';
+
+.chart {
+  .labelLine {
+    fill: none;
+  }
+
+  @media (max-width: 800px) {
+    .labelText,
+    .labelLine {
+      display: none;
+    }
+  }
+}
+
+.hide-labels .chart {
+  .labelText,
+  .labelLine {
+    display: none;
+  }
+}

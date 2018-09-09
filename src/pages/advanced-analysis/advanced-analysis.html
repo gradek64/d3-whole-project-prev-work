@@ -1,0 +1,86 @@
+<app-header opts="{showOutput: true}"></app-header>
+<side-nav></side-nav>
+<top-nav-map opts="{page: 'advanced-analysis'}"></top-nav-map>
+<div class="content">
+  <!--<span ng-init="formObj = {level: {}}; output = {}"></span>-->
+  <div class="container" ng-if="output">
+    <h1>Power Mode</h1>
+
+    <!--<div class="input-field no-label">-->
+    <!--<multiple-select items="[{label:'a', checked:true}, {label:'ab'}, {label:'abc'}]"-->
+    <!--filter="true"-->
+    <!--reset-factory="dropdownResetFactory('multi')"></multiple-select>-->
+    <!--</div>-->
+
+    <form name="form" ng-submit="onSubmit(formObj)">
+      <div class="section level">
+        <div class="row">
+          <div class="col s12">
+            <b>Level:</b>
+            <div class="input-field no-label inline">
+              <dropdown-select text="Please select" ng-model="formObj.level" items="levelItems"
+              class-name="{invalid: (form.$submitted && !formObj.level)}" reset-factory="dropdownResetFactory('level')"></dropdown-select>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section filters">
+        <div class="row header">
+          <div class="col s3"><b>Select Group By:</b>
+          </div>
+          <div class="col s5"><b>Select Filter Name:</b>
+          </div>
+          <div class="col s3"><b>Enter Filter Value:</b>
+          </div>
+          <div class="col s1"></div>
+        </div>
+        <div class="row filter" ng-repeat="filter in formObj.filters">
+
+          <span class="operand" ng-if="$index > 0">AND</span>
+
+          <div class="col s3">
+            <div class="input-field no-label">
+              <dropdown-select text="Please select" ng-model="formObj.filters[$index].groupBy"
+              items="groupByItems" reset-factory="dropdownResetFactory('groupBy')"></dropdown-select>
+            </div>
+          </div>
+          <div class="col s5">
+            <div class="input-field no-label">
+              <dropdown-select text="Please select" ng-model="formObj.filters[$index].filter" items="groupByItems"></dropdown-select>
+            </div>
+          </div>
+          <div class="col s3">
+            <div class="input-field">
+              <input id="fv63{{$index}}" type="text" ng-model="formObj.filters[$index].value">
+              <label for="fv63{{$index}}" ng-class="{active: formObj.filters[$index].value}">Filter Value</label>
+            </div>
+          </div>
+
+          <div class="col s1">
+            <a class="btn waves-effect" ng-click="onRemoveFilter($index)"><i class="material-icons">remove</i></a>
+          </div>
+
+        </div>
+        <div class="row">
+          <div class="col s12">
+            <a class="btn waves-effect" ng-click="onAddFilter()" ng-disabled="formObj.filters.length >= 5"><i class="material-icons">add</i>
+            </a>
+            <button class="btn waves-effect" type="submit">Update</button>
+          </div>
+        </div>
+      </div>
+    </form>
+
+    <div class="row">
+      <div data-chart data-opts="opts" data-data="data" data-accessor="accessor" data-render-factory="renderFactory('r3')"
+      data-on-change-type="onChangeType"></div>
+    </div>
+  </div>
+
+  <div class="container no-output" ng-if="!output">
+    <h1>Please select primary output</h1>
+  </div>
+</div>
+<notifications></notifications>
+<app-footer></app-footer>
+<login-form></login-form>

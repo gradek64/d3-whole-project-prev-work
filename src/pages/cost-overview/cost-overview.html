@@ -1,0 +1,29 @@
+<app-header opts="{showOutput: true}"></app-header>
+<side-nav></side-nav>
+<top-nav-map opts="{page: page}"></top-nav-map>
+<reports-menu items="navs" toggle-state="isVariance" toggle-callback="toggleCallback"
+total-label="'Total cost of IT Department'" total="total"></reports-menu>
+<!--<div class="content" ng-init="output = true; levels = true;">-->
+<div class="content" ng-class="[componentId, {'variance': isVariance}]">
+  <div class="container no-output" ng-if="!output1">
+    <h1>Please select primary output</h1>
+  </div>
+  <div class="container no-output" ng-if="output1 && isVariance && !output2">
+    <h1>Please select secondary output</h1>
+  </div>
+  <div class="container" ng-if="!isVariance && output1 && levels1 && componentId">
+    <div data-chart-drilldown data-page="page" data-component-id="componentId" data-output="output1"
+    data-levels="levels1"></div>
+  </div>
+  <div class="container" ng-if="isVariance && output1 && levels1 && output2 && levels2 && componentId">
+    <!-- <div ng-if="!useV2(componentId)" data-chart-drilldown-variance data-page="page" data-component-id="componentId"
+    data-output1="output1" data-levels1="levels1" data-output2="output2" data-levels2="levels2"></div>
+
+    <div ng-if="useV2(componentId)" data-chart-drilldown-variance-v2 data-page="page"
+    data-nav="componentId" data-output1="output1" data-levels1="levels1" data-output2="output2"
+    data-levels2="levels2"></div> -->
+  </div>
+</div>
+<notifications></notifications>
+<app-footer></app-footer>
+<login-form></login-form>

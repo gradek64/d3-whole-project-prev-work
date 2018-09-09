@@ -1,0 +1,21 @@
+<app-header opts="{showOutput: true}"></app-header>
+<top-nav-map opts="{page: pageName}"></top-nav-map>
+<side-nav></side-nav>
+<breadcrumbs ng-if="page.breadcrumbs" items="page.breadcrumbs"></breadcrumbs>
+<div class="content">
+  <div class="container app">
+    <div class="heading">
+      <h1 class="center-align">{{page.title}}</h1>
+      <div class="divider"></div>
+    </div>
+    <div class="body">
+      <div class="items-3" data-ng-repeat="item in page.items track by $index">
+        <lp-card item="item"></lp-card>
+      </div>
+
+    </div>
+  </div>
+</div>
+<notifications></notifications>
+<app-footer></app-footer>
+<login-form></login-form>

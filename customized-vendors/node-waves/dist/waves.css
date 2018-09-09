@@ -1,0 +1,171 @@
+/*!
+ * Waves v0.7.5
+ * http://fian.my.id/Waves 
+ * 
+ * Copyright 2014-2016 Alfiana E. Sibuea and other contributors 
+ * Released under the MIT license 
+ * https://github.com/fians/Waves/blob/master/LICENSE 
+ */
+.waves-effect {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    z-index: 1;
+}
+
+.waves-effect .waves-ripple {
+    position: absolute;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-top: -35px;
+    margin-left: -35px;
+    opacity: 0;
+
+    background-color: rgba(0, 0, 0, 0.2);
+    /*background: radial-gradient(rgba(0, 0, 0, 0.2) 0, rgba(0, 0, 0, 0.3) 40%, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0.5) 60%, rgba(255, 255, 255, 0) 70%);*/
+    transition: all 0.5s ease-out;
+    transition-property: transform, opacity;
+    transform: scale(0) translate(0, 0);
+    pointer-events: none;
+}
+
+.waves-effect.waves-light .waves-ripple {
+    background-color: rgba(255, 255, 255, 0.4);
+    /*background: radial-gradient(rgba(255, 255, 255, 0.2) 0, rgba(255, 255, 255, 0.3) 40%, rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0.5) 60%, rgba(255, 255, 255, 0) 70%);*/
+}
+
+.waves-effect.waves-classic .waves-ripple {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.waves-effect.waves-classic.waves-light .waves-ripple {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.waves-notransition {
+    transition: none !important;
+}
+
+.waves-button,
+.waves-circle {
+    transform: translateZ(0);
+    -webkit-mask-image: -webkit-radial-gradient(circle, #ffffff 100%, #000000 100%);
+}
+
+.waves-button,
+.waves-button:hover,
+.waves-button:visited,
+.waves-button-input {
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: inherit;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 1em;
+    line-height: 1em;
+    text-align: center;
+    text-decoration: none;
+    z-index: 1;
+}
+
+.waves-button {
+    padding: 0.85em 1.1em;
+    border-radius: 0.2em;
+}
+
+.waves-button-input {
+    margin: 0;
+    padding: 0.85em 1.1em;
+}
+
+.waves-input-wrapper {
+    border-radius: 0.2em;
+    vertical-align: bottom;
+}
+
+.waves-input-wrapper.waves-button {
+    padding: 0;
+}
+
+.waves-input-wrapper .waves-button-input {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.waves-circle {
+    text-align: center;
+    width: 2.5em;
+    height: 2.5em;
+    line-height: 2.5em;
+    border-radius: 50%;
+}
+
+.waves-float {
+    -webkit-mask-image: none;
+    box-shadow: 0 1px 1.5px 1px rgba(0, 0, 0, 0.12);
+    transition: all 300ms;
+}
+
+.waves-float:active {
+    box-shadow: 0 8px 20px 1px rgba(0, 0, 0, 0.3);
+}
+
+.waves-block {
+    display: block;
+}
+
+/* Waves Colors */
+.waves-effect.waves-light .waves-ripple {
+    background-color: rgba(255, 255, 255, 0.45);
+}
+
+.waves-effect.waves-red .waves-ripple {
+    background-color: rgba(244, 67, 54, .70);
+}
+
+.waves-effect.waves-yellow .waves-ripple {
+    background-color: rgba(255, 235, 59, .70);
+}
+
+.waves-effect.waves-orange .waves-ripple {
+    background-color: rgba(255, 152, 0, .70);
+}
+
+.waves-effect.waves-purple .waves-ripple {
+    background-color: rgba(156, 39, 176, 0.70);
+}
+
+.waves-effect.waves-green .waves-ripple {
+    background-color: rgba(76, 175, 80, 0.70);
+}
+
+.waves-effect.waves-teal .waves-ripple {
+    background-color: rgba(0, 150, 136, 0.70);
+}
+
+/* Style input button bug. */
+.waves-effect input[type="button"], input[type="reset"], input[type="submit"] {
+    border: 0;
+    font-style: normal;
+    font-size: inherit;
+    text-transform: inherit;
+    background: none;
+}
+
+.waves-effect img {
+    position: relative;
+    z-index: -1;
+}
+
+/* Firefox Bug: link not triggered */
+.waves-effect .waves-ripple {
+    z-index: -1;
+}

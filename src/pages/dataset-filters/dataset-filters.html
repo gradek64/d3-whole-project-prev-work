@@ -1,0 +1,392 @@
+<app-header logo="{title:'CostLens Admin',href:'#!/cost-models'}"></app-header>
+<side-nav></side-nav>
+<div class="content">
+  <breadcrumbs items="breadcrumbs"></breadcrumbs>
+
+  <div class="container">
+    <div class="section" st-pipe="onGetAll" st-table="items">
+      <br>
+      <div style="position: relative">
+        <div class="row">
+          <div class="col s12 flex valign-center">
+            <h1 class="stretch">Dataset Filters for <span>{{costpot.name || 'loading...'}}</span></h1>
+            <div class="main-actions">
+              <button class="btn" ng-click="onCreate()">Create New</button>
+            </div>
+          </div>
+        </div>
+        <table class="bordered" ng-init="sortIndex=1" data-sort-focus="{{sortIndex}}">
+          <thead>
+            <tr>
+              <th st-sort="name" ng-click="sortIndex=1" st-sort-default="true">
+                <span class="sorting"><span>Dataset Filter Name</span><i></i>
+                </span>
+              </th>
+              <th>
+                <span><span>Target CostPot</span><i></i>
+                </span>
+              </th>
+              <th st-sort="createdBy" ng-click="sortIndex=3">
+                <span class="sorting"><span>Author</span><i></i>
+                </span>
+              </th>
+              <th st-sort="creationDate" ng-click="sortIndex=4">
+                <span class="sorting"><span>Date</span><i></i>
+                </span>
+              </th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr ng-if="errorOrNoData">
+              <td colspan="7" class="center-align">{{errorOrNoData}}</td>
+            </tr>
+            <tr ng-if="items" data-ng-repeat="row in items track by $index">
+              <td style="max-width: 400px;"><span class="truncate">{{row.name}}</span>
+              </td>
+              <td style="max-width: 400px;"><span class="truncate">{{findCostpot(row.targetCostpotId)['name']}}</span>
+              </td>
+              <td>{{row.createdBy}}</td>
+              <td>{{row.creationDate | date : 'dd/MM/yy HH:mm'}}</td>
+              <td class="actions">
+                <dropdown-menu class-name="btn-flat" icon="more_vert" alignment="right" items="getActions(row)"
+                callback="callbackFactory(row)"></dropdown-menu>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <loading data-ng-show="isLoading"></loading>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- create modal -->
+<!--<div ng-include="'pages/dataset-filters/creating-form.html'"></div>-->
+<div data-modal="{showOn: 'CLICK_ON_CREATE_FILTER', hideOn: ['CLICK_ON_CANCEL_CREATE_FILTER', 'FILTER_CREATED'],
+                closeButton: false, freeze: creating}" class="create">
+  <form name="form1" ng-submit="onSubmit(formObj, action); $event.preventDefault();">
+    <div class="modal-content">
+      <h4 ng-if="action === 'create'">Create Dataset Filter for <span>{{costpot.name}}</span></h4>
+      <h4 ng-if="action === 'view'">View Dataset Filter for <span>{{costpot.name}}</span></h4>
+      <div data-ng-show="error" class="card-panel red lighten-2 z-depth-0">
+        <span class="white-text">{{error}}</span>
+      </div>
+      <div class="f-body">
+        <div class="overlay" ng-show="action === 'view'"></div>
+
+        <div class="section">
+          <div class="input-field">
+            <input id="name" type="text" ng-model="formObj.name" ng-class="{invalid: (form1.$submitted && !formObj.name),
+                                valid: (form1.$submitted && formObj.name)}">
+            <label for="name" ng-class="{active: formObj.name}">Dataset Filter Name</label>
+          </div>
+          <div class="input-field">
+            <dropdown-select text="Please select" label="Target CostPot" ng-model="formObj.target"
+            class-name="{invalid: (form1.$submitted && !formObj.target),
+                                        valid: (form1.$submitted && formObj.target)}"
+            items="targetItems" callback="callbackFactory()" reset-factory="dropdownResetFactory('resetTarget')"></dropdown-select>
+          </div>
+          <div class="flex hspace-evenly">
+            <div>
+              <p>
+                <input name="type" type="radio" id="t1" value="none" ng-model="formObj.section">
+                <label for="t1">None</label>
+              </p>
+            </div>
+            <div>
+              <p>
+                <input name="type" type="radio" id="t2" value="match" ng-model="formObj.section">
+                <label for="t2">Match by</label>
+              </p>
+            </div>
+            <div>
+              <p>
+                <input name="type" type="radio" id="t3" value="filter" ng-model="formObj.section">
+                <label for="t3">Filter by</label>
+              </p>
+            </div>
+            <div>
+              <p>
+                <input name="type" type="radio" id="t4" value="ratio" ng-model="formObj.section">
+                <label for="t4">Ratio File</label>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="section none" ng-show="formObj.section==='none'">
+          <div class="row">
+            <div class="col s12">
+              <p>
+                <input disabled checked="checked" id="ns261" type="checkbox">
+                <label for="ns261">No source filters</label>
+              </p>
+
+            </div>
+          </div>
+        </div>
+        <div class="section none" ng-show="formObj.section==='none'">
+          <div class="row">
+            <div class="col s12">
+              <p>
+                <input disabled checked="checked" id="nt261" type="checkbox">
+                <label for="nt261">No target filters</label>
+              </p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="section by-match" ng-show="formObj.section==='match'">
+          <!--<div class="center-align"><b>Match By: <br> Column Name 1</b></div>-->
+          <div class="input-field">
+            <dropdown-select text="Please select" label="Match By Column Name" ng-model="formObj.match"
+            class-name="{invalid: (form1.$submitted && !formObj.match),
+                                        valid: (form1.$submitted && formObj.match)}"
+            items="matchByItems" reset-factory="dropdownResetFactory('resetMatch')"></dropdown-select>
+          </div>
+          <div class="section by-filter" style="border-bottom: none;">
+            <div class="overlay" ng-show="formObj.noFilterMatch"></div>
+            <div class="row">
+              <div class="col s12">
+                <p>
+                  <input id="no-source-match" type="checkbox" ng-model="formObj.noFilterMatch">
+                  <label for="no-source-match">No source filters</label>
+                </p>
+
+              </div>
+            </div>
+
+            <div class="row header">
+              <div class="col s4"><b>Select Column Name:</b>
+              </div>
+              <div class="col s4"><b>Select Operand:</b>
+              </div>
+              <div class="col s4"><b>Enter Value:</b>
+              </div>
+            </div>
+            <div class="row filter" ng-repeat="n in [1,2,3] track by $index">
+
+              <span class="operand" ng-if="$index > 0">AND</span>
+
+              <div class="col s4">
+                <div class="input-field no-label">
+                  <!-- class-name="{invalid: ($index === 0 && !formObj.noFilterMatch && form1.$submitted && !formObj.settings[0].filters[$index].column),-->
+                  <dropdown-select text="Please select" ng-model="formObj.settings[0].filters[$index].column"
+                  class-name="{invalid: ($index === 0 && !formObj.noFilterMatch && form1.$submitted && !formObj.settings[0].filters[$index].column),
+                                            valid: (form1.$submitted && formObj.settings[0].filters[$index].column)}"
+                  items="sourceCdmItems" reset-factory="dropdownResetFactory('sourceColumnMatch')"></dropdown-select>
+                </div>
+              </div>
+              <div class="col s4">
+                <div class="input-field no-label">
+                  <dropdown-select text="Please select" ng-model="formObj.settings[0].filters[$index].condition"
+                  class-name="{invalid: (formObj.settings[0].filters[$index].column && form1.$submitted && !formObj.settings[0].filters[$index].condition),
+                                            valid: (form1.$submitted && formObj.settings[0].filters[$index].condition)}"
+                  items="operandItems" reset-factory="dropdownResetFactory('sourceOperandMatch')"></dropdown-select>
+                </div>
+              </div>
+              <div class="col s4">
+                <div class="input-field">
+                  <input id="sv462{{$index}}" type="text" ng-model="formObj.settings[0].filters[$index].value"
+                  ng-class="{invalid: (formObj.settings[0].filters[$index].column && form1.$submitted && !formObj.settings[0].filters[$index].value),
+                            valid: (form1.$submitted && formObj.settings[0].filters[$index].value)}">
+                  <label for="sv462{{$index}}" ng-class="{active: formObj.settings[0].filters[$index].value}">Dataset Filter Name</label>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="section by-filter" ng-show="formObj.section==='filter'">
+          <div class="overlay" ng-show="formObj.noSource"></div>
+          <div class="row">
+            <div class="col s12">
+              <p>
+                <input id="no-source" type="checkbox" ng-model="formObj.noSource">
+                <label for="no-source">No source filters</label>
+              </p>
+
+            </div>
+          </div>
+
+          <div class="row header">
+            <div class="col s4"><b>Select Column Name:</b>
+            </div>
+            <div class="col s4"><b>Select Operand:</b>
+            </div>
+            <div class="col s4"><b>Enter Value:</b>
+            </div>
+          </div>
+          <div class="row filter" ng-repeat="n in [1,2,3] track by $index">
+
+            <span class="operand" ng-if="$index > 0">AND</span>
+
+            <div class="col s4">
+              <div class="input-field no-label">
+                <dropdown-select text="Please select" ng-model="formObj.settings[0].filters[$index].column"
+                class-name="{invalid: ($index === 0 && !formObj.noSource && form1.$submitted && !formObj.settings[0].filters[$index].column),
+                                            valid: (form1.$submitted && formObj.settings[0].filters[$index].column)}"
+                items="sourceCdmItems" reset-factory="dropdownResetFactory('sourceColumn')"></dropdown-select>
+              </div>
+            </div>
+            <div class="col s4">
+              <div class="input-field no-label">
+                <dropdown-select text="Please select" ng-model="formObj.settings[0].filters[$index].condition"
+                class-name="{invalid: (formObj.settings[0].filters[$index].column && form1.$submitted && !formObj.settings[0].filters[$index].condition),
+                                            valid: (form1.$submitted && formObj.settings[0].filters[$index].condition)}"
+                items="operandItems" reset-factory="dropdownResetFactory('sourceOperand')"></dropdown-select>
+              </div>
+            </div>
+            <div class="col s4">
+              <div class="input-field">
+                <input id="sv62{{$index}}" type="text" ng-model="formObj.settings[0].filters[$index].value"
+                ng-class="{invalid: (formObj.settings[0].filters[$index].column && form1.$submitted && !formObj.settings[0].filters[$index].value),
+                            valid: (form1.$submitted && formObj.settings[0].filters[$index].value)}">
+                <label for="sv62{{$index}}" ng-class="{active: formObj.settings[0].filters[$index].value}">Dataset Filter Name</label>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="section by-filter" ng-show="formObj.section==='filter'">
+          <div class="overlay" ng-show="formObj.noTarget"></div>
+          <div class="row">
+            <div class="col s12">
+              <p>
+                <input id="no-target" type="checkbox" ng-model="formObj.noTarget">
+                <label for="no-target">No target filters</label>
+              </p>
+
+            </div>
+          </div>
+
+          <div class="row header">
+            <div class="col s4"><b>Select Column Name:</b>
+            </div>
+            <div class="col s4"><b>Select Operand:</b>
+            </div>
+            <div class="col s4"><b>Enter Value:</b>
+            </div>
+          </div>
+          <div class="row filter" ng-repeat="n in [1,2,3] track by $index">
+
+            <span class="operand" ng-if="$index > 0">AND</span>
+
+            <div class="col s4">
+              <div class="input-field no-label">
+                <dropdown-select text="Please select" ng-model="formObj.settings[1].filters[$index].column"
+                class-name="{invalid: ($index === 0 && !formObj.noTarget && form1.$submitted && !formObj.settings[1].filters[$index].column),
+                                            valid: (form1.$submitted && formObj.settings[1].filters[$index].column)}"
+                items="targetCdmItems" reset-factory="dropdownResetFactory('targetColumn')"></dropdown-select>
+              </div>
+            </div>
+            <div class="col s4">
+              <div class="input-field no-label">
+                <dropdown-select text="Please select" ng-model="formObj.settings[1].filters[$index].condition"
+                class-name="{invalid: (formObj.settings[1].filters[$index].column && form1.$submitted && !formObj.settings[1].filters[$index].condition),
+                                            valid: (form1.$submitted && formObj.settings[1].filters[$index].condition)}"
+                items="operandItems" reset-factory="dropdownResetFactory('targetOperand')"></dropdown-select>
+              </div>
+            </div>
+            <div class="col s4">
+              <div class="input-field">
+                <input id="tv61{{$index}}" type="text" ng-model="formObj.settings[1].filters[$index].value"
+                ng-class="{invalid: (formObj.settings[1].filters[$index].column && form1.$submitted && !formObj.settings[1].filters[$index].value),
+                            valid: (form1.$submitted && formObj.settings[1].filters[$index].value)}">
+                <label for="tv61{{$index}}" ng-class="{active: formObj.settings[1].filters[$index].value}">Dataset Filter Name</label>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="section ratio" ng-show="formObj.section==='ratio'">
+          <p class="center-align">
+            Costs will be distributed in accordance to the Ratio File Selected
+          </p>
+        </div>
+
+        <div class="section distribution" ng-show="formObj.section!=='ratio'">
+          <br>
+          <div class="row">
+            <div class="col s6">
+              <div class="input-field">
+                <dropdown-select text="Please select" label="Distribution Method" ng-model="formObj.distribution"
+                class-name="{invalid: (form1.$submitted && !formObj.distribution),
+                                        valid: (form1.$submitted && formObj.distribution)}"
+                items="distributionItems" reset-factory="dropdownResetFactory('distribution')"></dropdown-select>
+              </div>
+            </div>
+            <div class="col s6">
+              <div class="input-field">
+                <dropdown-select text="Please select" label="Ratio Column" disabled="formObj.distribution !== 'RATIO'"
+                ng-model="formObj.distributionColumn" class-name="{invalid: (formObj.distribution === 'RATIO' && form1.$submitted && !formObj.distributionColumn),
+                                        valid: (form1.$submitted && formObj.distributionColumn)}"
+                items="targetCdmItems" reset-factory="dropdownResetFactory('distributionColumn')"></dropdown-select>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section distribution" ng-show="formObj.section==='ratio'">
+          <br>
+          <div class="row">
+            <div class="col s6">
+              <div class="input-field">
+                <dropdown-select label="Distribution Method" items="[{label:'Ratio', selected:true, value:'RATIO'}]"
+                disabled=true></dropdown-select>
+              </div>
+            </div>
+            <div class="col s6">
+              <div class="input-field">
+                <dropdown-select text="Please select" label="Ratio File
+       " ng-model="formObj.distributionColumnRatio" class-name="{invalid: (form1.$submitted && !formObj.distributionColumnRatio),
+        valid: (form1.$submitted && formObj.distributionColumnRatio)}" items="ratioItems"
+                reset-factory="dropdownResetFactory(
+        'distributionColumnRatio')"></dropdown-select>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button ng-if="action === 'create'" type="submit" name="submit" class="create btn waves-effect waves-light">Create</button>
+      <a href="#!" ng-click="emit('CLICK_ON_CANCEL_CREATE_FILTER'); $event.preventDefault();"
+      class="cancel btn-flat waves-effect waves-red">{{action === 'view' ? 'Close' : 'Cancel'}}</a>
+    </div>
+  </form>
+  <loading data-ng-show="creating"></loading>
+</div>
+<!-- create modal end -->
+
+<!-- confirm delete cost model modal -->
+<div data-modal="{showOn: 'CONFIRM_DELETE_DATASET_FILTER', hideOn: ['CLICK_ON_CANCEL_DELETE_DATASET_FILTER', 'DATASET_FILTER_DELETED'],
+                closeButton: false, freeze: deleting}" class="confirmation">
+  <form ng-submit="onSubmit(focused, 'delete'); $event.preventDefault();">
+    <div class="modal-content">
+      <h4>Delete Dataset Filter</h4>
+      <div class="f-body">
+        <p class="center-align">
+          Do you want to delete the <span class="truncate">{{focused.name}}</span> Dataset
+          Filter?
+        </p>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button type="submit" class="btn waves-effect waves-light">Confirm</button>
+      <a href="#!" ng-click="emit('CLICK_ON_CANCEL_DELETE_DATASET_FILTER'); $event.preventDefault();"
+      class="btn-flat waves-effect waves-red">Cancel</a>
+    </div>
+  </form>
+  <loading data-ng-show="deleting"></loading>
+</div>
+<!-- confirm delete cost model modal -->
+
+<notifications></notifications>
+<app-footer></app-footer>
+<login-form></login-form>

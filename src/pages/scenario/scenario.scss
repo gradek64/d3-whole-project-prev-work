@@ -1,0 +1,91 @@
+/**
+ * Created by Greg on 23/02/2018
+ */
+@import '../../vars';
+
+@mixin setIcons {
+  .body {
+    padding-top: 5%;
+    .items-3 {
+      height: 50%;
+      .lp.card i {
+        width: 40%;
+      }
+      .title {
+        margin: 20px;
+      }
+    }
+  }
+}
+
+/* ----------- max-height: 900px ----------- */
+
+/* Portrait and Landscape */
+@mixin setbodySizeHeight {
+  @media only screen and (max-height: 900px) {
+    .heading {
+      height: 86px;
+    }
+    .body {
+      padding-top: 5px;
+      .items-3 {
+        height: 50%;
+        .lp.card i {
+          width: 30%;
+        }
+        .title {
+          margin: 0;
+        }
+      }
+    }
+  }
+}
+
+div.scenario-analytics-remove {
+  .content {
+    min-height: calc(
+      100vh - #{$header-height} - #{$footer-height} - #{$top-nav-height} - 51px
+    );
+    height: calc(
+      100vh - #{$header-height} - #{$footer-height} - #{$top-nav-height} - 51px
+    );
+  }
+  @include setIcons;
+  @include setbodySizeHeight;
+}
+
+div.scenario-analytics {
+  .content {
+    min-height: calc(
+      100vh - #{$header-height} - #{$footer-height} - #{$top-nav-height}
+    );
+    height: calc(
+      100vh - #{$header-height} - #{$footer-height} - #{$top-nav-height}
+    );
+  }
+  @include setIcons;
+  @include setbodySizeHeight;
+}
+
+[class*='scenario-analytics'] {
+  .body {
+    .items-5 {
+      width: 20%;
+      float: left;
+    }
+
+    .items-4 {
+      width: 25%;
+      float: left;
+    }
+
+    .items-3 {
+      width: 33.3333333%;
+      float: left;
+    }
+    .items-2 {
+      width: 50%;
+      float: left;
+    }
+  }
+}

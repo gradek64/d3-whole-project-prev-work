@@ -1,0 +1,6902 @@
+{
+  "acd36949-19b4-4c45-a303-778878372d55": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -68476.66027397261,
+        "avg": -5706.388356164384,
+        "min": -5706.388356164384,
+        "max": -5706.388356164384
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "65923"
+      ],
+      "CostCentre": [
+        "CC57003_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "930129ef-2dfe-4c30-86f6-9c79384a3afd": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637164,
+        "avg": -2102.4212094395275,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "68858"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "427d3a21-61ca-4f55-ab5d-ee7d3f10d924": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637166,
+        "avg": -2102.4212094395275,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "70699"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "3aba8021-52b3-41f6-acd9-84c228547511": {
+    "metrics": {
+      "amount": {
+        "count": 24,
+        "sum": -107460.77333333332,
+        "avg": -4477.532222222221,
+        "min": -4477.532222222221,
+        "max": -4477.532222222221
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "65944"
+      ],
+      "CostCentre": [
+        "CC58401_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "7a6b0f49-da2d-400a-9683-e19ed01ef656": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637164,
+        "avg": -2102.4212094395275,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "65372"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "8360eb41-7186-4c03-b350-5dc5a986dc26": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637164,
+        "avg": -2102.4212094395275,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "66883"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "36f2b60f-276f-49b6-9eb2-9fc2f10b2fd0": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -73014.81306122447,
+        "avg": -6084.567755102039,
+        "min": -6084.56775510204,
+        "max": -6084.56775510204
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "73010"
+      ],
+      "CostCentre": [
+        "CC57001_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "9ab24ba6-ca5f-48f8-a538-840c6e9bbd8a": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -13704.667264573993,
+        "avg": -1142.055605381166,
+        "min": -1142.055605381166,
+        "max": -1142.055605381166
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "69019"
+      ],
+      "CostCentre": [
+        "CC57402_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "0996f44b-48d7-42e5-8e8c-601afbb39ab7": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637164,
+        "avg": -2102.4212094395275,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "69910"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "86bcbbcd-1afe-4ed7-bfd8-0c39ea0bc160": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -82958.1969924812,
+        "avg": -6913.183082706767,
+        "min": -6913.183082706766,
+        "max": -6913.183082706766
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "64486"
+      ],
+      "CostCentre": [
+        "CC57002_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "a0f131d6-07bd-4d0c-a91b-6152455317a1": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637166,
+        "avg": -2102.4212094395275,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "65366"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "1481eb1b-019f-4a53-a50e-fbee1b14d0c6": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -73014.81306122447,
+        "avg": -6084.567755102039,
+        "min": -6084.56775510204,
+        "max": -6084.56775510204
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "30179"
+      ],
+      "CostCentre": [
+        "CC57001_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "7e1c9068-4a36-4184-8afe-69b0e5b7be6e": {
+    "metrics": {
+      "amount": {
+        "count": 96,
+        "sum": -162633.74594594596,
+        "avg": -1694.1015202702704,
+        "min": -1694.101520270271,
+        "max": -1694.101520270271
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "68495"
+      ],
+      "CostCentre": [
+        "CC56801_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "eef084a6-b674-4c39-908b-e87d7f10f905": {
+    "metrics": {
+      "amount": {
+        "count": 96,
+        "sum": -162633.74594594596,
+        "avg": -1694.1015202702704,
+        "min": -1694.101520270271,
+        "max": -1694.101520270271
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "71308"
+      ],
+      "CostCentre": [
+        "CC56801_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "0adc3d3f-6921-4778-a197-98e3fc3872ef": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -73014.81306122447,
+        "avg": -6084.567755102039,
+        "min": -6084.56775510204,
+        "max": -6084.56775510204
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "30845"
+      ],
+      "CostCentre": [
+        "CC57001_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "5c626adf-c376-4a84-890b-86e8ea7ce3d9": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -82958.19699248119,
+        "avg": -6913.183082706765,
+        "min": -6913.183082706766,
+        "max": -6913.183082706766
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "63128"
+      ],
+      "CostCentre": [
+        "CC57002_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "da01e7f1-ed75-435f-a537-671fae4bd8b9": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -73014.81306122447,
+        "avg": -6084.567755102039,
+        "min": -6084.56775510204,
+        "max": -6084.56775510204
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "30538"
+      ],
+      "CostCentre": [
+        "CC57001_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "46dc8ec4-7b74-4054-8240-c63a7972c3a9": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637164,
+        "avg": -2102.4212094395275,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "70981"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "cc9e2472-f2cc-4f7b-8398-5584a15d2b24": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -73014.81306122447,
+        "avg": -6084.567755102039,
+        "min": -6084.56775510204,
+        "max": -6084.56775510204
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "30815"
+      ],
+      "CostCentre": [
+        "CC57001_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "a6e65609-3f86-485a-90af-50ce3e8938e3": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -73014.81306122447,
+        "avg": -6084.567755102039,
+        "min": -6084.56775510204,
+        "max": -6084.56775510204
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "31084"
+      ],
+      "CostCentre": [
+        "CC57001_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "22ce6763-07e3-40c8-9bf8-41cdb607567c": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -13704.667264573993,
+        "avg": -1142.055605381166,
+        "min": -1142.055605381166,
+        "max": -1142.055605381166
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "70400"
+      ],
+      "CostCentre": [
+        "CC57402_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "dd23b666-87db-4aef-aafb-4dc47a9c6c29": {
+    "metrics": {
+      "amount": {
+        "count": 96,
+        "sum": -162633.74594594596,
+        "avg": -1694.1015202702704,
+        "min": -1694.101520270271,
+        "max": -1694.101520270271
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "30324"
+      ],
+      "CostCentre": [
+        "CC56801_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "a28a0993-a086-4d42-a077-0049486dab0f": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637164,
+        "avg": -2102.4212094395275,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "68431"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "7420fcb5-d873-4540-9a26-228fcd947326": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -73014.81306122447,
+        "avg": -6084.567755102039,
+        "min": -6084.56775510204,
+        "max": -6084.56775510204
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "32405"
+      ],
+      "CostCentre": [
+        "CC57001_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "50378995-929c-48c9-951e-633494689bcb": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -13704.667264573993,
+        "avg": -1142.055605381166,
+        "min": -1142.055605381166,
+        "max": -1142.055605381166
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "65264"
+      ],
+      "CostCentre": [
+        "CC57402_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "b52029a7-95cb-4add-a411-3b82ed53b13c": {
+    "metrics": {
+      "amount": {
+        "count": 24,
+        "sum": -107460.7733333333,
+        "avg": -4477.532222222221,
+        "min": -4477.532222222221,
+        "max": -4477.532222222221
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "70678"
+      ],
+      "CostCentre": [
+        "CC58401_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "89705b40-465b-41a3-bbce-f51a45731135": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -68476.66027397262,
+        "avg": -5706.388356164385,
+        "min": -5706.388356164384,
+        "max": -5706.388356164384
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "65379"
+      ],
+      "CostCentre": [
+        "CC57003_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "1016551a-9d3e-4b9b-b962-edd6dea2684c": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -13704.667264573993,
+        "avg": -1142.055605381166,
+        "min": -1142.055605381166,
+        "max": -1142.055605381166
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "67074"
+      ],
+      "CostCentre": [
+        "CC57402_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "fc7a9b25-df96-44c3-85a7-af6792347530": {
+    "metrics": {
+      "amount": {
+        "count": 24,
+        "sum": -80976.56999999999,
+        "avg": -3374.02375,
+        "min": -3374.02375,
+        "max": -3374.02375
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "VAC7"
+      ],
+      "CostCentre": [
+        "CC58404_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "dd4dc702-576c-424c-bd4e-f55a8cdcc6b2": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637164,
+        "avg": -2102.4212094395275,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "65385"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "c1ba562b-4ac3-4497-ac3a-5d07a527ff8d": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637163,
+        "avg": -2102.421209439527,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "64879"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "3db735b2-8315-41ce-948c-6c967e3b9f69": {
+    "metrics": {
+      "amount": {
+        "count": 72,
+        "sum": -593852.6400000002,
+        "avg": -8247.953333333337,
+        "min": -8247.953333333335,
+        "max": -8247.953333333335
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "30984"
+      ],
+      "CostCentre": [
+        "CC56802_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "507d8b11-5def-4e2a-a1b6-ab3ad6d68e75": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -225723.9999999999,
+        "avg": -18810.333333333325,
+        "min": -18810.33333333333,
+        "max": -18810.33333333333
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "345678.0"
+      ],
+      "CostCentre": [
+        "CC56351_BSL"
+      ],
+      "Location": [
+        "United States of America"
+      ]
+    }
+  },
+  "a5c9605f-2979-40da-8738-95eb35068bf0": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637163,
+        "avg": -2102.421209439527,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "66884"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "55248e42-3532-4bcb-9308-da26bd086922": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637163,
+        "avg": -2102.421209439527,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "65291"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "0dc29f0b-f74e-4e45-9067-5704d7b634cf": {
+    "metrics": {
+      "amount": {
+        "count": 96,
+        "sum": -162633.74594594594,
+        "avg": -1694.1015202702702,
+        "min": -1694.101520270271,
+        "max": -1694.101520270271
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "64918"
+      ],
+      "CostCentre": [
+        "CC56801_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "0263f1e3-04c6-4d5e-816c-79372e19aed8": {
+    "metrics": {
+      "amount": {
+        "count": 96,
+        "sum": -162633.74594594596,
+        "avg": -1694.1015202702704,
+        "min": -1694.101520270271,
+        "max": -1694.101520270271
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "65232"
+      ],
+      "CostCentre": [
+        "CC56801_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "3e70c6b9-2afc-4d61-bc5a-eff3c0c85067": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -82958.19699248119,
+        "avg": -6913.183082706765,
+        "min": -6913.183082706766,
+        "max": -6913.183082706766
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "72767"
+      ],
+      "CostCentre": [
+        "CC57002_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "02c547f1-acdb-4891-9585-d61db1185299": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -644897.52,
+        "avg": -53741.46,
+        "min": -53741.46,
+        "max": -53741.46
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "65095"
+      ],
+      "CostCentre": [
+        "CC57202_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "b3dfbbbd-092d-48b8-b6d0-ac91ef5686dd": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -82958.19699248119,
+        "avg": -6913.183082706765,
+        "min": -6913.183082706766,
+        "max": -6913.183082706766
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "69233"
+      ],
+      "CostCentre": [
+        "CC57002_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "58984a13-485e-444c-a55d-51b6ee79edbd": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637166,
+        "avg": -2102.4212094395275,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "66795"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "fe45fc43-6611-4429-a7aa-2e5db8eede3c": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -13704.667264573993,
+        "avg": -1142.055605381166,
+        "min": -1142.055605381166,
+        "max": -1142.055605381166
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "68944"
+      ],
+      "CostCentre": [
+        "CC57402_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "0d1f534e-d462-4d56-a5d7-24a79765c8d4": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -73014.81306122447,
+        "avg": -6084.567755102039,
+        "min": -6084.56775510204,
+        "max": -6084.56775510204
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "70612"
+      ],
+      "CostCentre": [
+        "CC57001_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "d311f7de-ccdf-430d-af7c-1d31574b39e2": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -73014.81306122449,
+        "avg": -6084.567755102041,
+        "min": -6084.56775510204,
+        "max": -6084.56775510204
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "32102"
+      ],
+      "CostCentre": [
+        "CC57001_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "52f5a844-3cf5-4c0e-90f2-c8a46a6f3e3a": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637164,
+        "avg": -2102.4212094395275,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "70847"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "2d173359-e074-496e-94a7-1da40e0c383f": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -82958.19699248119,
+        "avg": -6913.183082706765,
+        "min": -6913.183082706766,
+        "max": -6913.183082706766
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "63233"
+      ],
+      "CostCentre": [
+        "CC57002_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "e51ac6f8-40a3-4de1-b755-63367d9198ef": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -13704.667264573995,
+        "avg": -1142.0556053811663,
+        "min": -1142.055605381166,
+        "max": -1142.055605381166
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "70460"
+      ],
+      "CostCentre": [
+        "CC57402_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "4bbeb611-56a1-4974-9289-952a76259204": {
+    "metrics": {
+      "amount": {
+        "count": 96,
+        "sum": -162633.74594594594,
+        "avg": -1694.1015202702702,
+        "min": -1694.101520270271,
+        "max": -1694.101520270271
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "32397"
+      ],
+      "CostCentre": [
+        "CC56801_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "f1430018-2f24-4f74-9cd6-52642ba2c342": {
+    "metrics": {
+      "amount": {
+        "count": 96,
+        "sum": -162633.74594594596,
+        "avg": -1694.1015202702704,
+        "min": -1694.101520270271,
+        "max": -1694.101520270271
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "65304"
+      ],
+      "CostCentre": [
+        "CC56801_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "94ade26c-f316-400e-8588-2f21c90db4c8": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -73014.81306122449,
+        "avg": -6084.567755102041,
+        "min": -6084.56775510204,
+        "max": -6084.56775510204
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "31202"
+      ],
+      "CostCentre": [
+        "CC57001_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "09cd7eb1-0968-464d-8c51-d2c372466e89": {
+    "metrics": {
+      "amount": {
+        "count": 96,
+        "sum": -162633.74594594594,
+        "avg": -1694.1015202702702,
+        "min": -1694.101520270271,
+        "max": -1694.101520270271
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "66928"
+      ],
+      "CostCentre": [
+        "CC56801_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "b08e1be9-4f18-4f9f-b6f2-6a4712004c6b": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -999999.9600000001,
+        "avg": -83333.33,
+        "min": -83333.33,
+        "max": -83333.33
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "VAC12"
+      ],
+      "CostCentre": [
+        "CC50102_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "5d1cc1b1-862f-4c19-9995-c6f8cc912c8e": {
+    "metrics": {
+      "amount": {
+        "count": 24,
+        "sum": -107460.77333333332,
+        "avg": -4477.532222222221,
+        "min": -4477.532222222221,
+        "max": -4477.532222222221
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "70018"
+      ],
+      "CostCentre": [
+        "CC58401_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "b94aaee4-1ac9-466e-b1af-61828f372bb9": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637166,
+        "avg": -2102.4212094395275,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "68049"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "84ec8469-d4be-4f20-af14-d8ead74af616": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -13704.667264573993,
+        "avg": -1142.055605381166,
+        "min": -1142.055605381166,
+        "max": -1142.055605381166
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "69234"
+      ],
+      "CostCentre": [
+        "CC57402_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "0ce14fc4-1c98-4040-9329-dba60b5e128b": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -73014.81306122449,
+        "avg": -6084.567755102041,
+        "min": -6084.56775510204,
+        "max": -6084.56775510204
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "71300"
+      ],
+      "CostCentre": [
+        "CC57001_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "25657a38-85a0-44cb-9d99-cf1afc781dca": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -13704.667264573993,
+        "avg": -1142.055605381166,
+        "min": -1142.055605381166,
+        "max": -1142.055605381166
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "71135"
+      ],
+      "CostCentre": [
+        "CC57402_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "30cb31f1-bad7-4ec7-9297-bcc9ead16928": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -147096.59999999998,
+        "avg": -12258.049999999997,
+        "min": -12258.05,
+        "max": -12258.05
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "VAC11"
+      ],
+      "CostCentre": [
+        "CC56002_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "1fe9a27d-4f45-4b9d-8668-33877b9fe6c5": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637166,
+        "avg": -2102.4212094395275,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "64902"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "4e0d5279-b078-410a-82c2-ff9837a9a0fb": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -82958.19699248119,
+        "avg": -6913.183082706765,
+        "min": -6913.183082706766,
+        "max": -6913.183082706766
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "73180"
+      ],
+      "CostCentre": [
+        "CC57002_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "c7a4d392-c5c4-4da5-9461-85bef73c3d9f": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -225723.99999999994,
+        "avg": -18810.33333333333,
+        "min": -18810.33333333333,
+        "max": -18810.33333333333
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "123456.0"
+      ],
+      "CostCentre": [
+        "CC56351_BSL"
+      ],
+      "Location": [
+        "United States of America"
+      ]
+    }
+  },
+  "636ebfb5-37b5-4013-a78e-b85edc1bb37f": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -13704.667264573993,
+        "avg": -1142.055605381166,
+        "min": -1142.055605381166,
+        "max": -1142.055605381166
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "65114"
+      ],
+      "CostCentre": [
+        "CC57402_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "eb8afa64-6df5-4a4e-b54a-755ff7052187": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637166,
+        "avg": -2102.4212094395275,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "66881"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "514c36a2-6ab7-4e20-afd3-8697767d2a3a": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -73014.81306122449,
+        "avg": -6084.567755102041,
+        "min": -6084.56775510204,
+        "max": -6084.56775510204
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "31191"
+      ],
+      "CostCentre": [
+        "CC57001_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "fc33c3be-2747-4941-91f1-98c8eeb10b60": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637164,
+        "avg": -2102.4212094395275,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "73597"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "2ef18f16-ac94-47e7-89e9-4b057a7ea924": {
+    "metrics": {
+      "amount": {
+        "count": 96,
+        "sum": -162633.74594594596,
+        "avg": -1694.1015202702704,
+        "min": -1694.101520270271,
+        "max": -1694.101520270271
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "65156"
+      ],
+      "CostCentre": [
+        "CC56801_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "524d5459-8af7-410b-a763-b7bc3dcb4a8d": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637163,
+        "avg": -2102.421209439527,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "69255"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "d6c44b1d-94a9-46d8-bda4-438008bd6fe3": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -73014.81306122447,
+        "avg": -6084.567755102039,
+        "min": -6084.56775510204,
+        "max": -6084.56775510204
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "31281"
+      ],
+      "CostCentre": [
+        "CC57001_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "7a85fa5e-1d21-4a80-a869-fa98a010617c": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -13704.667264573993,
+        "avg": -1142.055605381166,
+        "min": -1142.055605381166,
+        "max": -1142.055605381166
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "66924"
+      ],
+      "CostCentre": [
+        "CC57402_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "6301abb7-06e9-4a08-9609-3edce840ba4b": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -13704.667264573993,
+        "avg": -1142.055605381166,
+        "min": -1142.055605381166,
+        "max": -1142.055605381166
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "66804"
+      ],
+      "CostCentre": [
+        "CC57402_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "cbebe679-8160-448f-a272-aac0a5b14e40": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -132968.52,
+        "avg": -11080.71,
+        "min": -11080.71,
+        "max": -11080.71
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "VAC10"
+      ],
+      "CostCentre": [
+        "CC56302_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "7fbf2346-ed66-4df4-af0a-f7a723654b07": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -73014.81306122447,
+        "avg": -6084.567755102039,
+        "min": -6084.56775510204,
+        "max": -6084.56775510204
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "30400"
+      ],
+      "CostCentre": [
+        "CC57001_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "1d52f0b4-6143-4b3e-93ca-f198fff35db8": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -82958.1969924812,
+        "avg": -6913.183082706767,
+        "min": -6913.183082706766,
+        "max": -6913.183082706766
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "30960"
+      ],
+      "CostCentre": [
+        "CC57002_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "07e58eed-b465-437f-83b9-c439eee5b157": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637163,
+        "avg": -2102.421209439527,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "65934"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "a56ccc11-0d4f-4001-9941-27ba8ed139f9": {
+    "metrics": {
+      "amount": {
+        "count": 96,
+        "sum": -162633.74594594594,
+        "avg": -1694.1015202702702,
+        "min": -1694.101520270271,
+        "max": -1694.101520270271
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "32342"
+      ],
+      "CostCentre": [
+        "CC56801_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "6a1a1298-32d1-4ca1-8ff4-07159509f0d5": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -82958.19699248119,
+        "avg": -6913.183082706765,
+        "min": -6913.183082706766,
+        "max": -6913.183082706766
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "71574"
+      ],
+      "CostCentre": [
+        "CC57002_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "20cf81a8-eed4-4784-b3e0-c83e581ccc44": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -13704.667264573993,
+        "avg": -1142.055605381166,
+        "min": -1142.055605381166,
+        "max": -1142.055605381166
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "68716"
+      ],
+      "CostCentre": [
+        "CC57402_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "5fddb42a-45e9-4a9e-bed7-b0b9e6d435cf": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637163,
+        "avg": -2102.421209439527,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "65353"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "f13ae5a8-62d8-4c4c-9110-22e77c3101bf": {
+    "metrics": {
+      "amount": {
+        "count": 24,
+        "sum": -107460.7733333333,
+        "avg": -4477.532222222221,
+        "min": -4477.532222222221,
+        "max": -4477.532222222221
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "68451"
+      ],
+      "CostCentre": [
+        "CC58401_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "43b9e69b-d25b-4da7-a1bc-0c0cc4efd884": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -73014.81306122447,
+        "avg": -6084.567755102039,
+        "min": -6084.56775510204,
+        "max": -6084.56775510204
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "31944"
+      ],
+      "CostCentre": [
+        "CC57001_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "7c6eec75-7b3a-463c-987e-be85f6b1fdab": {
+    "metrics": {
+      "amount": {
+        "count": 96,
+        "sum": -162633.74594594594,
+        "avg": -1694.1015202702702,
+        "min": -1694.101520270271,
+        "max": -1694.101520270271
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "71503"
+      ],
+      "CostCentre": [
+        "CC56801_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "b0b073a6-efb9-473c-9894-60e21c820da0": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637163,
+        "avg": -2102.421209439527,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "66918"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "58c58001-1abe-484e-8b5d-4830c637e2fd": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637166,
+        "avg": -2102.4212094395275,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "64908"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "88258ab4-c97f-4095-aec5-0cb6b67ee5e5": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637166,
+        "avg": -2102.4212094395275,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "68726"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "c670a62c-e1c1-4590-9adb-55a63d4cba25": {
+    "metrics": {
+      "amount": {
+        "count": 24,
+        "sum": -107460.7733333333,
+        "avg": -4477.532222222221,
+        "min": -4477.532222222221,
+        "max": -4477.532222222221
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "70186"
+      ],
+      "CostCentre": [
+        "CC58401_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "2667e901-60ee-4850-a7b4-ef438cc5ee6d": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -73014.81306122447,
+        "avg": -6084.567755102039,
+        "min": -6084.56775510204,
+        "max": -6084.56775510204
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "31020"
+      ],
+      "CostCentre": [
+        "CC57001_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "8582a2b1-8b8a-492f-9040-00fd245442f9": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -68476.66027397261,
+        "avg": -5706.388356164384,
+        "min": -5706.388356164384,
+        "max": -5706.388356164384
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "67717"
+      ],
+      "CostCentre": [
+        "CC57003_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "6c0a1e95-025d-46c1-a5f0-1de7b22ecf26": {
+    "metrics": {
+      "amount": {
+        "count": 96,
+        "sum": -162633.74594594594,
+        "avg": -1694.1015202702702,
+        "min": -1694.101520270271,
+        "max": -1694.101520270271
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "65327"
+      ],
+      "CostCentre": [
+        "CC56801_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "ccce1c99-2141-4b4b-a46b-ce901acd66a0": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -68476.66027397262,
+        "avg": -5706.388356164385,
+        "min": -5706.388356164384,
+        "max": -5706.388356164384
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "69821"
+      ],
+      "CostCentre": [
+        "CC57003_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "9b7f5d99-9f58-44ac-a256-c91e3b4e6756": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -73014.81306122449,
+        "avg": -6084.567755102041,
+        "min": -6084.56775510204,
+        "max": -6084.56775510204
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "30455"
+      ],
+      "CostCentre": [
+        "CC57001_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "432b3904-bc14-41ba-95e2-715f37944c1d": {
+    "metrics": {
+      "amount": {
+        "count": 96,
+        "sum": -162633.74594594596,
+        "avg": -1694.1015202702704,
+        "min": -1694.101520270271,
+        "max": -1694.101520270271
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "70072"
+      ],
+      "CostCentre": [
+        "CC56801_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "39807e44-d0a5-4b5c-9b50-1b1ad655db88": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -13704.667264573993,
+        "avg": -1142.055605381166,
+        "min": -1142.055605381166,
+        "max": -1142.055605381166
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "66809"
+      ],
+      "CostCentre": [
+        "CC57402_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "7c81db00-f7dc-4ca5-b94e-f1a57924772c": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -41085.99616438357,
+        "avg": -3423.833013698631,
+        "min": -3423.833013698631,
+        "max": -3423.833013698631
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "65340"
+      ],
+      "CostCentre": [
+        "CC57003_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "75f495f9-89eb-4393-841e-c8ccdc6fb30a": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -73014.81306122447,
+        "avg": -6084.567755102039,
+        "min": -6084.56775510204,
+        "max": -6084.56775510204
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "31157"
+      ],
+      "CostCentre": [
+        "CC57001_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "d83a8662-6496-4d92-b377-ebeffea53368": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -73014.81306122447,
+        "avg": -6084.567755102039,
+        "min": -6084.56775510204,
+        "max": -6084.56775510204
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "71568"
+      ],
+      "CostCentre": [
+        "CC57001_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "de3f1b1d-bdbf-40aa-8fc5-996b76b8374f": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -68476.66027397261,
+        "avg": -5706.388356164384,
+        "min": -5706.388356164384,
+        "max": -5706.388356164384
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "64920"
+      ],
+      "CostCentre": [
+        "CC57003_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "d1154d7a-ba22-4a7b-b4f4-08bf583f2071": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637164,
+        "avg": -2102.4212094395275,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "68432"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "4694dda9-e299-4d34-8752-c067ea6ab69b": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -13704.667264573993,
+        "avg": -1142.055605381166,
+        "min": -1142.055605381166,
+        "max": -1142.055605381166
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "69939"
+      ],
+      "CostCentre": [
+        "CC57402_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "2f8f72e1-7829-4aac-8ac9-139aaa1cf4c6": {
+    "metrics": {
+      "amount": {
+        "count": 24,
+        "sum": -83111.06999999999,
+        "avg": -3462.96125,
+        "min": -3462.96125,
+        "max": -3462.96125
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "VAC2"
+      ],
+      "CostCentre": [
+        "CC56603_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "e05fc890-a44f-4fca-8cb4-b427b9ddcfaa": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -13704.667264573993,
+        "avg": -1142.055605381166,
+        "min": -1142.055605381166,
+        "max": -1142.055605381166
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "70131"
+      ],
+      "CostCentre": [
+        "CC57402_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "0ee4551d-0f5e-4b31-9a2b-8e1e4f4d2a9d": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -13704.667264573993,
+        "avg": -1142.055605381166,
+        "min": -1142.055605381166,
+        "max": -1142.055605381166
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "64993"
+      ],
+      "CostCentre": [
+        "CC57402_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "37f7d2fa-f20f-416f-8b8a-76f173e67cab": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637163,
+        "avg": -2102.421209439527,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "71321"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "3f81f51a-7c80-444b-91e5-26698bcebeea": {
+    "metrics": {
+      "amount": {
+        "count": 96,
+        "sum": -162633.74594594594,
+        "avg": -1694.1015202702702,
+        "min": -1694.101520270271,
+        "max": -1694.101520270271
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "65140"
+      ],
+      "CostCentre": [
+        "CC56801_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "79771faa-31d4-43ef-a272-2c248671c034": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -73014.81306122447,
+        "avg": -6084.567755102039,
+        "min": -6084.56775510204,
+        "max": -6084.56775510204
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "30299"
+      ],
+      "CostCentre": [
+        "CC57001_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "4f1b8e64-f580-47a0-bf90-25cc5269aa62": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -82958.1969924812,
+        "avg": -6913.183082706767,
+        "min": -6913.183082706766,
+        "max": -6913.183082706766
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "72636"
+      ],
+      "CostCentre": [
+        "CC57002_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "4cfab65d-bb62-473c-8b01-c0c09a1b2255": {
+    "metrics": {
+      "amount": {
+        "count": 24,
+        "sum": -170874.26999999996,
+        "avg": -7119.761249999999,
+        "min": -7119.76125,
+        "max": -7119.76125
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "72235"
+      ],
+      "CostCentre": [
+        "CC58403_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "e04c0df5-ae13-4f2a-a0c5-a77bfdddd629": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -82958.19699248119,
+        "avg": -6913.183082706765,
+        "min": -6913.183082706766,
+        "max": -6913.183082706766
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "65401"
+      ],
+      "CostCentre": [
+        "CC57002_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "7cd4439d-4477-422b-8c5f-f076a65662bd": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -73014.81306122447,
+        "avg": -6084.567755102039,
+        "min": -6084.56775510204,
+        "max": -6084.56775510204
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "73209"
+      ],
+      "CostCentre": [
+        "CC57001_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "c603f6fc-0eaf-4544-bcbb-2df76d88f192": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637163,
+        "avg": -2102.421209439527,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "69030"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "feea3e8e-7b7f-4b1c-b4a7-7dc1d0ddf710": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637166,
+        "avg": -2102.4212094395275,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "70693"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "cc79c4dd-7972-4484-ac3b-6c0b0eaf4127": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -68476.66027397261,
+        "avg": -5706.388356164384,
+        "min": -5706.388356164384,
+        "max": -5706.388356164384
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "65940"
+      ],
+      "CostCentre": [
+        "CC57003_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "cddff493-a4a8-45bc-b95b-4ae1dd0daecc": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -13704.667264573993,
+        "avg": -1142.055605381166,
+        "min": -1142.055605381166,
+        "max": -1142.055605381166
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "66835"
+      ],
+      "CostCentre": [
+        "CC57402_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "bbb4f12d-d60a-455e-82b6-79edc6be2149": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -73014.81306122447,
+        "avg": -6084.567755102039,
+        "min": -6084.56775510204,
+        "max": -6084.56775510204
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "32246"
+      ],
+      "CostCentre": [
+        "CC57001_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "2985d98e-1d69-4eab-b765-0e4385c09698": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -82958.1969924812,
+        "avg": -6913.183082706767,
+        "min": -6913.183082706766,
+        "max": -6913.183082706766
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "64582"
+      ],
+      "CostCentre": [
+        "CC57002_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "237161e9-907d-4c07-b95e-ad176d29a4a8": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637166,
+        "avg": -2102.4212094395275,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "66887"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "b866955b-d2c6-4b82-baf2-a1fd4f62d346": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -82958.1969924812,
+        "avg": -6913.183082706767,
+        "min": -6913.183082706766,
+        "max": -6913.183082706766
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "62942"
+      ],
+      "CostCentre": [
+        "CC57002_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "4927fab7-afc2-45b8-975b-d10396c18b98": {
+    "metrics": {
+      "amount": {
+        "count": 24,
+        "sum": -107460.77333333332,
+        "avg": -4477.532222222221,
+        "min": -4477.532222222221,
+        "max": -4477.532222222221
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "65941"
+      ],
+      "CostCentre": [
+        "CC58401_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "39e5952c-9d63-4b2f-a65b-7008bede0ebd": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -13704.667264573993,
+        "avg": -1142.055605381166,
+        "min": -1142.055605381166,
+        "max": -1142.055605381166
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "66848"
+      ],
+      "CostCentre": [
+        "CC57402_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "bb25ee8b-02e1-4062-a475-fec68f95c6a1": {
+    "metrics": {
+      "amount": {
+        "count": 96,
+        "sum": -162633.74594594596,
+        "avg": -1694.1015202702704,
+        "min": -1694.101520270271,
+        "max": -1694.101520270271
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "65289"
+      ],
+      "CostCentre": [
+        "CC56801_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "0ccd5f11-9239-4865-8bcf-4b71b491f2bc": {
+    "metrics": {
+      "amount": {
+        "count": 96,
+        "sum": -162633.74594594596,
+        "avg": -1694.1015202702704,
+        "min": -1694.101520270271,
+        "max": -1694.101520270271
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "70085"
+      ],
+      "CostCentre": [
+        "CC56801_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "b8dd9049-21e8-4d6b-a176-f34497039917": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -644897.52,
+        "avg": -53741.46,
+        "min": -53741.46,
+        "max": -53741.46
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "65330"
+      ],
+      "CostCentre": [
+        "CC57202_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "c73895a6-e44e-405f-85db-1d8ec3ef3c57": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637164,
+        "avg": -2102.4212094395275,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "70322"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "89dfd0a0-049c-4ca6-a912-2bcdec94c94a": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -82958.1969924812,
+        "avg": -6913.183082706767,
+        "min": -6913.183082706766,
+        "max": -6913.183082706766
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "63621"
+      ],
+      "CostCentre": [
+        "CC57002_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "fb27ef3c-973c-4897-a94b-ec9303f26665": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -82958.19699248119,
+        "avg": -6913.183082706765,
+        "min": -6913.183082706766,
+        "max": -6913.183082706766
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "70623"
+      ],
+      "CostCentre": [
+        "CC57002_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "8e121dda-b27d-4b36-b0cf-ed3987838751": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -68476.66027397261,
+        "avg": -5706.388356164384,
+        "min": -5706.388356164384,
+        "max": -5706.388356164384
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "65378"
+      ],
+      "CostCentre": [
+        "CC57003_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "71aa0807-5d39-46fd-bb22-c87cadfbef09": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637166,
+        "avg": -2102.4212094395275,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "64845"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "0b229d16-fbba-4e92-b68a-23d0e1aa3d19": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637163,
+        "avg": -2102.421209439527,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "68351"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "5be456a1-2690-4634-962b-9d9f04486efe": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -100916.21805309741,
+        "avg": -1681.9369675516236,
+        "min": -1681.936967551623,
+        "max": -1681.936967551623
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "65338"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "b751043b-557a-42fa-9fc7-a5c4baa4d347": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637166,
+        "avg": -2102.4212094395275,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "68488"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "64ab3919-0d20-4a2d-b1aa-ebce39dd74c9": {
+    "metrics": {
+      "amount": {
+        "count": 96,
+        "sum": -162633.74594594594,
+        "avg": -1694.1015202702702,
+        "min": -1694.101520270271,
+        "max": -1694.101520270271
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "72506"
+      ],
+      "CostCentre": [
+        "CC56801_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "486f0c7a-30e4-450f-8ca1-fe56082b5d00": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -13704.667264573993,
+        "avg": -1142.055605381166,
+        "min": -1142.055605381166,
+        "max": -1142.055605381166
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "65016"
+      ],
+      "CostCentre": [
+        "CC57402_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "6d2bfedd-0fa8-4f1f-aae7-da9897d75bb7": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -73014.81306122447,
+        "avg": -6084.567755102039,
+        "min": -6084.56775510204,
+        "max": -6084.56775510204
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "32042"
+      ],
+      "CostCentre": [
+        "CC57001_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "6ad692d9-8f50-43ac-86f5-c08767ea4b6a": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637164,
+        "avg": -2102.4212094395275,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "73289"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "Sri Lanka"
+      ]
+    }
+  },
+  "1d5cc7c1-0f5a-4693-9571-b78e7401a268": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637166,
+        "avg": -2102.4212094395275,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "68765"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "f5660270-3b9f-487f-aa1f-9921817b2090": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -13704.667264573993,
+        "avg": -1142.055605381166,
+        "min": -1142.055605381166,
+        "max": -1142.055605381166
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "66846"
+      ],
+      "CostCentre": [
+        "CC57402_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "c1191645-4a82-467f-adea-8776cd990421": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -13704.667264573993,
+        "avg": -1142.055605381166,
+        "min": -1142.055605381166,
+        "max": -1142.055605381166
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "66782"
+      ],
+      "CostCentre": [
+        "CC57402_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "d8879402-046e-40d8-a17a-b68e35097517": {
+    "metrics": {
+      "amount": {
+        "count": 24,
+        "sum": -170874.26999999996,
+        "avg": -7119.761249999999,
+        "min": -7119.76125,
+        "max": -7119.76125
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "73006"
+      ],
+      "CostCentre": [
+        "CC58403_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "22aede93-3061-4e26-9529-050f9d3157c5": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -6960,
+        "avg": -580,
+        "min": -580,
+        "max": -580
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "456789.0"
+      ],
+      "CostCentre": [
+        "CC56805_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "e7d714db-57d7-4b70-8758-0512513db0d1": {
+    "metrics": {
+      "amount": {
+        "count": 96,
+        "sum": -162633.74594594596,
+        "avg": -1694.1015202702704,
+        "min": -1694.101520270271,
+        "max": -1694.101520270271
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "65381"
+      ],
+      "CostCentre": [
+        "CC56801_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "e245b197-53f7-4fed-b085-13232890565f": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -82958.19699248119,
+        "avg": -6913.183082706765,
+        "min": -6913.183082706766,
+        "max": -6913.183082706766
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "73200"
+      ],
+      "CostCentre": [
+        "CC57002_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "689b4fdc-09b2-497a-bffd-3008d3a68ddd": {
+    "metrics": {
+      "amount": {
+        "count": 96,
+        "sum": -162633.74594594596,
+        "avg": -1694.1015202702704,
+        "min": -1694.101520270271,
+        "max": -1694.101520270271
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "31367"
+      ],
+      "CostCentre": [
+        "CC56801_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "65bed38e-7ab6-45bc-af5f-c4ce0ff6b48f": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -73014.81306122447,
+        "avg": -6084.567755102039,
+        "min": -6084.56775510204,
+        "max": -6084.56775510204
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "31852"
+      ],
+      "CostCentre": [
+        "CC57001_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "23fecd51-37b6-41e9-8d59-bdc80f87f7f6": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -73014.81306122447,
+        "avg": -6084.567755102039,
+        "min": -6084.56775510204,
+        "max": -6084.56775510204
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "31560"
+      ],
+      "CostCentre": [
+        "CC57001_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "69ae1c0a-23cb-4947-9cf7-6658d47aa8bb": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637166,
+        "avg": -2102.4212094395275,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "65322"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "ad58bca9-34c7-4e7a-a3ff-1039df2f325b": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -73014.81306122447,
+        "avg": -6084.567755102039,
+        "min": -6084.56775510204,
+        "max": -6084.56775510204
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "30547"
+      ],
+      "CostCentre": [
+        "CC57001_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "b7676fe4-f63d-41c1-880c-02e6d6536756": {
+    "metrics": {
+      "amount": {
+        "count": 96,
+        "sum": -162633.74594594596,
+        "avg": -1694.1015202702704,
+        "min": -1694.101520270271,
+        "max": -1694.101520270271
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "68048"
+      ],
+      "CostCentre": [
+        "CC56801_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "73bc6a95-9e8e-49c5-aca3-2f856367901c": {
+    "metrics": {
+      "amount": {
+        "count": 24,
+        "sum": -80976.56999999999,
+        "avg": -3374.02375,
+        "min": -3374.02375,
+        "max": -3374.02375
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "VAC6"
+      ],
+      "CostCentre": [
+        "CC58404_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "c548ff70-f610-44f5-8b2e-ce2804a349c0": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -73014.81306122447,
+        "avg": -6084.567755102039,
+        "min": -6084.56775510204,
+        "max": -6084.56775510204
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "30107"
+      ],
+      "CostCentre": [
+        "CC57001_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "226081bf-a3b1-4b9d-8c17-20a37723d8fa": {
+    "metrics": {
+      "amount": {
+        "count": 24,
+        "sum": -1352954.2200000002,
+        "avg": -56373.092500000006,
+        "min": -56373.0925,
+        "max": -56373.0925
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "32032"
+      ],
+      "CostCentre": [
+        "CC50101_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "c2983eae-0ca2-4d3a-9467-1479bfdef6b0": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637164,
+        "avg": -2102.4212094395275,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "65396"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "b7729a7b-9610-499f-8f6d-e5dbb557071b": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637163,
+        "avg": -2102.421209439527,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "70726"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "131e7259-18fb-494f-927d-7248377388b8": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -73014.81306122447,
+        "avg": -6084.567755102039,
+        "min": -6084.56775510204,
+        "max": -6084.56775510204
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "31361"
+      ],
+      "CostCentre": [
+        "CC57001_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "4c0517be-2ca7-47b9-a1fb-886a97e5006f": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -13704.667264573993,
+        "avg": -1142.055605381166,
+        "min": -1142.055605381166,
+        "max": -1142.055605381166
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "66905"
+      ],
+      "CostCentre": [
+        "CC57402_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "e1469c62-2ea4-4042-8968-798bd8c887f4": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637163,
+        "avg": -2102.421209439527,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "68920"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "ede9e3f0-b778-4573-8691-49c2cc6b24cc": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -73014.81306122447,
+        "avg": -6084.567755102039,
+        "min": -6084.56775510204,
+        "max": -6084.56775510204
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "31656"
+      ],
+      "CostCentre": [
+        "CC57001_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "0e9174c4-f182-4f14-9a25-b38961779ca1": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -13704.667264573993,
+        "avg": -1142.055605381166,
+        "min": -1142.055605381166,
+        "max": -1142.055605381166
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "70167"
+      ],
+      "CostCentre": [
+        "CC57402_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "983a238a-9c18-49d0-9f9f-6947e05386b9": {
+    "metrics": {
+      "amount": {
+        "count": 96,
+        "sum": -162633.74594594594,
+        "avg": -1694.1015202702702,
+        "min": -1694.101520270271,
+        "max": -1694.101520270271
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "65935"
+      ],
+      "CostCentre": [
+        "CC56801_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "9ddb6f85-42b3-44c6-867e-8b8a2bc90bfa": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -82958.19699248119,
+        "avg": -6913.183082706765,
+        "min": -6913.183082706766,
+        "max": -6913.183082706766
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "62478"
+      ],
+      "CostCentre": [
+        "CC57002_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "e058f506-17da-41ed-b7a8-1d8b5cc6225a": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -68476.66027397261,
+        "avg": -5706.388356164384,
+        "min": -5706.388356164384,
+        "max": -5706.388356164384
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "64809"
+      ],
+      "CostCentre": [
+        "CC57003_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "d1256535-75cb-4b16-b4eb-56ba5212a37e": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637164,
+        "avg": -2102.4212094395275,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "68607"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "01ea3aa3-c2ad-4164-ab7f-7842c95a3848": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -68476.66027397261,
+        "avg": -5706.388356164384,
+        "min": -5706.388356164384,
+        "max": -5706.388356164384
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "65386"
+      ],
+      "CostCentre": [
+        "CC57003_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "4a9086d2-ed97-4767-b992-c1897f68dbb6": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637166,
+        "avg": -2102.4212094395275,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "67655"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "4acce7de-4969-4342-a68f-4197f2d67860": {
+    "metrics": {
+      "amount": {
+        "count": 96,
+        "sum": -162633.74594594596,
+        "avg": -1694.1015202702704,
+        "min": -1694.101520270271,
+        "max": -1694.101520270271
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "68954"
+      ],
+      "CostCentre": [
+        "CC56801_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "474b258f-d10b-4560-aae3-fc72fe4212e1": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -82958.19699248119,
+        "avg": -6913.183082706765,
+        "min": -6913.183082706766,
+        "max": -6913.183082706766
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "66877"
+      ],
+      "CostCentre": [
+        "CC57002_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "34a09be9-049a-47d5-aa3a-0b57c3f64a00": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637164,
+        "avg": -2102.4212094395275,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "70744"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "20cede2c-fd2f-4902-80c3-49e96a005a51": {
+    "metrics": {
+      "amount": {
+        "count": 96,
+        "sum": -162633.74594594596,
+        "avg": -1694.1015202702704,
+        "min": -1694.101520270271,
+        "max": -1694.101520270271
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "68839"
+      ],
+      "CostCentre": [
+        "CC56801_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "f8c037f3-31e1-4f9a-bb99-a7551d830f02": {
+    "metrics": {
+      "amount": {
+        "count": 24,
+        "sum": -83111.06999999999,
+        "avg": -3462.96125,
+        "min": -3462.96125,
+        "max": -3462.96125
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "VAC3"
+      ],
+      "CostCentre": [
+        "CC56603_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "80c2c176-c26c-4986-9908-95f8c88f46c5": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -68476.66027397261,
+        "avg": -5706.388356164384,
+        "min": -5706.388356164384,
+        "max": -5706.388356164384
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "30277"
+      ],
+      "CostCentre": [
+        "CC57003_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "9eead426-d17d-46c1-b66c-fad5248ea1fb": {
+    "metrics": {
+      "amount": {
+        "count": 84,
+        "sum": -155691.89999999994,
+        "avg": -1853.4749999999992,
+        "min": -1853.475,
+        "max": -1853.475
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "68263"
+      ],
+      "CostCentre": [
+        "CC57005_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "405c428a-0220-4241-a6ee-65c8f82d452f": {
+    "metrics": {
+      "amount": {
+        "count": 24,
+        "sum": -170874.27,
+        "avg": -7119.76125,
+        "min": -7119.76125,
+        "max": -7119.76125
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "73003"
+      ],
+      "CostCentre": [
+        "CC58403_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "c7c6bd8f-b2b2-4b9b-a107-ed23c857e014": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -13704.667264573993,
+        "avg": -1142.055605381166,
+        "min": -1142.055605381166,
+        "max": -1142.055605381166
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "66853"
+      ],
+      "CostCentre": [
+        "CC57402_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "0d362603-185c-4452-a03f-5fc6094b4240": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -13704.667264573993,
+        "avg": -1142.055605381166,
+        "min": -1142.055605381166,
+        "max": -1142.055605381166
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "66896"
+      ],
+      "CostCentre": [
+        "CC57402_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "333eca7a-10fc-4cb8-b769-6b938bc761d3": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637164,
+        "avg": -2102.4212094395275,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "66885"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "72a98229-a09b-443c-b4e3-8cbe23cc2131": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -13704.667264573993,
+        "avg": -1142.055605381166,
+        "min": -1142.055605381166,
+        "max": -1142.055605381166
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "66923"
+      ],
+      "CostCentre": [
+        "CC57402_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "312b3671-71c2-400d-b251-8b15b2cdd9f4": {
+    "metrics": {
+      "amount": {
+        "count": 24,
+        "sum": -107460.77333333332,
+        "avg": -4477.532222222221,
+        "min": -4477.532222222221,
+        "max": -4477.532222222221
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "69311"
+      ],
+      "CostCentre": [
+        "CC58401_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "7d351e69-cdb4-4ca3-a916-36fd612f3223": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -73014.81306122447,
+        "avg": -6084.567755102039,
+        "min": -6084.56775510204,
+        "max": -6084.56775510204
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "31473"
+      ],
+      "CostCentre": [
+        "CC57001_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "ff3ddd20-9367-42db-8ac5-ebf949bf0f47": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637164,
+        "avg": -2102.4212094395275,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "70807"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "aeede134-9544-4866-9c51-276a11717d24": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637164,
+        "avg": -2102.4212094395275,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "66765"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "f7b071d6-4592-4725-8e03-c1f006be9a82": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637166,
+        "avg": -2102.4212094395275,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "65364"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "8d8c9e9e-b990-4fb7-94e9-e055fcac9ff6": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637163,
+        "avg": -2102.421209439527,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "69764"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "fca1a863-8e65-4353-ae46-8d22b50cc5dc": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -13704.667264573993,
+        "avg": -1142.055605381166,
+        "min": -1142.055605381166,
+        "max": -1142.055605381166
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "66863"
+      ],
+      "CostCentre": [
+        "CC57402_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "3f5b5a35-8858-482c-83a5-feb5cf3e463b": {
+    "metrics": {
+      "amount": {
+        "count": 84,
+        "sum": -155691.89999999994,
+        "avg": -1853.4749999999992,
+        "min": -1853.475,
+        "max": -1853.475
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "73181"
+      ],
+      "CostCentre": [
+        "CC57005_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "2d1f4726-6c99-4c4f-90b4-bb285204608c": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -13704.667264573993,
+        "avg": -1142.055605381166,
+        "min": -1142.055605381166,
+        "max": -1142.055605381166
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "65219"
+      ],
+      "CostCentre": [
+        "CC57402_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "917f5c9a-5c0d-4d0d-955d-989538e89684": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637164,
+        "avg": -2102.4212094395275,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "68344"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "ecd9751b-8c92-4aa5-8cc7-549d5712d66c": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -73014.81306122447,
+        "avg": -6084.567755102039,
+        "min": -6084.56775510204,
+        "max": -6084.56775510204
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "31229"
+      ],
+      "CostCentre": [
+        "CC57001_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "cbf2d132-bd34-4b80-befc-1182fdf02a99": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -73014.81306122449,
+        "avg": -6084.567755102041,
+        "min": -6084.56775510204,
+        "max": -6084.56775510204
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "30208"
+      ],
+      "CostCentre": [
+        "CC57001_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "55bbe572-c8ea-4918-9292-97ee2cfa7bec": {
+    "metrics": {
+      "amount": {
+        "count": 96,
+        "sum": -162633.74594594596,
+        "avg": -1694.1015202702704,
+        "min": -1694.101520270271,
+        "max": -1694.101520270271
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "68414"
+      ],
+      "CostCentre": [
+        "CC56801_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "68d35575-c2ed-4037-b289-39a1c2dd00ea": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -13704.667264573995,
+        "avg": -1142.0556053811663,
+        "min": -1142.055605381166,
+        "max": -1142.055605381166
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "69634"
+      ],
+      "CostCentre": [
+        "CC57402_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "d6b87a14-da85-4868-81f2-36ceaa41f378": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -13704.667264573993,
+        "avg": -1142.055605381166,
+        "min": -1142.055605381166,
+        "max": -1142.055605381166
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "72352"
+      ],
+      "CostCentre": [
+        "CC57402_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "c3f71746-3d36-4147-8d43-1ae7ff1159cb": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -49774.918195488724,
+        "avg": -4147.90984962406,
+        "min": -4147.90984962406,
+        "max": -4147.90984962406
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "66844"
+      ],
+      "CostCentre": [
+        "CC57002_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "9ec17b9f-5ae8-4a21-b866-0c59579819f8": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -73014.81306122447,
+        "avg": -6084.567755102039,
+        "min": -6084.56775510204,
+        "max": -6084.56775510204
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "30935"
+      ],
+      "CostCentre": [
+        "CC57001_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "b699f17e-fce4-405a-a480-98827ab0493d": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637166,
+        "avg": -2102.4212094395275,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "65185"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "aeaf6cac-7256-484d-8769-577428faa669": {
+    "metrics": {
+      "amount": {
+        "count": 96,
+        "sum": -162633.74594594596,
+        "avg": -1694.1015202702704,
+        "min": -1694.101520270271,
+        "max": -1694.101520270271
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "65184"
+      ],
+      "CostCentre": [
+        "CC56801_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "72ea4716-94af-4a05-be5b-2047eb649ca3": {
+    "metrics": {
+      "amount": {
+        "count": 96,
+        "sum": -162633.74594594594,
+        "avg": -1694.1015202702702,
+        "min": -1694.101520270271,
+        "max": -1694.101520270271
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "31207"
+      ],
+      "CostCentre": [
+        "CC56801_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "32853f36-a7e5-4e82-a39c-ab5241ce0816": {
+    "metrics": {
+      "amount": {
+        "count": 96,
+        "sum": -162633.74594594596,
+        "avg": -1694.1015202702704,
+        "min": -1694.101520270271,
+        "max": -1694.101520270271
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "69742"
+      ],
+      "CostCentre": [
+        "CC56801_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "fbc7803d-46a6-4786-8e0a-d8a0ffd24419": {
+    "metrics": {
+      "amount": {
+        "count": 24,
+        "sum": -83111.06999999999,
+        "avg": -3462.96125,
+        "min": -3462.96125,
+        "max": -3462.96125
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "VAC4"
+      ],
+      "CostCentre": [
+        "CC56603_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "e7514fdc-2099-4bde-a204-9ce7aa0568ab": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -8222.800358744396,
+        "avg": -685.2333632286997,
+        "min": -685.2333632286997,
+        "max": -685.2333632286997
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "66859"
+      ],
+      "CostCentre": [
+        "CC57402_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "c1655446-7db8-46fd-8641-252c8371af7a": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637166,
+        "avg": -2102.4212094395275,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "65305"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "9bba9923-ac01-4346-a09c-0e502743fcbe": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -73014.81306122447,
+        "avg": -6084.567755102039,
+        "min": -6084.56775510204,
+        "max": -6084.56775510204
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "30175"
+      ],
+      "CostCentre": [
+        "CC57001_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "e528f025-3133-4690-95e8-67e3b49c5258": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637166,
+        "avg": -2102.4212094395275,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "66785"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "2d703783-01fa-4697-b8f4-bc9dd60b9e61": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637163,
+        "avg": -2102.421209439527,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "65073"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "fbbd10a0-e628-45de-b891-2862502bdb14": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -13704.667264573993,
+        "avg": -1142.055605381166,
+        "min": -1142.055605381166,
+        "max": -1142.055605381166
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "65961"
+      ],
+      "CostCentre": [
+        "CC57402_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "367b1533-e584-46c4-a954-5cb4f6b40346": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -13704.667264573993,
+        "avg": -1142.055605381166,
+        "min": -1142.055605381166,
+        "max": -1142.055605381166
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "66771"
+      ],
+      "CostCentre": [
+        "CC57402_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "6ff7cb9f-be9c-4434-a509-b0691c431440": {
+    "metrics": {
+      "amount": {
+        "count": 96,
+        "sum": -162633.74594594596,
+        "avg": -1694.1015202702704,
+        "min": -1694.101520270271,
+        "max": -1694.101520270271
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "70670"
+      ],
+      "CostCentre": [
+        "CC56801_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "532ae817-fdbb-4f9e-b136-3c6a26565543": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -73014.81306122447,
+        "avg": -6084.567755102039,
+        "min": -6084.56775510204,
+        "max": -6084.56775510204
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "30184"
+      ],
+      "CostCentre": [
+        "CC57001_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "4be741fc-029a-4c26-9840-3946ae2d8c9e": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -73014.81306122447,
+        "avg": -6084.567755102039,
+        "min": -6084.56775510204,
+        "max": -6084.56775510204
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "31887"
+      ],
+      "CostCentre": [
+        "CC57001_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "bcb5d6ec-04c9-43d9-a15f-e71c0cfd5e26": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -73014.81306122447,
+        "avg": -6084.567755102039,
+        "min": -6084.56775510204,
+        "max": -6084.56775510204
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "30428"
+      ],
+      "CostCentre": [
+        "CC57001_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "ef46a678-ca93-4622-9a69-f8871d78261e": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -13704.667264573993,
+        "avg": -1142.055605381166,
+        "min": -1142.055605381166,
+        "max": -1142.055605381166
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "66921"
+      ],
+      "CostCentre": [
+        "CC57402_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "066695e3-b536-476b-8840-bc05df4cbb27": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637164,
+        "avg": -2102.4212094395275,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "68590"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "4e9c6194-17f8-4097-96c5-e6601c49f0c5": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637163,
+        "avg": -2102.421209439527,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "65192"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "cd0f2dd2-bcde-4e9f-9205-e95cd67d7741": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -68476.66027397261,
+        "avg": -5706.388356164384,
+        "min": -5706.388356164384,
+        "max": -5706.388356164384
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "70398"
+      ],
+      "CostCentre": [
+        "CC57003_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "f9f01516-d76e-408c-a682-5c262882681d": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637164,
+        "avg": -2102.4212094395275,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "64854"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "b9a82b03-71eb-41ea-b0ee-ee9668be39ce": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -13704.667264573993,
+        "avg": -1142.055605381166,
+        "min": -1142.055605381166,
+        "max": -1142.055605381166
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "66878"
+      ],
+      "CostCentre": [
+        "CC57402_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "aef23c7b-aeaf-4f00-a567-ac858a95a557": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -73014.81306122447,
+        "avg": -6084.567755102039,
+        "min": -6084.56775510204,
+        "max": -6084.56775510204
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "31805"
+      ],
+      "CostCentre": [
+        "CC57001_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "9b8f9417-6d1d-4dcc-a169-2073cf1ceafb": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -82958.1969924812,
+        "avg": -6913.183082706767,
+        "min": -6913.183082706766,
+        "max": -6913.183082706766
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "65406"
+      ],
+      "CostCentre": [
+        "CC57002_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "39951022-0ef6-44a2-9d82-c72a1120b357": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637163,
+        "avg": -2102.421209439527,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "65328"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "128ba1ea-513c-434d-b9ec-f976723c32df": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637163,
+        "avg": -2102.421209439527,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "66917"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "edb50d4a-eb08-452c-93ba-8234986376cb": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637164,
+        "avg": -2102.4212094395275,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "68576"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "ca284511-e52b-4d15-b978-ad1b66d91cb3": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -13704.667264573993,
+        "avg": -1142.055605381166,
+        "min": -1142.055605381166,
+        "max": -1142.055605381166
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "70701"
+      ],
+      "CostCentre": [
+        "CC57402_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "7ebc9b0f-e9f3-429a-b8c2-d3a750a5768c": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637166,
+        "avg": -2102.4212094395275,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "69421"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "774f2fa3-ca95-49d0-9a6d-de7effd95a14": {
+    "metrics": {
+      "amount": {
+        "count": 96,
+        "sum": -162633.74594594594,
+        "avg": -1694.1015202702702,
+        "min": -1694.101520270271,
+        "max": -1694.101520270271
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "64967"
+      ],
+      "CostCentre": [
+        "CC56801_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "1201873b-d2fe-465a-8d37-a7794a5e60ec": {
+    "metrics": {
+      "amount": {
+        "count": 96,
+        "sum": -162633.74594594596,
+        "avg": -1694.1015202702704,
+        "min": -1694.101520270271,
+        "max": -1694.101520270271
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "68795"
+      ],
+      "CostCentre": [
+        "CC56801_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "7baa0fcf-1351-4d8f-817b-89b85bbb2c32": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -73014.81306122447,
+        "avg": -6084.567755102039,
+        "min": -6084.56775510204,
+        "max": -6084.56775510204
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "30869"
+      ],
+      "CostCentre": [
+        "CC57001_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "3ff5674f-f6b2-4c19-a043-a2d69486f438": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -73014.81306122447,
+        "avg": -6084.567755102039,
+        "min": -6084.56775510204,
+        "max": -6084.56775510204
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "31332"
+      ],
+      "CostCentre": [
+        "CC57001_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "bf010a71-5dba-4b97-9cfa-4143b243f321": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637163,
+        "avg": -2102.421209439527,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "65948"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "b0b01494-e745-4779-b6d5-84b2f07aa8dd": {
+    "metrics": {
+      "amount": {
+        "count": 24,
+        "sum": -1352954.2200000002,
+        "avg": -56373.092500000006,
+        "min": -56373.0925,
+        "max": -56373.0925
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "31831"
+      ],
+      "CostCentre": [
+        "CC50101_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "944593f4-7783-4f6c-ba0a-6b0b97fff243": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637163,
+        "avg": -2102.421209439527,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "68201"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "08f90100-1de9-4335-baa4-65963fd6c76b": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -13704.667264573993,
+        "avg": -1142.055605381166,
+        "min": -1142.055605381166,
+        "max": -1142.055605381166
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "66936"
+      ],
+      "CostCentre": [
+        "CC57402_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "bb02598a-fa43-43c3-b797-d464bbdf6c7c": {
+    "metrics": {
+      "amount": {
+        "count": 96,
+        "sum": -162633.74594594596,
+        "avg": -1694.1015202702704,
+        "min": -1694.101520270271,
+        "max": -1694.101520270271
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "71348"
+      ],
+      "CostCentre": [
+        "CC56801_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "e1d80257-81cf-45e0-ac32-cb4184f2fb11": {
+    "metrics": {
+      "amount": {
+        "count": 24,
+        "sum": -107460.7733333333,
+        "avg": -4477.532222222221,
+        "min": -4477.532222222221,
+        "max": -4477.532222222221
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "69949"
+      ],
+      "CostCentre": [
+        "CC58401_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "554bea64-1541-46b7-81d2-acf80d481c77": {
+    "metrics": {
+      "amount": {
+        "count": 24,
+        "sum": -170874.26999999996,
+        "avg": -7119.761249999999,
+        "min": -7119.76125,
+        "max": -7119.76125
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "31268"
+      ],
+      "CostCentre": [
+        "CC58403_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "8fab74c0-f880-46ec-9b0e-5d53faa44729": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -13704.667264573993,
+        "avg": -1142.055605381166,
+        "min": -1142.055605381166,
+        "max": -1142.055605381166
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "66961"
+      ],
+      "CostCentre": [
+        "CC57402_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "99831a1e-f34e-480a-b511-d2e05d4bd3e9": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -13704.667264573993,
+        "avg": -1142.055605381166,
+        "min": -1142.055605381166,
+        "max": -1142.055605381166
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "69089"
+      ],
+      "CostCentre": [
+        "CC57402_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "a3f09034-14aa-49e6-a2cc-1a1552412628": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -73014.81306122449,
+        "avg": -6084.567755102041,
+        "min": -6084.56775510204,
+        "max": -6084.56775510204
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "31311"
+      ],
+      "CostCentre": [
+        "CC57001_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "08364403-0279-4f2d-864a-5b36414917fb": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -82958.1969924812,
+        "avg": -6913.183082706767,
+        "min": -6913.183082706766,
+        "max": -6913.183082706766
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "32166"
+      ],
+      "CostCentre": [
+        "CC57002_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "8fedda8f-3bf2-431f-904e-eb29e12b0daa": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -73014.81306122447,
+        "avg": -6084.567755102039,
+        "min": -6084.56775510204,
+        "max": -6084.56775510204
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "31795"
+      ],
+      "CostCentre": [
+        "CC57001_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "1f0e3d55-c572-40ce-8787-d21538a5d36c": {
+    "metrics": {
+      "amount": {
+        "count": 24,
+        "sum": -83111.06999999999,
+        "avg": -3462.96125,
+        "min": -3462.96125,
+        "max": -3462.96125
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "VAC1"
+      ],
+      "CostCentre": [
+        "CC56603_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "844190a6-e627-4d56-a61f-f576f9f6c99e": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -13704.667264573993,
+        "avg": -1142.055605381166,
+        "min": -1142.055605381166,
+        "max": -1142.055605381166
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "71297"
+      ],
+      "CostCentre": [
+        "CC57402_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "e4c9d24c-c809-4970-abe9-e19255c5baf9": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637163,
+        "avg": -2102.421209439527,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "65072"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "ed0a4bec-3607-4faf-80ff-ab7f3ff719c7": {
+    "metrics": {
+      "amount": {
+        "count": 24,
+        "sum": -80976.56999999999,
+        "avg": -3374.02375,
+        "min": -3374.02375,
+        "max": -3374.02375
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "VAC5"
+      ],
+      "CostCentre": [
+        "CC58404_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "6d6bdb3c-1de8-4252-97f9-a8c216df07e0": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637164,
+        "avg": -2102.4212094395275,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "66816"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "2eaa723b-795a-44e8-96b8-2834360d2309": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -68476.66027397261,
+        "avg": -5706.388356164384,
+        "min": -5706.388356164384,
+        "max": -5706.388356164384
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "71569"
+      ],
+      "CostCentre": [
+        "CC57003_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "4bfae892-7e1c-4ec8-bbf5-3fe21ccc0681": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -73014.81306122447,
+        "avg": -6084.567755102039,
+        "min": -6084.56775510204,
+        "max": -6084.56775510204
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "30937"
+      ],
+      "CostCentre": [
+        "CC57001_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "8ae70afa-0cda-47a7-b404-e0d33de3e7fe": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -13704.667264573993,
+        "avg": -1142.055605381166,
+        "min": -1142.055605381166,
+        "max": -1142.055605381166
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "66807"
+      ],
+      "CostCentre": [
+        "CC57402_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "48e7b32a-bd00-46a8-8913-e6575453288e": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -13704.667264573993,
+        "avg": -1142.055605381166,
+        "min": -1142.055605381166,
+        "max": -1142.055605381166
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "66978"
+      ],
+      "CostCentre": [
+        "CC57402_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "699a3a5e-2af5-47e2-a390-3eb225bd2143": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -82958.1969924812,
+        "avg": -6913.183082706767,
+        "min": -6913.183082706766,
+        "max": -6913.183082706766
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "71269"
+      ],
+      "CostCentre": [
+        "CC57002_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "9cb31b2f-fd62-4921-abe3-0fce3861d2eb": {
+    "metrics": {
+      "amount": {
+        "count": 96,
+        "sum": -162633.74594594594,
+        "avg": -1694.1015202702702,
+        "min": -1694.101520270271,
+        "max": -1694.101520270271
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "70300"
+      ],
+      "CostCentre": [
+        "CC56801_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "5db5f36b-e943-41a6-be43-6899d6304f74": {
+    "metrics": {
+      "amount": {
+        "count": 96,
+        "sum": -162633.74594594596,
+        "avg": -1694.1015202702704,
+        "min": -1694.101520270271,
+        "max": -1694.101520270271
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "32073"
+      ],
+      "CostCentre": [
+        "CC56801_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "f35ef7c1-8ece-4efc-ac36-eeb238766dee": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -68476.66027397261,
+        "avg": -5706.388356164384,
+        "min": -5706.388356164384,
+        "max": -5706.388356164384
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "66833"
+      ],
+      "CostCentre": [
+        "CC57003_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "9bad7ff5-5586-4835-91c8-252dbaf220d7": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -13704.667264573993,
+        "avg": -1142.055605381166,
+        "min": -1142.055605381166,
+        "max": -1142.055605381166
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "66842"
+      ],
+      "CostCentre": [
+        "CC57402_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "7e044e4d-33d5-4a5b-be12-6ec79ab6460c": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -225723.99999999997,
+        "avg": -18810.333333333332,
+        "min": -18810.33333333333,
+        "max": -18810.33333333333
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "234567.0"
+      ],
+      "CostCentre": [
+        "CC56351_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "4eae7c97-f7e9-4cd7-9007-f4894c860c9c": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -73014.81306122447,
+        "avg": -6084.567755102039,
+        "min": -6084.56775510204,
+        "max": -6084.56775510204
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "30250"
+      ],
+      "CostCentre": [
+        "CC57001_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "0c5c2caa-6da9-4efd-9d89-e7be10c96fc8": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637163,
+        "avg": -2102.421209439527,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "73423"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "ae531e48-b51d-48b0-ab2c-b5f07aefa3cf": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -73014.81306122447,
+        "avg": -6084.567755102039,
+        "min": -6084.56775510204,
+        "max": -6084.56775510204
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "32149"
+      ],
+      "CostCentre": [
+        "CC57001_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "a75c032b-94ce-4809-b235-8ab27dfc57b8": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -82958.19699248119,
+        "avg": -6913.183082706765,
+        "min": -6913.183082706766,
+        "max": -6913.183082706766
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "66790"
+      ],
+      "CostCentre": [
+        "CC57002_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "6887cafd-48b5-4567-a116-d74aa8578cf2": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -73014.81306122449,
+        "avg": -6084.567755102041,
+        "min": -6084.56775510204,
+        "max": -6084.56775510204
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "32000"
+      ],
+      "CostCentre": [
+        "CC57001_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "2a4d3f24-265f-4f6a-9ff2-2bd1ce4e29e5": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -68476.66027397261,
+        "avg": -5706.388356164384,
+        "min": -5706.388356164384,
+        "max": -5706.388356164384
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "31144"
+      ],
+      "CostCentre": [
+        "CC57003_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "b42623cc-58be-4bf5-9670-b1bc1b351bcc": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637164,
+        "avg": -2102.4212094395275,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "67702"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "b206cf1d-207c-4fa5-a628-583b6acf2a88": {
+    "metrics": {
+      "amount": {
+        "count": 96,
+        "sum": -162633.74594594596,
+        "avg": -1694.1015202702704,
+        "min": -1694.101520270271,
+        "max": -1694.101520270271
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "66794"
+      ],
+      "CostCentre": [
+        "CC56801_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "ff792875-997e-4416-9d5b-e5a53bd0c3a7": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -82958.19699248119,
+        "avg": -6913.183082706765,
+        "min": -6913.183082706766,
+        "max": -6913.183082706766
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "68051"
+      ],
+      "CostCentre": [
+        "CC57002_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "81bea669-3845-4fae-8b36-5f04b5f45945": {
+    "metrics": {
+      "amount": {
+        "count": 96,
+        "sum": -162633.74594594596,
+        "avg": -1694.1015202702704,
+        "min": -1694.101520270271,
+        "max": -1694.101520270271
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "65382"
+      ],
+      "CostCentre": [
+        "CC56801_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "7bea39ad-1e79-41ff-be4c-d335a1634e09": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -82958.19699248119,
+        "avg": -6913.183082706765,
+        "min": -6913.183082706766,
+        "max": -6913.183082706766
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "30519"
+      ],
+      "CostCentre": [
+        "CC57002_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "7c920018-f661-4e56-bacc-fb7a06c083cd": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -82958.19699248119,
+        "avg": -6913.183082706765,
+        "min": -6913.183082706766,
+        "max": -6913.183082706766
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "65586"
+      ],
+      "CostCentre": [
+        "CC57002_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "98dd174d-b339-436c-880b-47e99e16a0e8": {
+    "metrics": {
+      "amount": {
+        "count": 24,
+        "sum": -107460.77333333329,
+        "avg": -4477.53222222222,
+        "min": -4477.532222222221,
+        "max": -4477.532222222221
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "65960"
+      ],
+      "CostCentre": [
+        "CC58401_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "2b72ca96-08c3-4a4a-a755-1dc3c2813366": {
+    "metrics": {
+      "amount": {
+        "count": 96,
+        "sum": -162633.74594594596,
+        "avg": -1694.1015202702704,
+        "min": -1694.101520270271,
+        "max": -1694.101520270271
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "68283"
+      ],
+      "CostCentre": [
+        "CC56801_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "62a034f1-4955-429d-a38d-63e14d4807de": {
+    "metrics": {
+      "amount": {
+        "count": 96,
+        "sum": -162633.74594594596,
+        "avg": -1694.1015202702704,
+        "min": -1694.101520270271,
+        "max": -1694.101520270271
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "70303"
+      ],
+      "CostCentre": [
+        "CC56801_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "bc81572d-3234-48f9-a290-6f997aad1e87": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -13704.667264573993,
+        "avg": -1142.055605381166,
+        "min": -1142.055605381166,
+        "max": -1142.055605381166
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "70752"
+      ],
+      "CostCentre": [
+        "CC57402_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "d2095edc-8703-4f78-887e-63f131110cca": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -73014.81306122447,
+        "avg": -6084.567755102039,
+        "min": -6084.56775510204,
+        "max": -6084.56775510204
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "30953"
+      ],
+      "CostCentre": [
+        "CC57001_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "684f40ea-f083-479e-91ec-92696fc275a9": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -73014.81306122447,
+        "avg": -6084.567755102039,
+        "min": -6084.56775510204,
+        "max": -6084.56775510204
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "30637"
+      ],
+      "CostCentre": [
+        "CC57001_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "fe1ccb03-beca-4bfd-b655-39dff2711e81": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637163,
+        "avg": -2102.421209439527,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "68058"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "cccc19d5-74a7-4655-8d97-644cdb1270eb": {
+    "metrics": {
+      "amount": {
+        "count": 60,
+        "sum": -126145.27256637163,
+        "avg": -2102.421209439527,
+        "min": -2102.421209439528,
+        "max": -2102.421209439528
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "68559"
+      ],
+      "CostCentre": [
+        "CC56804_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "9a1f15d2-64af-4919-bde3-2c9a34cb75fc": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -13704.667264573993,
+        "avg": -1142.055605381166,
+        "min": -1142.055605381166,
+        "max": -1142.055605381166
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "70064"
+      ],
+      "CostCentre": [
+        "CC57402_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "d7153427-5774-4e1f-9d3f-e5ee822daf66": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -82958.19699248119,
+        "avg": -6913.183082706765,
+        "min": -6913.183082706766,
+        "max": -6913.183082706766
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "72617"
+      ],
+      "CostCentre": [
+        "CC57002_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "21be87c1-191d-4ef8-9e9e-90cb9749b5ba": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -82958.1969924812,
+        "avg": -6913.183082706767,
+        "min": -6913.183082706766,
+        "max": -6913.183082706766
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "69942"
+      ],
+      "CostCentre": [
+        "CC57002_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "9279067d-75f1-4d7a-9f06-21de4b54d916": {
+    "metrics": {
+      "amount": {
+        "count": 12,
+        "sum": -73014.81306122447,
+        "avg": -6084.567755102039,
+        "min": -6084.56775510204,
+        "max": -6084.56775510204
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "30040"
+      ],
+      "CostCentre": [
+        "CC57001_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  },
+  "4ee538ce-20bf-41f5-a19a-75f23f3207a6": {
+    "metrics": {
+      "amount": {
+        "count": 24,
+        "sum": -80976.56999999999,
+        "avg": -3374.02375,
+        "min": -3374.02375,
+        "max": -3374.02375
+      }
+    },
+    "uniqueValues": {
+      "LegalEntity": [
+        "410_00"
+      ],
+      "EmployeeId": [
+        "VAC8"
+      ],
+      "CostCentre": [
+        "CC58404_BSL"
+      ],
+      "Location": [
+        "United Kingdom"
+      ]
+    }
+  }
+}

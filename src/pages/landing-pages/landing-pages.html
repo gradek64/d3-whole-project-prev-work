@@ -1,0 +1,20 @@
+<app-header opts="{showOutput: true}"></app-header>
+<side-nav></side-nav>
+<div class="content">
+  <div class="container app">
+    <div class="heading">
+      <h1 class="center-align">{{current.title}}</h1>
+      <div class="divider"></div>
+    </div>
+    <div class="body">
+      <br>
+      <div class="items-{{current.items.length}}" data-ng-repeat="item in current.items track by $index">
+        <lp-card item="item"></lp-card>
+      </div>
+
+    </div>
+  </div>
+</div>
+<notifications></notifications>
+<app-footer></app-footer>
+<login-form></login-form>

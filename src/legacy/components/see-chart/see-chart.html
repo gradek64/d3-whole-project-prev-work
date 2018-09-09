@@ -1,0 +1,1007 @@
+<style>
+  .chart .hidden {
+    display:none!important;
+  }
+
+  .chart .changeDir {
+    display: none!important;
+  }
+
+  /* --------- CHART -------------*/
+  /* --------- CHART -------------*/
+  /* --------- CHART -------------*/
+  /* --------- CHART -------------*/
+  /*--------------------------------
+
+
+            CHART
+
+
+  --------------------------------*/
+  .chart {
+    position: relative; }
+  .chart:after {
+    display: block;
+    content: " ";
+    clear: both; }
+  .chart .canvas {
+    position: relative;
+    height: 65vh;
+    max-height: 600px; }
+  .chart polyline {
+    fill: none; }
+  .chart g.count rect {
+    /* fill: #f00; */
+    fill: #285767;
+    stroke: none; }
+  .chart g.count text {
+    fill: #fff; }
+  .chart .axis--x *, .chart .axis--y * {
+    stroke: #ccc; }
+  .chart .axis--x text, .chart .axis--y text {
+    stroke: none;
+    fill: #999; }
+  .chart .tooltip {
+    z-index: 1300; }
+  .chart .filter-menu a {
+    line-height: 30px;
+    height: 30px;
+    display: inline-block;
+    padding: 0 10px;
+    min-width: 100%;
+    color: #333;
+    text-decoration: none;
+    background-color: #eee; }
+  .chart .filter-menu a.collapsed {
+    background-color: transparent; }
+  .chart .filter-menu a:hover {
+    background-color: #eee; }
+  .chart .filter-menu ul {
+    padding: 0 0 0 31px;
+    max-height: 300px;
+    overflow: auto; }
+  .chart .filter-menu li {
+    list-style-type: none; }
+  .chart .filter-menu li .clear-all {
+    margin-top: 9px;
+    display: inline-block;
+    text-decoration: underline; }
+  .chart .filter-menu label {
+    margin-top: 9px;
+    margin-bottom: 9px;
+    font-weight: 400;
+    margin-right: 9px; }
+  .chart .filter-menu .panel {
+    margin: 0;
+    background-color: transparent;
+    border: none;
+    box-shadow: none; }
+  .chart .lvl {
+    width: auto;
+    display: inline-block;
+    position: relative;
+    top: -30px;
+    left: calc(50% - 149px);
+    padding-left: 0;
+    padding-right: 0; }
+  @media (max-width: 700px) {
+    .chart .lvl {
+      left: 28%; } }
+  @media (max-width: 650px) {
+    .chart .lvl {
+      left: 24%; } }
+  @media (max-width: 600px) {
+    .chart .lvl {
+      left: 20%; } }
+  @media (max-width: 550px) {
+    .chart .lvl {
+      left: 15%; } }
+  @media (max-width: 500px) {
+    .chart .lvl {
+      left: 13%; } }
+
+  /* first level breakdown buttons */
+
+
+  .chart-inner {
+    float: left;
+    width: 100%;
+    position: relative; }
+  .chart-inner:after {
+    display: block;
+    content: " ";
+    clear: both; }
+
+  .collapse-left > .chart > .chart-inner {
+    width: 30%; }
+  .collapse-left .drilldown-chart .chart-toolbar {
+    display: none; }
+  .collapse-left .drilldown-chart .has-drill-down {
+    margin-bottom: 20px; }
+
+  /* todo: change to collapse-left */
+  .cu > .chart > .chart-inner {
+    width: 30%; }
+  .cu .drilldown-chart .chart-toolbar {
+    display: none; }
+  .cu .drilldown-chart .canvas {
+    height: 300px; }
+
+  .drilldown-chart {
+    width: 70%;
+    float: left; }
+  .drilldown-chart .canvas {
+    height: auto;
+    min-height: 100px;
+    height: 150px; }
+
+  .chart.rows rect {
+    fill-opacity: 0.8; }
+  .chart.rows rect:hover {
+    fill-opacity: 1; }
+
+  .chart.map .canvas {
+    height: 50vw;
+    max-height: 65vh;
+    max-height: 600px; }
+
+  .chart.sankey .canvas {
+    height: auto;
+    max-height: none; }
+  .chart.sankey .node text {
+    pointer-events: none; }
+  .chart.sankey .node rect {
+    cursor: move;
+    fill-opacity: .9;
+    shape-rendering: crispEdges; }
+  .chart.sankey .link {
+    fill: none;
+    stroke-opacity: .2;
+    transition: stroke-opacity .35s ease, opacity .35s ease; }
+  .chart.sankey .link.hover {
+    stroke-opacity: 0.50; }
+  .chart.sankey .link:hover {
+    stroke-opacity: 0.70; }
+  .chart.sankey .link.fade-link {
+    opacity: 0.25; }
+  .chart.sankey rect.placeholder {
+    stroke: #ccc;
+    stroke-width: 2px; }
+  .chart.sankey .tooltip .tooltip-inner {
+    max-width: none; }
+
+  .chart.donut .arc {
+    fill-opacity: 0.9; }
+
+  .chart.sunburst .arc {
+    fill-opacity: 0.9; }
+  .chart.sunburst path {
+    stroke: #fff; }
+
+  .chart.chord .groups path {
+    stroke-opacity: .8;
+    fill-opacity: .8; }
+  .chart.chord .groups path.active {
+    stroke-opacity: 1;
+    fill-opacity: 1; }
+  .chart.chord .groups text {
+    fill: #fff;
+    font-size: 0.87rem;
+    font-weight: 200; }
+  .chart.chord .groups .group-tick text {
+    fill: #000;
+    font-size: 0.87rem;
+    font-weight: 200; }
+  .chart.chord .groups .group-tick line {
+    stroke: #ccc; }
+  .chart.chord .ribbons path {
+    stroke-opacity: .2;
+    fill-opacity: .2;
+    transition: stroke-opacity .35s ease, opacity .35s ease; }
+  .chart.chord .ribbons path.active-group {
+    stroke-opacity: 0.60;
+    fill-opacity: 0.60; }
+  .chart.chord .ribbons path:hover {
+    stroke-opacity: 0.70;
+    fill-opacity: 0.70; }
+  .chart.chord .ribbons path.fade-ribbon {
+    opacity: 0.25; }
+  .chart.chord .chord-table {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    z-index: 1100; }
+  .chart.chord .tooltip .tooltip-inner {
+    max-width: none; }
+  .chart.chord svg {
+    overflow: visible; }
+
+  .hide-labels .chart g.arc text,
+  .hide-labels .chart g.arc polyline {
+    display: none; }
+
+  .collapse-left .chart g.arc text,
+  .collapse-left .chart g.arc polyline {
+    display: none; }
+  .collapse-left .chart .legend {
+    display: none; }
+  .collapse-left .chart .rows .chart-toolbar {
+    display: none; }
+
+  @media (max-width: 1200px) {
+    .chart g.arc text,
+    .chart g.arc polyline {
+      display: none; } }
+  .mouse-over g.arc:not(.active):not(.anchored-active),
+  .anchored g.arc:not(.anchored-active):not(.active),
+  .mouse-over g.bar:not(.active):not(.anchored-active),
+  .anchored g.bar:not(.anchored-active):not(.active),
+  .mouse-over rect.bar:not(.active):not(.anchored-active),
+  .anchored rect.bar:not(.anchored-active):not(.active) {
+    opacity: 0.25; }
+
+  g.arc,
+  g.bar,
+  rect.bar {
+    transition: opacity 0.3s ease; }
+
+  .component-subtitle {
+    display: block;
+    color: #aaa;
+    font-style: italic; }
+
+  .chart-controls .dropdown-menu.chart-th {
+    padding-left: 5px;
+    padding-right: 5px;
+    min-width: 240px; }
+  .chart-controls > * {
+    display: inline-block; }
+
+  @media (min-width: 768px) {
+    .chart-controls .dropdown-toggle {
+      display: none; }
+    .chart-controls .dropdown-menu.chart-th {
+      position: static;
+      display: block;
+      padding: 0;
+      margin: 0;
+      float: none;
+      border: 0;
+      box-shadow: none;
+      min-width: initial; }
+    .chart-controls .dropdown-header {
+      display: none; } }
+  .chart-tooltip {
+    position: absolute;
+    z-index: 1300;
+    display: block;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-size: .875rem;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.5;
+    opacity: 0; }
+  .chart-tooltip.top {
+    margin-top: -3px;
+    padding: 5px 0; }
+  .chart-tooltip > * {
+    max-width: 200px;
+    padding: 3px 8px;
+    color: #fff;
+    text-align: center;
+    background-color: #000;
+    border-radius: 4px; }
+  .chart-tooltip > *:before {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid; }
+
+  .chart-tooltip.top > *:before {
+    bottom: 0;
+    left: 50%;
+    content: "";
+    margin-left: -5px;
+    border-width: 5px 5px 0;
+    border-top-color: #000; }
+
+  /* --------- LEGEND -------------*/
+  /* --------- LEGEND -------------*/
+  /* --------- LEGEND -------------*/
+  /* --------- LEGEND -------------*/
+  /*--------------------------------
+
+
+            LEGEND
+
+
+  --------------------------------*/
+  .legend {
+    margin-bottom: 20px;
+    float: left;
+    z-index: 700;
+    /* if in doubt, increase the z-index */
+    width: 100%;
+    min-width: 140px;
+    overflow-y: auto;
+    background: rgba(255, 255, 255, 0.3); }
+  .legend .btn-block {
+    display: none; }
+  .legend .inner-container {
+    width: 100%;
+    margin: 0 auto; }
+  .legend .legend-sq {
+    width: 15px;
+    height: 15px;
+    margin-top: 2.5px;
+    margin-left: -19px;
+    float: left;
+    border-radius: 50%; }
+  .legend .legend-item:hover .legend-sq,
+  .legend .legend-item.active .legend-sq {
+    border: 1px solid black; }
+  .legend .legend-item {
+    width: 100%;
+    float: left;
+    padding-left: 21.5px;
+    padding-right: 5px;
+    transition: opacity 0.3s ease; }
+  @media (min-width: 576px) {
+    .legend .legend-item {
+      width: 50%; }
+    .legend .legend-item:nth-of-type(2n + 1) {
+      clear: both; }
+    .legend .legend-item:first-child:nth-last-child(1) {
+      margin-left: 25%; } }
+  @media (min-width: 768px) {
+    .legend .legend-item {
+      width: 33.3333333%; }
+    .legend .legend-item:nth-of-type(2n + 1) {
+      clear: none; }
+    .legend .legend-item:nth-of-type(3n + 1) {
+      clear: both; }
+    .legend .legend-item:first-child:nth-last-child(2) {
+      margin-left: 16.6666666%; }
+    .legend .legend-item:first-child:nth-last-child(1) {
+      margin-left: 33.3333333%; } }
+  @media (min-width: 992px) {
+    .legend .legend-item {
+      width: 25%; }
+    .legend .legend-item:nth-of-type(3n + 1) {
+      clear: none; }
+    .legend .legend-item:nth-of-type(4n + 1) {
+      clear: both; }
+    .legend .legend-item:first-child:nth-last-child(3) {
+      margin-left: 12.5%; }
+    .legend .legend-item:first-child:nth-last-child(2) {
+      margin-left: 25%; }
+    .legend .legend-item:first-child:nth-last-child(1) {
+      margin-left: 37.5%; } }
+  @media (min-width: 1200px) {
+    .legend .legend-item {
+      width: 20%; }
+    .legend .legend-item:nth-of-type(4n + 1) {
+      clear: none; }
+    .legend .legend-item:nth-of-type(5n + 1) {
+      clear: both; }
+    .legend .legend-item:first-child:nth-last-child(4) {
+      margin-left: 10%; }
+    .legend .legend-item:first-child:nth-last-child(3) {
+      margin-left: 20%; }
+    .legend .legend-item:first-child:nth-last-child(2) {
+      margin-left: 30%; }
+    .legend .legend-item:first-child:nth-last-child(1) {
+      margin-left: 40%; } }
+
+  /* --------- TABLE -------------*/
+  /* --------- TABLE -------------*/
+  /* --------- TABLE -------------*/
+  /* --------- TABLE -------------*/
+  /*--------------------------------
+
+
+            Table
+
+
+  --------------------------------*/
+
+  .data-table td {
+    border-bottom: 1px solid #d0d0d0;
+  }
+  .data-table td.totalRow {
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  .mtHeader {
+    z-index: 10;
+    position: absolute;
+    width: 100%;
+    /*calc(100% - 14px);*/
+    background-color: #fff;
+
+  }
+  .mtHeader thead td {
+    border: 0;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  .mt {
+    -webkit-transition: width 0.5s;
+    -moz-transition: width 0.5s;
+    -ms-transition: width 0.5s;
+    -o-transition: width 0.5s;
+    transition: width 0.5s; }
+
+  .mt {
+    position: absolute;
+    height: 100%;
+    overflow-y: auto;
+    max-height: 520px; }
+  .mt thead, .mt thead td {
+    opacity: 0;
+    border: 0;
+    height: 45px; }
+
+
+  .chart.table .canvas {
+    min-height: unset;
+    overflow-y: visible; }
+  .chart.table .full .canvas {
+    max-height: none; }
+  .chart.table .canvas-wrapper {
+    height: auto; }
+  .chart.table .data-table .mtHeader {
+    width: calc(100% - 30px); }
+  .chart.table .data-table .mtHeader > table {
+    width: 100%; }
+  .chart.table .data-table .mt {
+    width: calc(100% - 30px);
+    overflow-x: hidden; }
+  .chart.table .data-table .mt > table {
+    width: 100%; }
+  .chart.table .data-table .mt.min {
+    width: 30%; }
+  .chart.table .data-table .mtHeader.min {
+    width: 30%;
+    /*calc(30% - 14px);*/ }
+  .chart.table .data-table .cu.open {
+    width: 69%; }
+
+  .modal-table {
+    width: 100%; }
+
+  .modal-table td {
+    padding: 10px;
+    margin: 10px; }
+
+  .modal.table-wrap .modal-dialog {
+    width: 50%;
+    height: 40%; }
+  .modal.table-wrap .modal-dialog table {
+    width: 100%; }
+
+  .data-table .pointer,
+  .sankey-link {
+    cursor: pointer; }
+
+  .pointer.level2 {
+    color: #3c8dbc;
+    text-decoration: underline; }
+
+  #table-holder {
+    width: 100%; }
+  #table-holder thead td {
+    text-align: center; }
+
+  .drilldown-table {
+    overflow: auto;
+    height: 550px; }
+
+  .small-table .canvas-wrapper {
+    min-height: unset; }
+
+  .chart.table-breakdown:hover .bar-top button {
+    opacity: 1; }
+
+  .chart.table-breakdown .chart-swap-wrapper {
+    width: 95%;
+    margin: 0 2.5%; }
+  .chart.table-breakdown .table-wrapper {
+    overflow: auto;
+    height: 550px; }
+  .chart.table-breakdown .map-wrapper {
+    overflow: none; }
+
+  .modal-body .canvas-wrapper {
+    float: none; }
+
+  /* Medium devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .chord-table {
+      width: 25%; } }
+  @media (min-width: 2150px) {
+    .chord-table {
+      position: absolute;
+      top: 50%;
+      right: 0; } }
+
+  .chord-table table {
+    text-align: center;
+    background: #fff;
+    font-size: 1.05em;
+    width: 100%;
+    table-layout: fixed; }
+  .chord-table td {
+    padding: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.15); }
+  .chord-table thead td {
+    padding: 10px 0;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #fff;
+    background: #1970b7;
+    text-align: center;
+    overflow: hidden; }
+  .chord-table tbody tr {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.15); }
+  .chord-table tbody td {
+    padding: 2px; }
+  .chord-table tbody .percentage {
+    text-align: right; }
+  .cu tr {
+    background: rgba(220, 242, 255, 0.35);
+    text-align: left; }
+  .cu tr:nth-child(2n) {
+    background: rgba(172, 206, 224, 0.35); }
+
+  .chord-table {
+    position: absolute;
+    bottom: 0;
+    right: 25px;
+    width: 50%; }
+  .chord-table table {
+    width: 100%; }
+  .chord-table td {
+    padding: 10px; }
+
+  .chart.table .canvas-wrapper {
+    overflow: visible; }
+
+  /*--------------------------------
+
+
+          Tree
+
+
+--------------------------------*/
+  .tree text {
+    pointer-events: none;
+    fill: #fff;
+    font-size: 15px; }
+  .tree rect {
+    stroke: #fff; }
+  .tree g.child rect, .tree g.sub_child rect {
+    opacity: 0.25; }
+  .tree rect.parent {
+    cursor: pointer; }
+  .tree .bar {
+    background: #27384C;
+    height: 50px;
+    width: 100%; }
+
+  text.annotation,
+  text.annotation-icon {
+    fill: #000; }
+
+  #icons div {
+    padding: 10px 20px; }
+
+  #menu-annotation .icon {
+    float: left;
+    width: 50px;
+    font-size: 30px;
+    height: 55px;
+    color: #444;
+    margin: 5px;
+    background: #fff;
+    padding: 5px;
+    border: 1px solid #444;
+    text-align: center;
+    cursor: pointer; }
+  #menu-annotation .icon.lg {
+    width: 75px;
+    font-size: 45px;
+    height: 75px; }
+  #menu-annotation .icon.sm {
+    width: 40px;
+    font-size: 20px;
+    height: 40px;
+    color: #444; }
+
+  .annotation-logo .icon {
+    color: #E7ECEE;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    text-align: center; }
+
+  .annotation-logo .icon {
+    color: #E7ECEE; }
+
+  .lvl button {
+    margin: 10px;
+    float: right; }
+
+  .sldr {
+    color: #27384C;
+    padding: 0 15px;
+    margin-bottom: 10px;
+    text-align: center; }
+
+  .tree-breadcrumb {
+    padding-top: 7.5px;
+    font-size: 14px;
+    padding-right: 20px;
+    text-align: right; }
+
+  .annotations-panel {
+    height: 250px; }
+
+  .filter-panel label {
+    width: 100%;
+    color: #000; }
+
+  #addText {
+    width: 100%;
+    margin-bottom: 10px;
+    height: 80px; }
+
+  .annotations-panel span {
+    color: #000; }
+
+  .btn.selected {
+    background: #3c8dbc;
+    color: #fff; }
+
+  .treeValue {
+    font-size: 20px; }
+
+  .treeValue.sm-Val {
+    font-size: 10px; }
+
+  .sm-key {
+    font-size: 10px; }
+
+  .hide-stroke {
+    stroke-width: 0; }
+
+  .edit-button {
+    margin-top: 20px; }
+
+  #footer .btn {
+    margin-right: 10px; }
+
+  .no-click {
+    pointer-events: none; }
+
+  circle.annotation-icon {
+    shape-rendering: auto; }
+
+  .footnotes {
+    width: calc(100% - 40px);
+    border: 0px solid black;
+    margin: 0 20px;
+    font-size: 14px;
+    height: 120px;
+    overflow: auto; }
+  .footnotes div {
+    padding: 5px; }
+
+  .annotation .fa-circle {
+    color: #E7ECEE; }
+
+  .annotation .annotation-text {
+    padding-left: 10px; }
+
+  .reports-index-panel {
+    border: 1px solid #DAE8F2;
+    height: 30vh;
+    min-height: 400px;
+    overflow-y: auto;
+    padding: 10% 5% 5% 5%; }
+
+  .reports-index-panel h2 {
+    font-size: 24px; }
+
+  .reports-index-panel h3 {
+    height: 30px;
+    color: #000; }
+
+  .reports-index-icon {
+    height: 150px; }
+
+  .reports-index-panel p {
+    color: #000;
+    padding: 0 15px;
+    margin-bottom: 20px; }
+
+  .fa-blue {
+    color: #2663AC; }
+
+  #detail {
+    padding: 10px 30px;
+    background: #B7D5E4;
+    width: 30%;
+    float: left;
+    display: none; }
+</style>
+
+<div id="{{ chartInfo.type + '-' + chartInfo.id }}" class="chart" data-ng-class="chartInfo.type + ' ' + (chartInfo.hasDrilldown === true ? 'has-drill-down' : '')">
+
+  <loading></loading>
+
+  <!-- Header -->
+  <div ng-if="chartInfo.disableHeader !== true" class="col-xs-12">
+    <h3 class="title">
+            {{ chartInfo.name || "" }}
+            <span ng-if="chartInfo.selectedUnitsHeader && (chartInfo.type === 'partition' || chartInfo.type === 'table')"
+                  class="cu-header hidden"> - {{ chartInfo.selectedUnitsHeader }} Data</span>
+        </h3>
+    <h5 class="subtitle">
+            {{ chartInfo.subtitle || "This is a sample component subtitle explaining the data shown in this chart." }}
+        </h5>
+  </div>
+
+  <div class="col-xs-12 chart-toolbar">
+    <!-- Chart toggle -->
+    <div ng-if="chartInfo.disableHeader !== true" class="pull-left left">
+      <!-- Split button -->
+      <!-- type toggle -->
+      <div data-ng-if="true">
+        <a class="btn dropdown-button waves-effect waves-light" href="#" data-dropdown="{activates: 'cat65' + chartInfo.type}"
+        ng-class="{disabled: opts.shrunk}">
+          <i class="material-icons">{{chartInfo.defaultIcon}}</i>
+          <i class="material-icons">expand_more</i>
+        </a>
+        <ul class="dropdown-content" id="cat65{{chartInfo.type}}">
+          <li data-ng-repeat="charts in chartInfo.chartOptions" data-ng-hide="charts.type === chartInfo.type"
+          data-ng-click="changeType(charts.type)">
+            <a><i class="material-icons">{{charts.icon}}</i>{{charts.type | ucFirst}}</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Right controls -->
+    <div class="right pull-right chart-controls text-right" ng-class="chartInfo.filterOptions ? 'small-icon' : 'none'">
+      <!-- small-icon class need for custom icon-->
+
+      <div class="dropdown">
+        <button ng-if="chartInfo.filterOptions" class="btn btn-default btn-sm filter-toggle"
+        type="button">
+          <span class="fa fa-filter"></span>  <span>Filter</span>  <span class="fa fa-angle-down"></span>
+        </button>
+
+        <div class="dropdown-menu dropdown-menu-right filter-menu">
+
+          <div id="chart-filter6180" role="tablist" aria-multiselectable="true">
+
+            <div class="panel" ng-repeat="filterType in chartInfo.filterOptions track by $index">
+
+              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#chart-filter6180"
+              data-target="#ft{{$index}}">
+                                {{ filterType.label }} <span class="fa fa-angle-down"></span>
+                            </a>
+
+              <ul id="ft{{$index}}" class="collapse">
+                <li>
+                  <div ng-click="selectAllFilters(filterType.all, filterType)" ng-init="filterType.allSelected = true">
+                    <input type="radio" ng-checked='filterType.allSelected' />
+
+                    <label class="clear-all">
+                      Select All
+                    </label>
+                  </div>
+                </li>
+
+                <li>
+
+                  <div ng-repeat="filter in filterType.all | sort:'name'" ng-click="toggleFilter($event, filter, filterType.all, filterType)">
+                    <input type="radio" ng-checked='filter.selected' />
+
+                    <label>
+                      {{ filter.name | decodeURIComponent }}
+                    </label>
+                  </div>
+                </li>
+              </ul>
+
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <div>
+        <a data-ng-if="chartInfo.type === 'tree'" class="btn waves-effect waves-light tree-back">
+          <span class="fa fa-level-up"><i class="material-icons">replay</i></span>
+        </a>
+
+        <a data-ng-if="chartInfo.zoomable && chartInfo.type === 'map'" class="btn waves-effect waves-light zoom-btn"
+        data-ng-click="zoomOut()">
+          <span class="fa fa-minus"><i class="material-icons">zoom_out</i></span>
+        </a>
+
+        <a data-ng-if="chartInfo.zoomable && chartInfo.type === 'map'" class="btn waves-effect waves-light zoom-btn"
+        data-ng-click="zoomIn()">
+          <span class="fa fa-plus"><i class="material-icons">zoom_in</i></span>
+        </a>
+      </div>
+
+    </div>
+    <!-- Middle toolbar -->
+    <div ng-if="chartInfo.disableHeader !== true" class="center-align">
+      <div class="breakdowns" data-ng-if="chartInfo.selectableGroupBys && chartInfo.selectableGroupBys.length > 0">
+
+        <a data-ng-repeat="btn in chartInfo.selectableGroupBys" class="waves-effect {{btn.value === chartInfo.query.groupBy[chartInfo.groupByIdx] ? 'btn waves-light' : 'btn-flat'}}"
+        ng-class="{disabled: btn.disable}" data-ng-click="changeGroupBy(btn.value, chartInfo.groupByIdx)">{{ btn.display }}</a>
+      </div>
+
+    </div>
+
+  </div>
+
+  <see-sankey-levels data-ng-if="chartInfo.dynamicSource === true" data-info="chartInfo"></see-sankey-levels>
+
+  <!--<div class="chart-inner" data-ng-include="(chartInfo.type === 'table-breakdown' ? 'legacy/components/see-chart/templates/table-breakdown.html' :-->
+  <!--'legacy/components/see-chart/templates/chart.html')"></div>-->
+
+  <!-- inner toolbar -->
+  <div class="col-xs-12">
+
+    <!-- Group by buttons -->
+    <!--<div class="breakdowns" data-ng-if="chartInfo.selectableGroupBys && chartInfo.selectableGroupBys.length > 0">
+      <div class="btn-group btn-group-sm" role="group">
+        <button type="button" class="btn" data-ng-repeat="g in chartInfo.selectableGroupBys"
+        data-ng-class="g.value === chartInfo.query.groupBy[chartInfo.groupByIdx] ? 'btn-primary' : 'btn-default'"
+        data-ng-disabled="g.disable" data-ng-click="changeGroupBy(g.value, chartInfo.groupByIdx)">{{ g.display }}</button>
+      </div>
+    </div>-->
+
+  </div>
+
+  <!-- sunburst & tree-map level slider -->
+  <div class="text-center lvl btn-group btn-group-sm col-xs-12"></div>
+
+  <!-- canvas -->
+  <div class="canvas col-xs-12" data-ng-class="(chartInfo.clear ? 'clear' : '')">
+
+    <!-- d3 injected here -->
+    <svg ng-if="chartInfo.type !== 'table' && chartInfo.type !== 'percentage'">
+      <g></g>
+    </svg>
+
+    <div ng-if="chartInfo.type === 'percentage'">
+      <ng-include src="'components/charts/d3/percentage/percentage-template.html'"></ng-include>
+    </div>
+
+    <div ng-if="chartInfo.type === 'table'" class="data-table">
+      <div class="mtHeader max">
+        <table></table>
+      </div>
+      <div class="mt max">
+        <table></table>
+      </div>
+      <div class="cu hidden">
+        <table></table>
+      </div>
+    </div>
+
+    <!-- Tooltip -->
+    <div class="material-tooltip" style="visibility: visible; opacity: 1; left: -9000px;">
+      <span></span>
+      <div class="backdrop" style="top: 0; left: 0; width:100%; height:100%; border-radius: 2px; visibility: visible; opacity: 1;"></div>
+    </div>
+
+  </div>
+
+  <div class="col-xs-12" ng-if="chartInfo.type === 'tree' && annotationsEnabled">
+    <div class="button-group pull-right">
+      <button class="btn btn-default" ng-click="removeLastAnnotation()">Clear Last</button>
+      <button class="btn btn-default" ng-click="removeAllAnnotations()">Clear All</button>
+      <button class="btn btn-primary" ng-click="closeAnnotations()">Save</button>
+    </div>
+  </div>
+
+  <div class="legend col-xs-12" data-ng-if="chartInfo.renderLegend === true && chartInfo.type !== 'table'"></div>
+
+  <ng-include src="'legacy/components/see-chart/templates/tableModal.html'"></ng-include>
+  <ng-include src="'legacy/components/see-chart/templates/chordTable.html'"></ng-include>
+  <ng-include src="'legacy/components/see-chart/templates/textAnnotation.html'"></ng-include>
+
+</div>
+
+<!--
+<div ng-class="chartInfo.height + ' ' + chartInfo.type + ' ' + (chartInfo.hasDrilldown === true ? 'dir-wrap drilldown canvas-wrapper' : 'dir-wrap canvas-wrapper')">
+    <div ng-if="chartInfo.disableHeader !== true" class="bar-top col-xs-12">
+
+
+
+      <div ng-class="((chartInfo.isDrilldown === true || chartInfo.chartToggle !== true || chartInfo.tableEnabled !== true) || chartInfo.chartOptions.length < 2) ?
+                      'col-xs-2 col-sm-3 invisible' : 'col-xs-2 col-sm-3 chart-toggle btn-group'"
+           class="">
+        &lt;!&ndash; chart type toggle  &ndash;&gt;
+        <button type="button" class="btn btn-default"><span ng-class="'fa fa-' + chartInfo.defaultIcon"></span></button>
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <span class="fa fa-angle-down"></span>
+          <span class="sr-only">Toggle Dropdown</span>
+        </button>
+
+        <ul ng-if="chartInfo.chartOptions.length > 1" class="dropdown-menu chart-type-menu">
+          <li ng-repeat="charts in chartInfo.chartOptions" ng-hide="charts.type === chartInfo.type" ng-click="changeType(charts.type)">
+            <a><span ng-class="'fa fa-' + charts.icon"></span></a>
+          </li>
+        </ul>
+      </div>
+
+
+
+
+
+      &lt;!&ndash; title  &ndash;&gt;
+      <div class="col-xs-8 col-sm-6">
+        <h3 class="component-title">
+          {{ chartInfo.name || "" }}
+          <span ng-if="chartInfo.selectedUnitsHeader && (chartInfo.type === 'partition' || chartInfo.type === 'table')" class="cu-header hidden"> - {{ chartInfo.selectedUnitsHeader }} Data</span>
+        </h3>
+        <h5 class="component-subtitle">
+          {{ chartInfo.subtitle || "This is a sample component subtitle explaining the data shown in this chart." }}
+        </h5>
+      </div>
+
+
+
+      <div class="col-xs-2 col-sm-3 chart-controls fa-btn text-right">
+          <button ng-if="chartInfo.type === 'tree'" class="btn btn-default" ng-click="toggleAnnotationMenu()"><span class="fa fa-pencil"></span></button>
+          <button class="btn btn-default"><span class="fa fa-floppy-o"></span></button>
+          <button ng-if="chartInfo.type === 'tree'"  class="tree-back btn btn-default"><span class="fa fa-level-up"></span></button>
+          <button ng-if="chartInfo.zoomable" class="zoom-btn btn btn-default pull-right" ng-click="zoomChart(chartInfo.type + '-' + chartInfo.id)"><span class="fa fa-search-plus"></span></button>
+          <button ng-if="chartInfo.zoomable && chartInfo.type === 'map'" class="zoom-btn btn btn-default pull-right" ng-click="zoomOut()"><span class="fa fa-minus"></span></button>
+          <button ng-if="chartInfo.zoomable && chartInfo.type === 'map'" class="zoom-btn btn btn-default pull-right" ng-click="zoomIn()"><span class="fa fa-plus"></span></button>
+          <button ng-if="chartInfo.zoomable && chartInfo.type === 'map'" class="zoom-btn btn btn-default pull-right" ng-click="reset()"><span class="fa fa-refresh"></span></button>
+
+          <button ng-if="chartInfo.filterOptions" class="btn btn-default filter-toggle" type="button"><span class="fa fa-filter"></span></button>
+
+          <div class="filter-menu dropdown-menu pull-right">
+            <div ng-repeat="filterType in chartInfo.filterOptions track by $index" class="panel panel-default">
+              <div class="panel-heading" data-toggle="collapse" href="#panel{{$index}}">{{ filterType.label }}</div>
+              <div id="panel{{$index}}" class="panel-body panel-collapse collapse">
+                <ul class="list-group">
+                  <li class="list-group-item" ng-click="clearFilters($event, filterType.all, true)">All</li>
+                  <li ng-class="filter.selected ? 'list-group-item active' : 'list-group-item'" ng-repeat="filter in filterType.all" ng-click="toggleFilter($event, filter, filterType.all)">
+                    {{ filter.name | decodeURIComponent }}
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+
+
+
+    <see-sankey-levels ng-if="chartInfo.dynamicSource === true" info="chartInfo"></see-sankey-levels>
+
+    <div class="canvas full"
+         ng-include="(chartInfo.type === 'table-breakdown' ? 'components/charts/d3/table-breakdown/table-breakdown.html' :
+                                                             'components/charts/templates/chart.html')">
+    </div>
+</div>
+-->

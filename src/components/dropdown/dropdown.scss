@@ -1,0 +1,26 @@
+/**
+ * Created by Sergiu Ghenciu on 18/12/2017
+ */
+
+.dropdown-content {
+  &.open {
+    opacity: 1;
+    display: block;
+  }
+
+  li.disabled:not(.please-select) {
+    display: none;
+  }
+
+  .header {
+    cursor: default;
+    font-size: 0.857rem;
+    line-height: 1.5;
+    min-height: initial;
+    color: #777;
+    padding: 3px 16px;
+    &:hover {
+      background-color: transparent;
+    }
+  }
+}

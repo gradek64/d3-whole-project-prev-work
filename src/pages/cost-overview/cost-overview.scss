@@ -1,0 +1,32 @@
+/**
+ * Created by Sergiu Ghenciu on 23/02/2018
+ */
+
+@import '../../vars';
+
+.cost-overview {
+  .content {
+    min-height: calc(
+      100vh - #{$header-height + $footer-height + $top-nav-height +
+        $reports-nav-height}
+    );
+  }
+
+  //.functional.variance {
+  //  .comp1 {
+  //    .breakdowns {
+  //      //display: none;
+  //    }
+  //  }
+  //}
+
+  //.service-list.variance {
+  //  .comp0 {
+  //    .waterfall {
+  //      .breakdowns {
+  //        display: none;
+  //      }
+  //    }
+  //  }
+  //}
+}

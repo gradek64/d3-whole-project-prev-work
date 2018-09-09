@@ -1,0 +1,9 @@
+node_modules
+bin
+.idea
+test-report
+test-coverage
+src/customized-vendors
+
+customized-vendors/materialize-css/dist/css
+src/**/*.css

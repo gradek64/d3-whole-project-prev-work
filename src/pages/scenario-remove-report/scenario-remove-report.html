@@ -1,0 +1,21 @@
+<app-header opts="{showOutput: true}"></app-header>
+<top-nav-map opts="{page: page}"></top-nav-map>
+<breadcrumbs items="breadcrumbs"></breadcrumbs>
+<side-nav></side-nav>
+<div class="content">
+
+  <div class="container no-output" ng-if="!output1">
+    <h1>Please select primary output</h1>
+  </div>
+
+  <div class="container" ng-if="output1 && levels1 && entity">
+    <div data-chart-drilldown-scenario data-page="page" data-nav="entity" data-output1="output1"
+    data-levels1="levels1" data-output2="output1" data-levels2="levels1"></div>
+  </div>
+
+</div>
+</div>
+
+<notifications></notifications>
+<app-footer></app-footer>
+<login-form></login-form>

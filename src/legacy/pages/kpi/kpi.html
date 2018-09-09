@@ -1,0 +1,32 @@
+<app-header opts="{showOutput: true}"></app-header>
+<side-nav></side-nav>
+<top-nav-map opts="{page: 'kpi'}"></top-nav-map>
+<div class="content">
+
+  <div class="container" style="opacity: {{currentSnapshot?'1':'0'}}">
+    <div class="row" style="padding-top: 10px;">
+      <div class="col s12">
+        <div class="right" style="white-space: nowrap; text-align: center">
+          <span>Total Count of People</span>
+          <br>
+          <span>4</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container no-output" ng-if="!currentSnapshot">
+    <h1 class="text-center">Please select primary output</h1>
+  </div>
+
+  <div class="container" ng-if='currentSnapshot'>
+    <div class="row section board-metrics" data-see-chart data-info="mapComponent"></div>
+  </div>
+  <div class="container" ng-if='currentSnapshot'>
+    <div class="row section" data-see-chart data-info="treeComponent"></div>
+  </div>
+
+</div>
+<notifications></notifications>
+<app-footer></app-footer>
+<login-form></login-form>

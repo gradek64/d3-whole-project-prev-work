@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" viewBox="0 0 20 20">
+    <g transform="matrix(2.7146293,0,0,2.7146293,-1.2586739,-43.277622)">
+        <rect style="fill:none;fill-opacity:1;stroke:{{::opts.color}};stroke-width:0.27631888;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.94117647"
+              width="4.4615469" height="6.0011902" x="1.9303019" y="17.170507"></rect>
+        <rect style="fill:none;fill-opacity:1;stroke:{{::opts.color}};stroke-width:0.27631888;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.94117647"
+              width="0.027638612" height="3.7748265" x="2.8783169" y="18.360489"></rect>
+        <rect style="fill:none;fill-opacity:1;stroke:{{::opts.color}};stroke-width:0.27631888;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.94117647"
+              width="0.034585536" height="3.7748141" x="4.1514072" y="18.360498"></rect>
+        <rect style="fill:none;fill-opacity:1;stroke:{{::opts.color}};stroke-width:0.27631888;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.94117647"
+              width="0.034755692" height="3.7749841" x="5.394134" y="18.360413"></rect>
+        <rect style="fill:none;fill-opacity:1;stroke:{{::opts.color}};stroke-width:0.27631888;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.94117647"
+              width="0.031173138" height="0.56568712" x="2.3173616" y="16.39138"></rect>
+        <rect style="fill:none;fill-opacity:1;stroke:{{::opts.color}};stroke-width:0.27631888;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.94117647"
+              width="0.029228244" height="3.0069883" x="16.080528" y="-5.6848278" transform="rotate(90)"></rect>
+        <rect style="fill:none;fill-opacity:1;stroke:{{::opts.color}};stroke-width:0.27631888;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.94117647"
+              width="0.031173138" height="0.56568712" x="6.0388589" y="16.402412"></rect>
+        <rect style="fill:none;fill-opacity:1;stroke:{{::opts.color}};stroke-width:0.27628082;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.94117647"
+              width="0.01878305" height="4.7859044" x="17.178406" y="-6.5403595" transform="rotate(90)"></rect>
+    </g>
+</svg>

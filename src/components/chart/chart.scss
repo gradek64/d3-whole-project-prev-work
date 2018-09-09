@@ -1,0 +1,130 @@
+/**
+ * Created by Sergiu Ghenciu on 20/02/2018
+ */
+
+@import '../../vars';
+
+/* chart directive */
+.chart {
+  position: relative;
+
+  &:after {
+    display: block;
+    content: ' ';
+    clear: both;
+  }
+
+  .canvas {
+    position: relative;
+    height: 50vh;
+    max-height: 600px;
+  }
+
+  .title {
+    font-size: 2.2rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .subtitle {
+    margin-top: 0.4rem;
+    font-size: 1rem;
+    font-style: italic;
+    color: #aaa;
+  }
+
+  .chart-toolbar {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    &:after {
+      content: '';
+      display: block;
+      clear: both;
+    }
+
+    > .left {
+      > * {
+        display: inline-block;
+      }
+    }
+
+    .btn,
+    .btn-flat {
+      height: 32px;
+      line-height: 32px;
+    }
+
+    .left,
+    .right,
+    .center-align {
+      .btn,
+      .btn-flat {
+        padding-left: 16px;
+        padding-right: 16px;
+      }
+    }
+  }
+
+  .breakdowns {
+    > * {
+      min-width: 100px;
+    }
+    .disabled {
+      display: none;
+    }
+  }
+
+  .breakdowns.slider > .btn:not(.active) {
+    box-shadow: none;
+    background-color: transparent;
+    color: $primary-color;
+  }
+}
+
+/* diagrams common styles */
+.chart {
+  .axis {
+    font-size: 1rem;
+    font-family: $primary-font-family;
+  }
+  .arc,
+  .bar {
+    opacity: 0.9;
+    transition: opacity 0.3s ease;
+  }
+}
+
+.mouse-over .axis .tick line,
+.anchored .axis .tick line,
+.mouse-over .diagram .arc:not(.active):not(.anchored-active),
+.anchored .diagram .arc:not(.anchored-active):not(.active),
+.mouse-over .diagram .bar:not(.active):not(.anchored-active),
+.anchored .diagram .bar:not(.anchored-active):not(.active) {
+  opacity: 0.25;
+}
+
+/* todo: create a theme file for this */
+.chart {
+  .btn-flat {
+    border: 1px solid transparent;
+  }
+  .btn {
+    color: $primary-color;
+    background-color: transparent;
+    box-shadow: none;
+    border: 1px solid $secondary-color;
+  }
+
+  .breakdowns.slider > .btn:not(.active) {
+    border: 1px solid transparent;
+  }
+}
+
+//.chart {
+//  .btn {
+//    color: $primary-color;
+//    background-color: #e6edf0;
+//    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12),
+//      0 2px 1px -2px rgba(0, 0, 0, 0.2);
+//  }
+//}

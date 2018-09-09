@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 20 20" width="100%" height="100%">
+    <g transform="matrix(2.6607964,0,0,2.6607964,-1.0803331,-41.749008)">
+        <path d="m 0.5469735,17.968883 h 2.1375063 v -2.13751 h 2.9596235 v 2.13751 h 2.1375072 v 2.959618 H 5.6441033 V 23.06601 H 2.6844798 V 20.928501 H 0.5469735 Z"
+              fill-opacity="null"
+              style="fill:none;stroke:{{::opts.color}};stroke-width:0.28187051;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"></path>
+    </g>
+</svg>

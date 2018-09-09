@@ -1,0 +1,108 @@
+<app-header logo="{title:'CostLens Admin',href:'#!/cost-models'}"></app-header>
+<side-nav></side-nav>
+<breadcrumbs items="breadcrumbs"></breadcrumbs>
+<div class="content">
+
+  <div class="container">
+    <div class="section" st-pipe="onGetAll" st-table="items">
+      <br>
+      <div style="position: relative">
+        <div class="row">
+          <div class="col s12 flex valign-center">
+            <h1 class="stretch">User Management</h1>
+            <div class="main-actions">
+              <button class="btn" ng-click="emit('CLICK_ON_CREATE_USER')">Create New</button>
+            </div>
+          </div>
+        </div>
+        <table class="bordered" ng-init="sortIndex=-1" data-sort-focus="{{sortIndex}}">
+          <thead>
+            <tr>
+              <!--<th st-sort="fullName" ng-click="sortIndex=1" st-sort-default="true">-->
+              <!--<th st-sort="fullName" ng-click="sortIndex=1">
+                <span class="sorting"><span>Name</span><i></i>
+                </span>
+              </th>
+              <th st-sort="email" ng-click="sortIndex=2">
+                <span class="sorting"><span>Email</span><i></i>
+                </span>
+              </th>
+              <th st-sort="creationDate" ng-click="sortIndex=3">
+                <span class="sorting"><span>Created</span><i></i>
+                </span>
+              </th>-->
+
+              <th>
+                <span><span>Name</span><i></i>
+                </span>
+              </th>
+              <th>
+                <span><span>Email</span><i></i>
+                </span>
+              </th>
+              <th>
+                <span><span>Created</span><i></i>
+                </span>
+              </th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr ng-if="errorOrNoData">
+              <td colspan="4" class="center-align">{{errorOrNoData}}</td>
+            </tr>
+            <tr ng-if="items" data-ng-repeat="row in items track by $index">
+              <td style="max-width: 400px;"><span class="truncate">{{row.fullName}}</span>
+              </td>
+              <td style="max-width: 400px;"><span class="truncate">{{row.email}}</span>
+              </td>
+              <td>{{row.creationDate | date : 'dd/MM/yy HH:mm'}}</td>
+              <td class="actions">
+                <dropdown-menu class-name="btn-flat" icon="more_vert" alignment="right" items="getActions(row)"
+                callback="callbackFactory(row)"></dropdown-menu>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <!--<div class="row">
+          <div class="col left pagination-info">
+            <span ng-if="totalItemCount">Showing {{startIndex+1}} to {{startIndex+itemsByPage}} of {{totalItemCount}} entries</span>
+          </div>
+          <div class="col right" st-pagination="" st-items-by-page="itemsByPage" st-displayed-pages="displayedPages"></div>
+        </div>-->
+        <loading data-ng-show="isLoading"></loading>
+      </div>
+    </div>
+  </div>
+  <!-- confirm delete user -->
+  <div data-modal="{showOn: 'CONFIRM_DELETE_USER', hideOn: ['CLICK_ON_CANCEL_DELETE_USER', 'USER_DELETED'],
+                    closeButton: false, freeze:deleting}" class="confirmation">
+    <form ng-submit="onSubmit(focused,'delete'); $event.preventDefault();">
+      <div class="modal-content">
+        <h4>Delete User</h4>
+        <div data-ng-show="error" class="card-panel red lighten-2 z-depth-0">
+          <span class="white-text">{{error}}</span>
+        </div>
+        <div class="f-body">
+          <p class="center-align">
+            Do you want to delete {{focused.fullName}} ?
+          </p>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="submit" class="btn waves-effect waves-light" autofocus>Confirm</button>
+        <a href="#!" ng-click="emit('CLICK_ON_CANCEL_DELETE_USER'); $event.preventDefault();"
+        class="btn-flat waves-effect waves-red">Cancel</a>
+      </div>
+    </form>
+    <loading data-ng-show="deleting"></loading>
+  </div>
+  <!-- confirm delete user-->
+</div>
+
+<!-- create modal -->
+<!--end: create modal -->
+
+<notifications></notifications>
+<app-footer></app-footer>
+<login-form></login-form>

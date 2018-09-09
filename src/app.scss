@@ -1,0 +1,228 @@
+/**
+ * Created by Sergiu Ghenciu on 08/12/2017
+ */
+@import 'vars';
+
+table {
+  border-collapse: collapse;
+}
+
+h1 {
+  font-size: 2.92rem;
+}
+
+html {
+  height: 100%;
+  font-size: 16px;
+}
+
+body {
+  min-height: 100%;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: $primary-font-family;
+}
+
+@media #{$large-and-up} {
+  html {
+    font-size: 14px;
+  }
+  //aside.side-nav {
+  //  transform: translateX(0);
+  //}
+  //
+  //header, main, footer {
+  //  padding-left: 240px;
+  //}
+}
+
+.content {
+  /*
+    * prevents collapsing-margins
+    * https://stackoverflow.com/questions/1762539
+    */
+  margin-top: -1px;
+  padding-top: 1px;
+  margin-bottom: -1px;
+  padding-bottom: 1px;
+}
+
+/* A little flex framework */
+.flex {
+  display: flex;
+}
+
+.flex.valign-center {
+  align-items: center;
+}
+
+.flex.halign-center {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex.hspace-evenly {
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.stretch {
+  flex-grow: 1;
+}
+
+/* A little framework in order to avoid scroll bar on pages */
+.content {
+  //height: calc(100vh - #{$header-height + $footer-height});
+  min-height: calc(100vh - #{$header-height + $footer-height});
+
+  .container.app {
+    height: 100%;
+    min-height: 100%;
+  }
+
+  .heading {
+    height: $heading-height;
+  }
+
+  .body {
+    height: 100%;
+  }
+
+  .heading + .body {
+    height: calc(100% - #{$heading-height});
+  }
+}
+
+/* pagination */
+.pagination {
+  margin-left: -10px;
+  margin-right: -10px;
+  white-space: nowrap;
+  li {
+    i {
+      line-height: 30px;
+    }
+  }
+}
+
+.pagination-info span {
+  line-height: 30px;
+  display: inline-block;
+  margin-top: 16px;
+}
+
+/* tables */
+table.striped > tbody > tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+/*
+td {
+  padding: 0 5px;
+}
+th {
+  padding: 10px 5px;
+}
+*/
+
+table {
+  .sorting {
+    position: relative;
+    cursor: pointer;
+    padding-right: 9px;
+    width: 100%;
+    display: inline-block;
+
+    i {
+      position: absolute;
+      top: 0;
+      right: -2px;
+      bottom: 0;
+      font-style: normal;
+    }
+
+    i:before {
+      content: '▲';
+      position: absolute;
+      margin-top: -10px;
+      top: 50%;
+      right: 0;
+      color: #dcdcdc;
+      font-size: 11px;
+      width: 11px;
+      height: 11px;
+      line-height: 11px;
+    }
+    i:after {
+      content: '▼';
+      position: absolute;
+      margin-bottom: -10px;
+      bottom: 50%;
+      right: 0;
+      color: #dcdcdc;
+      font-size: 11px;
+      width: 11px;
+      height: 11px;
+      line-height: 11px;
+    }
+  }
+  .ascending {
+    .sorting i:before {
+      //color: #7b80dd;
+      color: $secondary-color;
+    }
+    .sorting i:after {
+      display: none;
+    }
+  }
+  .descending {
+    .sorting i:before {
+      display: none;
+    }
+    .sorting i:after {
+      color: $secondary-color;
+    }
+  }
+
+  @for $i from 1 through 9 {
+    &[data-sort-focus='#{$i}'] {
+      td:nth-child(#{$i}) {
+        background-color: #fafafa;
+      }
+    }
+  }
+}
+
+.table-actions {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* buttons */
+.btn {
+  white-space: nowrap;
+}
+
+/* forms */
+.input-field input[disabled] + label {
+  transform: none !important;
+  top: -14px;
+}
+
+/* global styles */
+.no-margin-bottom {
+  margin-bottom: 0 !important;
+}
+
+.modal-overlay.white-login {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.no-output {
+  h1 {
+    text-align: center;
+    color: #ccc;
+  }
+}

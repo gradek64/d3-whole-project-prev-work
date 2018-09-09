@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="app">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+  <title>See</title>
+  <meta name="description" content="">
+
+  <!-- you might as well consider the cloud resource -->
+  <!--<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">-->
+  <!-- build:css(customized-vendors) vendors.css -->
+  <link rel="stylesheet" href="fonts/material-design-icons/material-icons.css">
+  <link rel="stylesheet" href="fonts/roboto/roboto-font.css">
+  <link rel="stylesheet" href="normalize.css/normalize.css">
+  <link rel="stylesheet" href="materialize-css/dist/css/materialize.css">
+  <link rel="stylesheet" href="node-waves/dist/waves.css">
+  <link rel="stylesheet" href="modal/modal.css">
+  <link rel="stylesheet" href="toast/toast.css">
+  <!-- endbuild -->
+  <!-- build:css(src) src.css -->
+  <link rel="stylesheet" href="app.css">
+
+  <link rel="stylesheet" href="components/modal/modal.css">
+  <link rel="stylesheet" href="components/top-nav/top-nav.css">
+  <link rel="stylesheet" href="components/dropdown/dropdown.css">
+  <link rel="stylesheet" href="components/dropdown-menu/dropdown-menu.css">
+  <link rel="stylesheet" href="components/dropdown-select/dropdown-select.css">
+  <link rel="stylesheet" href="components/multiple-select/multiple-select.css">
+
+  <link rel="stylesheet" href="components/header/header.css">
+  <link rel="stylesheet" href="components/notifications/notifications.css">
+  <link rel="stylesheet" href="components/footer/footer.css">
+  <link rel="stylesheet" href="components/login-form/login-form.css">
+  <link rel="stylesheet" href="components/breadcrumbs/breadcrumbs.css">
+  <link rel="stylesheet" href="components/costpot/costpot.css">
+  <link rel="stylesheet" href="components/costpot-small/costpot-small.css">
+  <link rel="stylesheet" href="components/lp-card/lp-card.css">
+  <link rel="stylesheet" href="components/reports-menu/reports-menu.css">
+  <link rel="stylesheet" href="components/chart/chart.css">
+  <link rel="stylesheet" href="components/chart-drilldown/chart-drilldown.css">
+  <link rel="stylesheet" href="components/chart-drilldown-v2/chart-drilldown-v2.css">
+  <link rel="stylesheet" href="components/filter-toolbar/filter-toolbar.css">
+  <link rel="stylesheet" href="components/attributes-toolbar/attributes-toolbar.css">
+  <link rel="stylesheet" href="components/attribute-container/attribute-container.css">
+
+  <link rel="stylesheet" href="components/d3/labels.css">
+  <link rel="stylesheet" href="components/d3/legend.css">
+  <link rel="stylesheet" href="components/d3/table.css">
+  <link rel="stylesheet" href="components/d3/pie.css">
+  <link rel="stylesheet" href="components/d3/bar.css">
+  <link rel="stylesheet" href="components/d3/rows.css">
+  <link rel="stylesheet" href="components/d3/sunburst.css">
+  <link rel="stylesheet" href="components/d3/sankey.css">
+  <link rel="stylesheet" href="components/d3/chord.css">
+  <link rel="stylesheet" href="components/d3/waterfall.css">
+  <link rel="stylesheet" href="components/d3/percentage.css">
+  <link rel="stylesheet" href="components/d3/treemap.css">
+
+  <link rel="stylesheet" href="pages/cost-models/cost-models.css">
+  <link rel="stylesheet" href="pages/costpots/costpots.css">
+  <link rel="stylesheet" href="pages/sub-costpots/sub-costpots.css">
+  <link rel="stylesheet" href="pages/dataset-filters/dataset-filters.css">
+  <link rel="stylesheet" href="pages/advanced-analysis/advanced-analysis.css">
+  <link rel="stylesheet" href="pages/home/home.css">
+  <link rel="stylesheet" href="pages/cost-overview/cost-overview.css">
+  <link rel="stylesheet" href="pages/scenario/scenario.css">
+  <link rel="stylesheet" href="pages/scenario-remove/scenario-remove.css">
+  <link rel="stylesheet" href="pages/service-statement/service-statement.css">
+  <!--<link rel="stylesheet" href="pages/inter-company-charges/inter-company-charges.css">-->
+  <!--<link rel="stylesheet" href="pages/kpi/kpi.css">-->
+  <link rel="stylesheet" href="pages/departmental-charges/departmental-charges.css">
+  <link rel="stylesheet" href="pages/landing-pages/landing-pages.css">
+
+  <link rel="stylesheet" href="legacy/pages/kpi/kpi.css">
+  <link rel="stylesheet" href="legacy/pages/inter-company-charges/inter-company-charges.css">
+  <link rel="stylesheet" href="legacy/pages/cost-flow/cost-flow.css">
+  <!-- endbuild -->
+</head>
+
+<body>
+
+  <div data-ng-view class="{{name}}"></div>
+
+  <!-- remove me please -->
+  <!-- build:js(src) legacy-vendors.js -->
+  <script src="legacy/vendors/jquery.min.js"></script>
+  <script src="legacy/vendors/lodash.min.js"></script>
+  <script src="legacy/vendors/topojson.js"></script>
+  <script src="legacy/vendors/bootstrap.js"></script>
+  <!-- endbuild -->
+
+  <!-- build:js(customized-vendors) vendors.js -->
+  <script src="d3/build/d3.js"></script>
+  <script src="d3-plugins/sankey.js"></script>
+  <script src="polyfills/finally.js"></script>
+  <script src="angular/angular.js"></script>
+  <script src="angular-route/angular-route.js"></script>
+  <script src="angular-smart-table/dist/smart-table.js"></script>
+  <script src="node-waves/src/js/waves.js"></script>
+  <script src="material-forms/material-forms.js"></script>
+  <script src="material-forms/input-field.js"></script>
+  <script src="material-forms/file-field.js"></script>
+  <script src="modal/modal.js"></script>
+  <script src="toast/toast.js"></script>
+  <!-- endbuild -->
+  <!-- build:js(src) src.js -->
+  <script src="app.js"></script>
+
+  <script src="pages/home/home.js"></script>
+  <script src="pages/cost-overview/cost-overview.js"></script>
+  <script src="pages/scenario/scenario.js"></script>
+  <script src="pages/scenario-remove/scenario-remove.js"></script>
+  <script src="pages/scenario-remove-report/scenario-remove-report.js"></script>
+  <script src="pages/service-statement/service-statement.js"></script>
+  <!--<script src="pages/kpi/kpi.js"></script>-->
+  <script src="pages/departmental-charges/departmental-charges.js"></script>
+  <!--<script src="pages/inter-company-charges/inter-company-charges.js"></script>-->
+  <script src="pages/landing-pages/landing-pages.js"></script>
+  <script src="pages/cost-models/cost-models.js"></script>
+  <script src="pages/costpots/costpots.js"></script>
+  <script src="pages/sub-costpots/sub-costpots.js"></script>
+  <script src="pages/file-management/file-management.js"></script>
+  <script src="pages/file-errors/file-errors.js"></script>
+  <script src="pages/dataset-filters/dataset-filters.js"></script>
+  <script src="pages/outputs/outputs.js"></script>
+  <script src="pages/advanced-analysis/advanced-analysis.js"></script>
+  <script src="pages/users/users.js"></script>
+
+  <script src="components/lp-card/lp-card.js"></script>
+  <script src="components/switch-toggle/switch-toggle.js"></script>
+  <script src="components/reports-menu/reports-menu.js"></script>
+  <script src="components/header/header.js"></script>
+  <script src="components/notifications/notifications.js"></script>
+  <script src="components/footer/footer.js"></script>
+  <script src="components/login-form/login-form.js"></script>
+  <script src="components/breadcrumbs/breadcrumbs.js"></script>
+  <script src="components/costpot/costpot.js"></script>
+  <script src="components/costpot-small/costpot-small.js"></script>
+  <script src="components/top-nav/top-nav.js"></script>
+  <script src="components/top-nav-map/top-nav-map.js"></script>
+  <script src="components/chart/chart.js"></script>
+  <script src="components/chart-draw/chart-draw.js"></script>
+  <script src="components/chart-drilldown/chart-drilldown.js"></script>
+  <script src="components/chart-drilldown-v2/chart-drilldown-v2.js"></script>
+  <script src="components/chart-drilldown-variance/chart-drilldown-variance.js"></script>
+  <script src="components/chart-drilldown-variance-v2/chart-drilldown-variance-v2.js"></script>
+  <script src="components/chart-drilldown-scenario/chart-drilldown-scenario.js"></script>
+  <!--<script src="components/chart-no-drilldown/chart-no-drilldown.js"></script>-->
+  <script src="components/output-selection/output-selection.js"></script>
+  <script src="components/filter-toolbar/filter-toolbar.js"></script>
+  <script src="components/attributes-toolbar/attributes-toolbar.js"></script>
+  <script src="components/attribute-container/attribute-container.js"></script>
+  <script src="components/button-group/button-group.js"></script>
+
+  <script src="components/d3/prepare-data-service.js"></script>
+  <script src="components/d3/tooltip-service.js"></script>
+  <script src="components/d3/legend-service.js"></script>
+  <script src="components/d3/labels-service.js"></script>
+  <script src="components/d3/table-service.js"></script>
+  <script src="components/d3/pie-service.js"></script>
+  <script src="components/d3/bar-service.js"></script>
+  <script src="components/d3/rows-service.js"></script>
+  <script src="components/d3/sunburst-service.js"></script>
+  <script src="components/d3/sankey-service.js"></script>
+  <script src="components/d3/chord-service.js"></script>
+  <script src="components/d3/waterfall-service.js"></script>
+  <script src="components/d3/percentage-service.js"></script>
+  <script src="components/d3/treemap-service.js"></script>
+
+  <script src="components/dropdown/dropdown.js"></script>
+  <script src="components/dropdown-menu/dropdown-menu.js"></script>
+  <script src="components/dropdown-select/dropdown-select.js"></script>
+  <script src="components/dropdown-select-grouped/dropdown-select-grouped.js"></script>
+  <script src="components/multiple-select/multiple-select.js"></script>
+  <script src="components/multiple-grouped/multiple-grouped.js"></script>
+  <script src="components/modal/modal.js"></script>
+  <script src="components/loading/loading.js"></script>
+  <script src="components/svg-icons/svg-icons.js"></script>
+  <script src="components/version/version.js"></script>
+  <script src="components/version/version-directive.js"></script>
+  <script src="components/version/interpolate-filter.js"></script>
+
+  <script src="services/auth-service.js"></script>
+  <script src="services/api-service.js"></script>
+  <script src="services/cost-models-service.js"></script>
+  <script src="services/cost-models-mock-service.js"></script>
+  <script src="services/costpots-service.js"></script>
+  <script src="services/cost-pots-mock-service.js"></script>
+  <script src="services/resource-type-service.js"></script>
+  <script src="services/resource-type-mock-service.js"></script>
+  <script src="services/levels-service.js"></script>
+  <script src="services/files-service.js"></script>
+  <script src="services/files-mock-service.js"></script>
+  <script src="services/outputs-types-service.js"></script>
+  <script src="services/outputs-service.js"></script>
+  <script src="services/financial-years-service.js"></script>
+  <script src="services/file-types-service.js"></script>
+  <script src="services/file-types-mock-service.js"></script>
+  <script src="services/file-mappings-service.js"></script>
+  <script src="services/file-mappings-mock-service.js"></script>
+  <script src="services/file-columns-service.js"></script>
+  <script src="services/file-columns-mock-service.js"></script>
+  <script src="services/filters-service.js"></script>
+  <script src="services/filters-mock-service.js"></script>
+  <script src="services/filters-settings-service.js"></script>
+  <script src="services/costs-service.js"></script>
+  <script src="services/costs-service-mock.js"></script>
+  <script src="services/costs-service-total.js"></script>
+  <script src="services/costs-variance-service.js"></script>
+  <script src="services/settings-service.js"></script>
+  <script src="services/report-navs-service.js"></script>
+  <script src="services/report-configs-service.js"></script>
+  <script src="services/report-groupbys-service.js"></script>
+  <script src="services/report-types-service.js"></script>
+  <script src="services/report-levels-service.js"></script>
+  <script src="services/report-id-service.js"></script>
+
+  <script src="services/roles-service.js"></script>
+  <script src="services/users-service.js"></script>
+  <script src="services/variance-service.js"></script>
+
+  <script src="utils/constants.js"></script>
+  <script src="utils/env.js"></script>
+  <script src="utils/http.js"></script>
+  <script src="utils/events.js"></script>
+  <script src="utils/misc.js"></script>
+  <script src="utils/cookies.js"></script>
+  <script src="utils/chart-data-format.js"></script>
+  <script src="utils/filters.js"></script>
+  <!-- endbuild -->
+
+  <!-- do not forget to remove jquery -->
+  <!-- build:js(src) legacy-src.js -->
+  <script src="legacy/services/CostsServiceForLegacyCode.js"></script>
+  <script src="legacy/services/ChartDataFactory.js"></script>
+  <script src="legacy/services/ChartDataFormat.js"></script>
+  <script src="legacy/services/CostQueryParameter.js"></script>
+  <script src="legacy/services/ForceDataService.js"></script>
+  <script src="legacy/services/OtherDataService.js"></script>
+  <script src="legacy/services/ReportListService.js"></script>
+  <script src="legacy/services/ReportService.js"></script>
+  <script src="legacy/services/SankeyDataService.js"></script>
+  <script src="legacy/services/TableDataService.js"></script>
+  <script src="legacy/services/TreeDataService.js"></script>
+  <script src="legacy/services/mapLocationService.js"></script>
+
+  <script src="legacy/components/d3/ChartIconService.js"></script>
+  <script src="legacy/components/d3/ChordChartService.js"></script>
+  <script src="legacy/components/d3/DrilldownChartService.js"></script>
+  <script src="legacy/components/d3/LegendService.js"></script>
+  <script src="legacy/components/d3/MapService.js"></script>
+  <script src="legacy/components/d3/PercentageService.js"></script>
+  <script src="legacy/components/d3/SankeyChartService.js"></script>
+  <script src="legacy/components/d3/TableBreakdownService.js"></script>
+  <script src="legacy/components/d3/TableMathsService.js"></script>
+  <script src="legacy/components/d3/TableService.js"></script>
+  <script src="legacy/components/d3/TooltipService.js"></script>
+  <script src="legacy/components/d3/SliderService.js"></script>
+  <script src="legacy/components/d3/TreemapService.js"></script>
+
+  <script src="legacy/components/see-sankey-levels/see-sankey-levels.js"></script>
+  <script src="legacy/components/see-chart/ChartService.js"></script>
+  <script src="legacy/components/see-chart/see-chart.js"></script>
+
+  <script src="legacy/pages/inter-company-charges/inter-company-charges.js"></script>
+  <script src="legacy/pages/kpi/kpi.js"></script>
+  <script src="legacy/pages/cost-flow/cost-flow.js"></script>
+  <!-- endbuild -->
+
+  <!-- /* start-dev-block */ -->
+  <script src="http://localhost:35729/livereload.js?snipver=1" charset="utf-8"></script>
+  <!-- /* end-dev-block */ -->
+</body>
+
+</html>

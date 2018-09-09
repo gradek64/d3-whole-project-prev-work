@@ -1,0 +1,174 @@
+<app-header logo="{title:'CostLens Admin',href:'#!/cost-models'}"></app-header>
+<side-nav></side-nav>
+<div class="content">
+  <breadcrumbs items="[
+    {href: '/#!/cost-models', label: 'Cost Models'}]"></breadcrumbs>
+
+  <div class="container">
+    <div class="section" st-pipe="onGetAll" st-table="items">
+      <br>
+      <div style="position: relative">
+        <div class="row">
+          <div class="col s12 flex valign-center">
+            <!--<a href="#" class="btn grey lighten-5 grey-text">Create New</a>-->
+            <h1 class="stretch">Cost Models</h1>
+            <div class="main-actions">
+              <a href="#" class="btn waves-effect waves-light" data-ng-click="emit('CLICK_ON_CREATE_COST_MODEL'); $event.preventDefault();">Create New</a>
+            </div>
+          </div>
+        </div>
+        <!--<form ng-init="selectedPredicate='firstName'">
+                <div class="row">
+                    <div class="col s12">
+                        <input st-search placeholder="global search" class="input-sm form-control" type="search">
+                    </div>
+                    <div class="col s3">
+                        <label for="predicate">Search by: </label>
+                        <select class="form-control" id="predicate"
+                                ng-model="selectedPredicate"
+                                ng-options="predicate for predicate in ['firstName', 'lastName', 'birthDate', 'balance']"></select>
+                    </div>
+                    <div class="col s9">
+                        <input st-search="{{selectedPredicate}}" placeholder="search {{selectedPredicate}}"
+                               class="input-sm form-control" type="search">
+                    </div>
+                </div>
+            </form>-->
+        <table class="bordered" ng-init="sortIndex=2" data-sort-focus="{{sortIndex}}">
+          <thead>
+            <tr>
+              <th st-sort="name" ng-click="sortIndex=1">
+                <span class="sorting"><span>Title</span><i></i>
+                </span>
+              </th>
+              <th st-sort="type" ng-click="sortIndex=2" st-sort-default="true">
+                <span class="sorting"><span>Config Type</span><i></i>
+                </span>
+              </th>
+              <th st-sort="creationDate" ng-click="sortIndex=3">
+                <span class="sorting"><span>Date</span><i></i>
+                </span>
+              </th>
+              <th st-sort="createdBy" ng-click="sortIndex=4">
+                <span class="sorting"><span>Author</span><i></i>
+                </span>
+              </th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr data-ng-repeat="row in items track by $index">
+              <td style="max-width: 400px;"><span class="truncate">{{row.name}}</span>
+              </td>
+              <td>{{row.type}}</td>
+              <td>{{row.creationDate | date : 'dd/MM/yy HH:mm'}}</td>
+              <td>{{row.createdBy}}</td>
+              <td class="actions">
+                <dropdown-menu opts="{className: 'btn-flat', icon: 'more_vert', alignment:'right'}"
+                class-name="btn-flat" icon="more_vert" alignment="right" items="getActions(row)"
+                callback="onActionsClick(row)"></dropdown-menu>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="row">
+          <div class="col left pagination-info">
+            <span ng-if="totalItemCount">Showing {{startIndex+1}} to {{startIndex+itemsByPage}} of {{totalItemCount}} entries</span>
+          </div>
+          <div class="col right" st-pagination="" st-items-by-page="itemsByPage" st-displayed-pages="displayedPages"></div>
+        </div>
+        <loading opts="{color: 'teal'}" data-ng-show="isLoading"></loading>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div data-modal="{showOn: 'CLICK_ON_CREATE_COST_MODEL', hideOn: ['CLICK_ON_CANCEL_CREATE_COST_MODEL', 'NEW_COST_MODEL_CREATED'],
+                closeButton: false, freeze:creating}" class="create">
+  <form name="form1" ng-submit="onSubmit(formObj, 'create'); $event.preventDefault();">
+    <div class="modal-content">
+      <h4 style="">Create New Cost Model</h4>
+      <div data-ng-show="error" class="card-panel red lighten-2 z-depth-0">
+        <span class="white-text">{{error}}</span>
+      </div>
+      <div class="f-body">
+        <div class="input-field">
+          <dropdown-select text="Please select" label="Select Template" name="template" ng-model="formObj.template"
+          class-name="{invalid: (form1.$submitted && !formObj.template),
+                                            valid: (form1.$submitted && formObj.template)}"
+          items="templateItems" reset-factory="dropdownResetFactory('resetTemplate')"></dropdown-select>
+        </div>
+        <div class="input-field">
+          <input id="cm-title" type="text" name="title" ng-model="formObj.title" ng-class="{invalid: (form1.$submitted && !formObj.title),
+                                    valid: (form1.$submitted && formObj.title)}">
+          <label for="cm-title">Title</label>
+        </div>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button type="submit" class="btn waves-effect waves-light">Create</button>
+      <a href="#!" ng-click="emit('CLICK_ON_CANCEL_CREATE_COST_MODEL'); $event.preventDefault();"
+      class="btn-flat waves-effect waves-red">Cancel</a>
+    </div>
+  </form>
+  <loading data-ng-show="creating"></loading>
+</div>
+
+<!-- confirm update cost model modal -->
+<div data-modal="{showOn: 'CONFIRM_UPDATE_COST_MODEL', hideOn: ['CLICK_ON_CANCEL_UPDATE_COST_MODEL', 'COST_MODEL_UPDATED'],
+                closeButton: false, freeze:updating}" class="create">
+  <form name="form2" ng-submit="onSubmit(formObj, 'edit'); $event.preventDefault();">
+    <div class="modal-content">
+      <h4 style="">Update Cost Model</h4>
+      <div data-ng-show="error" class="card-panel red lighten-2 z-depth-0">
+        <span class="white-text">{{error}}</span>
+      </div>
+      <div class="f-body">
+
+        <div class="input-field">
+          <input disabled ng-value="formObj.template2" id="template2" type="text">
+          <label for="template2">Select Template</label>
+        </div>
+        <div class="input-field">
+          <input id="cm-title-update" type="text" name="title" ng-model="formObj.title" ng-class="{invalid: (form2.$submitted && !formObj.title),
+                                    valid: (form2.$submitted && formObj.title)}">
+          <label for="cm-title-update" class="active">Title</label>
+        </div>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button type="submit" class="btn waves-effect waves-light">Save</button>
+      <a href="#!" ng-click="emit('CLICK_ON_CANCEL_UPDATE_COST_MODEL'); $event.preventDefault();"
+      class="btn-flat waves-effect waves-red">Cancel</a>
+    </div>
+  </form>
+  <loading data-ng-show="updating"></loading>
+</div>
+<!--end :confirm update cost model modal -->
+
+<!-- confirm delete cost model modal -->
+<div data-modal="{showOn: 'CONFIRM_DELETE_COST_MODEL', hideOn: ['CLICK_ON_CANCEL_DELETE_COST_MODEL', 'COST_MODEL_DELETED'],
+                closeButton: false, freeze: deleting}" class="confirmation">
+  <form ng-submit="onSubmit(focused, 'delete'); $event.preventDefault();">
+    <div class="modal-content">
+      <h4>Delete Cost Model</h4>
+      <div class="f-body">
+        <p class="center-align">
+          Do You want to delete the<span class="truncate">{{focused.name}}</span> Cost
+          Model ?</br>This will aslo delete the associated Outputs</br>
+        </p>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button type="submit" class="btn waves-effect waves-light">Confirm</button>
+      <a href="#!" ng-click="emit('CLICK_ON_CANCEL_DELETE_COST_MODEL'); $event.preventDefault();"
+      class="btn-flat waves-effect waves-red">Cancel</a>
+    </div>
+  </form>
+  <loading data-ng-show="deleting"></loading>
+</div>
+<!-- confirm delete cost model modal -->
+
+<notifications></notifications>
+<app-footer></app-footer>
+<login-form></login-form>

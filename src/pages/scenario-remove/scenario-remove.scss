@@ -1,0 +1,13 @@
+/**
+ * Created by Greg Gil
+ */
+@import '../../vars';
+
+.remove-scenario {
+  .content {
+    min-height: calc(
+      100vh - #{$header-height + $footer-height + $top-nav-height +
+        $reports-nav-height}
+    );
+  }
+}

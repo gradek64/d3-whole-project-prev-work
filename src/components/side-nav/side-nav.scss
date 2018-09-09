@@ -1,0 +1,57 @@
+/**
+ * Created by Sergiu Ghenciu on 08/12/2017
+ */
+
+/* Modal */
+.side-nav.modal {
+  //z-index: 999;
+  position: fixed;
+  top: 0 !important;
+  left: -240px;
+  right: auto;
+  margin: 0;
+  width: 240px;
+  background-color: #fff;
+  border-radius: 0;
+
+  //transform: translateX(0);
+
+  display: block;
+  opacity: 1;
+}
+
+.side-nav.modal.open.anchored {
+  top: 0;
+}
+
+.side-nav.modal .close {
+  height: 63px;
+}
+
+/* ----------- */
+#logo {
+  border-bottom: 1px solid #e0e0e0;
+  display: block;
+  height: 64px;
+  line-height: 64px;
+}
+
+#logo h1 {
+  line-height: inherit;
+  font-size: 2rem;
+  white-space: nowrap;
+  padding: 0 0 0 15px;
+  margin: 0;
+}
+
+#logo a {
+  font-size: inherit;
+  color: #222;
+}
+
+.side-nav .legal {
+  border-top: 1px solid #e0e0e0;
+  color: #212121;
+  font-size: 13px;
+  padding: 24px;
+}

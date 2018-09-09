@@ -1,0 +1,45 @@
+/**
+ * Created by Sergiu Ghenciu on 13/03/2018
+ */
+
+.rows.chart {
+  .bar {
+    display: inline-block;
+    background-color: #00c0ef;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 1rem;
+    position: relative;
+    border-left: 1px solid #fff;
+    &:first-child {
+      border-left: none;
+    }
+
+    > span {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      margin-top: -10px;
+    }
+  }
+  .bar.too-small {
+    > span {
+      display: none;
+    }
+  }
+
+  .axis.x {
+    margin-top: 10px;
+    border-top: 1px solid #ccc;
+    white-space: nowrap;
+    overflow: hidden;
+
+    > span {
+      display: inline-block;
+      //border-right: 1px solid #ccc;
+      text-align: right;
+    }
+  }
+}

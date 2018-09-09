@@ -1,0 +1,19 @@
+/**
+ * Created by Sergiu Ghenciu on 29/12/2017
+ */
+
+.cost-models {
+  .select-wrapper {
+    .dropdown-content {
+      li > span {
+        padding-right: 60px;
+        position: relative;
+      }
+      .badge {
+        position: absolute;
+        right: 15px;
+        top: 14px;
+      }
+    }
+  }
+}

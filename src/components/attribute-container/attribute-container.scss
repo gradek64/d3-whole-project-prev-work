@@ -1,0 +1,46 @@
+@import '../../vars';
+
+$marginTopBottom: 10px;
+.attribute-container {
+  border-radius: 10px;
+  /*  border: 1px solid */
+  box-shadow: 0px 0px 0px 1px #285767 inset;
+
+  width: 80%;
+  min-width: 131px;
+  margin: $marginTopBottom auto $marginTopBottom auto;
+  height: $filter-toolbar-height - $marginTopBottom * 2;
+  line-height: $filter-toolbar-height - $marginTopBottom * 2;
+
+  span.label {
+    /* display: inline-block;
+    vertical-align: top; */
+    font-size: 20px;
+    color: #285767;
+    float: left;
+    margin-left: 5%;
+    max-width: 95px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .icon-container {
+    position: relative;
+    float: right;
+    width: 9%;
+    min-width: 20px;
+    margin-right: 5%;
+    height: $filter-toolbar-height - $marginTopBottom * 2;
+    overflow: hidden;
+    .icon {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      i {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}

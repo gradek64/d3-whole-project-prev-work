@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewbox="0 0 85 85" width="100%" height="100%">
+  <g
+     style="fill:#000000"
+     transform="translate(-27.808727,90.58902)">
+    <path
+       d="M 0,0 H 24 V 24 H 0 Z"
+       inkscape:connector-curvature="0"
+       style="fill:none" />
+  </g>
+  <g
+     transform="matrix(0.36430631,0,0,-0.36430631,-91.497687,124.44021)"
+     inkscape:label="analytics"
+     style="stroke:{{::opts.color}};stroke-opacity:1">
+    <g
+       style="stroke:{{::opts.color}};stroke-opacity:1">
+      <g
+         clip-path="url(#clipPath874)"
+         style="stroke:{{::opts.color}};stroke-opacity:1">
+        <g
+           transform="translate(498.667,344.5349)"
+           style="stroke:{{::opts.color}};stroke-opacity:1" />
+        <g
+           transform="translate(403.5,344.5349)"
+           style="stroke:{{::opts.color}};stroke-opacity:1" />
+        <g
+           transform="translate(325.7769,326.1096)"
+           style="stroke:{{::opts.color}};stroke-opacity:1" />
+        <g
+           transform="translate(308.3335,344.5349)"
+           style="stroke:{{::opts.color}};stroke-opacity:1" />
+        <g
+           transform="translate(364.3335,380.6399)"
+           style="stroke:{{::opts.color}};stroke-opacity:1" />
+        <g
+           transform="translate(413.3335,383.2917)"
+           style="stroke:{{::opts.color}};stroke-opacity:1" />
+        <g
+           transform="translate(461.333,376.8879)"
+           style="stroke:{{::opts.color}};stroke-opacity:1">
+          <path
+             style="fill:none;stroke:{{::opts.color}};stroke-width:2.0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="m -90.865781,-115.66945 v 49.986457 h -19.947949 v -46.261947 m -7.91419,-0.0959 v 30.803914 h -19.94851 v -31.360354 m -7.153,-0.94618 v 16.75263 h -19.94851 v -21.95833 m -11.78325,-15.25278 v -20.39898 c 0,-8.39985 15.93218,-15.463 39.06633,-17.49893 4.38238,-0.38588 8.98235,-0.59157 13.72568,-0.59157 29.781954,0 54.550362,8.0997 54.491358,18.0905 l -0.120467,20.39894 m -53.237891,4e-5 v 0 l 29.93324,-15.04878 m 23.304651,15.32374 c 0,-9.99097 -23.455377,-18.36546 -53.237891,-18.36546 -4.74334,0 -9.34331,0.20569 -13.72569,0.59101 -23.13415,2.03649 -40.19903,9.09964 -40.19903,17.49949 0,9.99097 24.14276,18.0905 53.92472,18.0905 29.782514,0 53.237891,-7.82458 53.237891,-17.81554 z m -97.278791,-10.71544 44.04084,10.44031 v 18.0905 m 79.696639,-65.74297 h -10.475163 l -3.712733,3.58013 c 12.994524,15.11608 20.817765,34.74045 20.817765,56.08859 0,47.602388 -38.58578,86.188152 -86.188158,86.188152 -47.60237,0 -86.18814,-38.585764 -86.18814,-86.188152 0,-47.60237 38.58577,-86.18814 86.18814,-86.18814 21.34814,0 40.972526,7.82323 56.088602,20.81775 l 3.580119,-3.71272 v -10.47518 l 66.2985939,-66.16597 19.7569461,19.75697 z" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,162 @@
+<app-header logo="{title:'CostLens Admin',href:'#!/cost-models'}"></app-header>
+<side-nav></side-nav>
+<div class="content">
+  <breadcrumbs items="breadcrumbs"></breadcrumbs>
+
+  <div class="container">
+    <div class="section" st-pipe="onGetAll" st-table="items">
+      <br>
+      <div style="position: relative">
+        <div class="row">
+          <div class="col s12 flex valign-center">
+            <h1 class="stretch">Output Management</h1>
+            <div class="main-actions">
+              <button class="btn" ng-click="emit('CLICK_ON_CREATE_OUTPUT')">Create Output</button>
+            </div>
+          </div>
+        </div>
+        <table class="bordered">
+          <thead>
+            <tr>
+              <th>
+                <span>Name</span>
+              </th>
+              <th>
+                <span>Status</span>
+              </th>
+              <th>
+                <span>Financial Year</span>
+              </th>
+              <th>
+                <span>Type</span>
+              </th>
+              <th>
+                <span>Start Time</span>
+              </th>
+              <th>
+                <span>End Time</span>
+              </th>
+              <th>
+                <span>Author</span>
+              </th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr ng-if="errorOrNoData">
+              <td colspan="8" class="center-align">{{errorOrNoData}}</td>
+            </tr>
+            <tr ng-if="items" data-ng-repeat="row in items track by $index">
+              <td style="max-width: 200px;"><span class="truncate">{{row.name}}</span>
+              </td>
+              <td>{{row.status}}</td>
+              <td>{{row.financialYearName}}</td>
+              <td>{{row.outputTypeName}}</td>
+              <td>{{row.startDate | date : 'dd/MM/yy HH:mm'}}</td>
+              <td>{{row.endDate | date : 'dd/MM/yy HH:mm' }}</td>
+              <td>{{row.createdBy}}</td>
+              <td class="actions">
+                <dropdown-menu class-name="btn-flat" icon="more_vert" alignment="right" items="getActions(row)"
+                callback="callbackFactory(row)"></dropdown-menu>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <loading data-ng-show="isLoading"></loading>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- create output -->
+<div data-modal="{showOn: 'CLICK_ON_CREATE_OUTPUT', hideOn: ['CLICK_ON_CANCEL_CREATE_OUTPUT', 'OUTPUT_CREATED'],
+                closeButton: false, freeze:creating}" class="create">
+  <form name="form1" ng-submit="onSubmit(formObj, 'create'); $event.preventDefault();">
+    <div class="modal-content">
+      <h4 style="">Create New Output</h4>
+      <div data-ng-show="error" class="card-panel red lighten-2 z-depth-0">
+        <span class="white-text">{{error}}</span>
+      </div>
+      <div class="f-body">
+        <div class="input-field">
+          <input id="cm-title" type="text" name="title" ng-model="formObj.name" ng-class="{invalid: (form1.$submitted && !formObj.name),
+                                    valid: (form1.$submitted && formObj.name)}">
+          <label for="cm-title">Output name</label>
+        </div>
+        <div class="input-field">
+          <dropdown-select text="Please select" label="Select Financial Year" name="financialYearId"
+          ng-model="formObj.financialYearId" class-name="{invalid: (form1.$submitted && !formObj.financialYearId),
+                                            valid: (form1.$submitted && formObj.financialYearId)}"
+          items="financialYearsList" reset-factory="dropdownResetFactory('resetfinancialYear')"></dropdown-select>
+        </div>
+        <div class="input-field">
+          <dropdown-select text="Please select" label="Select Output type" name="outputTypeId"
+          ng-model="formObj.outputTypeId" class-name="{invalid: (form1.$submitted && !formObj.outputTypeId),
+                                            valid: (form1.$submitted && formObj.outputTypeId)}"
+          items="outputTypesList" reset-factory="dropdownResetFactory('resetOutputType')"></dropdown-select>
+        </div>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button type="submit" class="btn waves-effect waves-light">Create</button>
+      <a href="#!" ng-click="emit('CLICK_ON_CANCEL_CREATE_OUTPUT'); $event.preventDefault();"
+      class="btn-flat waves-effect waves-red">Cancel</a>
+    </div>
+  </form>
+  <loading data-ng-show="creating"></loading>
+</div>
+<!--end: create output -->
+
+<!-- confirm delete output -->
+<div data-modal="{showOn: 'CONFIRM_DELETE_OUTPUT', hideOn: ['CLICK_ON_CANCEL_DELETE_OUTPUT', 'OUTPUT_DELETED'],
+                closeButton: false, freeze: deleting}" class="confirmation">
+  <form name="form2" ng-submit="onSubmit(focused, 'delete'); $event.preventDefault();">
+    <div class="modal-content">
+      <div data-ng-show="error" class="card-panel red lighten-2 z-depth-0">
+        <span class="white-text">{{error}}</span>
+      </div>
+      <h4>Delete Output</h4>
+      <div class="f-body">
+        <p class="center-align">
+          Do you want to delete the {{focused.name}}?
+        </p>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button type="submit" class="btn waves-effect waves-light">Confirm</button>
+      <a href="#!" ng-click="emit('CLICK_ON_CANCEL_DELETE_OUTPUT'); $event.preventDefault();"
+      class="btn-flat waves-effect waves-red">Cancel</a>
+    </div>
+  </form>
+  <loading data-ng-show="deleting"></loading>
+</div>
+<!--end: confirm delete file modal -->
+
+<!-- confirm publish output -->
+<div data-modal="{showOn: 'CONFIRM_UPDATE_OUTPUT', hideOn: ['CLICK_ON_CANCEL_UPDATE_OUTPUT', 'OUTPUT_UPDATED'],
+                closeButton: false, freeze: updating}" class="confirmation">
+  <form name="form3" ng-submit="onSubmit(focused, 'update'); $event.preventDefault();">
+    <div class="modal-content">
+      <div data-ng-show="error" class="card-panel red lighten-2 z-depth-0">
+        <span class="white-text">{{error}}</span>
+      </div>
+      <h4>{{focused.status==='PUBLISHED' && 'Unp' || 'P'}}ublish Output</h4>
+      <div class="f-body">
+        <p class="center-align">
+          Are Your sure you want to <span ng-if="focused.status==='PUBLISHED'">un</span>publish
+          {{focused.name}}?
+        </p>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button type="submit" class="btn waves-effect waves-light">Confirm</button>
+      <a href="#!" ng-click="emit('CLICK_ON_CANCEL_UPDATE_OUTPUT'); $event.preventDefault();"
+      class="btn-flat waves-effect waves-red">Cancel</a>
+    </div>
+  </form>
+  <loading data-ng-show="updating"></loading>
+</div>
+<!--end: confirm publish output -->
+
+<notifications></notifications>
+<app-footer></app-footer>
+<login-form></login-form>

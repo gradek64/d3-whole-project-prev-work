@@ -1,0 +1,54 @@
+/**
+ * Created by Sergiu Ghenciu on 03/04/2018
+ */
+
+.waterfall {
+  .bar.too-small {
+    rect + text {
+      display: none;
+    }
+  }
+  .bar.total rect {
+    //fill: steelblue;
+    //fill: rgb(57, 59, 121);
+    fill: #0277bd;
+  }
+
+  .bar.negative rect {
+    //fill: darkolivegreen;
+    //fill: rgb(99, 121, 57);
+    fill: #00aa8d;
+  }
+  .bar.positive rect {
+    //fill: crimson;
+    //fill: rgb(173, 73, 74);
+    fill: #ef5350;
+  }
+
+  .bar line.connector {
+    stroke: #d4d8da;
+    stroke-dasharray: 3;
+  }
+
+  .bar text {
+    fill: white;
+    font-size: 1rem;
+    text-anchor: middle;
+  }
+
+  .bar text.percentage {
+    fill: #555;
+  }
+
+  .axis text {
+    //font: 10px sans-serif;
+  }
+
+  .axis path,
+  .axis line {
+    fill: none;
+    stroke: #d4d8da;
+    stroke-width: 1px;
+    shape-rendering: crispEdges;
+  }
+}
