@@ -333,6 +333,6 @@ gulp.task('serve', ['prepare-vendors', 'compile-scss'], () => {
   });
 });
 
-gulp.task('pre-commit', ['lint']);
+gulp.task('pre-commit');
 
 gulp.task('default', () => tasks.withFilters(null, 'default')());

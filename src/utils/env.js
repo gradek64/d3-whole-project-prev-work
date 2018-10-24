@@ -5,5 +5,5 @@
 'use strict';
 
 angular.module('utils.env', []).constant('ENV', {
-  BASE_URL: 'https://test.amalytics.co',
+  BASE_URL: 'https://dev.amalytics.co',
 });

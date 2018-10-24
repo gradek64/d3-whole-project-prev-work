@@ -48,6 +48,7 @@ angular.
         }
 
         function open() {
+          console.log('open modal!!');
           modal.classList.add(options.className);
           overlay && overlay.classList.add(options.className);
 
@@ -79,6 +80,10 @@ angular.
         }
 
         function buildOut() {
+          /*
+            *@modalService buildOut function
+            *@place where you assign your modal from options
+          */
           modal = options.el;
           modal.classList.add('modal');
           if (!options.noShadow) {
@@ -93,9 +98,11 @@ angular.
 
           // If closeButton option is true, add a close button
           if (options.closeButton === true) {
+            console.log('close button');
             closeButton = document.createElement('button');
             closeButton.className = 'close close-button';
-            modal.appendChild(closeButton);
+            console.log(modal);
+            // modal.appendChild(closeButton);
           }
 
           // If overlay is true, add one
@@ -156,6 +163,11 @@ angular.
         let closeButton = null;
         const transitionEventName = transitionSelect();
         let isAnchored = false;
+        /*
+          *@options are send in prop
+          *@and they have options.el which is component modoal directive
+          *@where this service is called from
+        */
         let options = Object.assign({}, defaults, props);
         buildOut();
         if (options.bindEvents === true) {

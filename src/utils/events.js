@@ -8,7 +8,7 @@ angular
   .module('utils.events', [])
   .factory('events', () => {
     const events = {};
-
+    console.log('events called');
     const on = function(id, callback) {
       // console.log(events.CLICK_ON_CREATE_COST_MODEL);
       if (!callback || typeof callback !== 'function') {
