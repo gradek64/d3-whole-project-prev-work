@@ -36,12 +36,9 @@ angular
       };
 
       const bind = (fn, toggle) => (name) => {
+        console.log('......BIND EVENTS FOR MODAL BY INSIDE MODAL.....');
+        console.log(`events[${toggle}](${EVENTS[name]}, ${fn}) \n\n\n\n`);
         if (EVENTS[name]) {
-          console.log('.....bind custom event.....');
-          console.log('register events for modal');
-
-          console.log('function assined to custom events', fn);
-
           events[toggle](EVENTS[name], fn);
         } else {
           console.warn(`${name} does not exist in CONSTANTS.EVENTS`);
@@ -61,7 +58,6 @@ angular
       };
 
       const bindEvents = (scope, modal) => {
-        console.log('scope.opts.showOn', scope.opts.showOn);
         const onOpen = onOpenFactory(modal);
         const onClose = onCloseFactory(scope, modal);
         const openForced = () => onOpen(true);
@@ -69,7 +65,6 @@ angular
 
         bindStringOrArray(scope.opts.showOn, openForced);
         bindStringOrArray(scope.opts.hideOn, closeForced);
-        console.log(modal);
 
         if (modal.closeButton) {
           modal.closeButton.addEventListener('click', onClose);
@@ -88,7 +83,7 @@ angular
       const init = (scope, element) => {
         const el = element[0];
         el.classList.add('modal');
-        console.log('this is element from modal component', element[0]);
+        // console.log('this is element from modal component', element[0]);
 
         /*
           *@extend element with ModalService so
@@ -105,9 +100,9 @@ angular
         */
         bindEvents(scope, modal);
 
-        console.log('before exteding modal from modalService', el);
         console.log(
-          'modal from modalService after exteding with modalService',
+          '\x1b[34m',
+          'MODAL OBJECT AFTER EXTENDING WITH modalService.js in init()',
           modal
         );
         return modal;

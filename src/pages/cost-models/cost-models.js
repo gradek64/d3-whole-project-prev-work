@@ -170,6 +170,10 @@ angular
         };
 
         scope.onEdit = (row) => {
+          /*
+            *@events registered before in a template by events.on([EVENT], fn);
+            *@now can be emited below
+          */
           events.emit('CONFIRM_UPDATE_COST_MODEL');
           scope.focused = row;
           const parent = scope.allItems.find(
@@ -216,6 +220,9 @@ angular
       };
 
       const bindEvents = () => {
+        console.log(
+          'BIND YOUR CUSTOM EVENTS MANUALLY:\n\n events.on(EVENTS.LOGIN_SUCCESS, updateState'
+        );
         events.on(EVENTS.LOGIN_SUCCESS, updateState);
         events.on(EVENTS.CLICK_ON_CREATE_COST_MODEL, clearForm);
         events.on(EVENTS.CONFIRM_UPDATE_COST_MODEL, clearForm);
