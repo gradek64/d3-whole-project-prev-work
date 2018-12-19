@@ -4,7 +4,6 @@
   <breadcrumbs items="[
     {href: '/#!/cost-models', label: 'Cost Models'},
     {href: '/#!/cost-models/' + configId + '/costpots', label: 'Model Config'}]"></breadcrumbs>
-
   <div class="container">
     <div class="section">
       <div class="row">
@@ -24,7 +23,7 @@
                         opts="{name:item.name, href: '/#!/cost-models/' + id+ '/costpots/' + item.id}"></costpot>
             </div>-->
       <div class="section graph">
-        <div class="row" ng-repeat="level in allLevels track by $index">
+        <div class="row" ng-repeat="level in allLevels track by $index">level
           <div class="col s12 flex hspace-evenly domain-{{level.domainId}}">
             <h6 class="level-name">{{level.name}}</h6>
             <costpot ng-repeat="item in allCostpots | filter:{levelId: level.id}:true | filter:{parentId: null} | filter:{parentId: undefined} track by $index"

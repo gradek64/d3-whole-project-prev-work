@@ -24,8 +24,9 @@ angular
     function(modalService, events, EVENTS) {
       // code here executes once
 
-      const onOpenFactory = (modal) => () => {
+      const onOpenFactory = (modal) => (isTrue) => {
         console.log('onOpenFactory');
+        console.log('secondExecution from isOpenTrue', isTrue);
         modal.open();
       };
 
@@ -83,6 +84,8 @@ angular
       const init = (scope, element) => {
         const el = element[0];
         el.classList.add('modal');
+
+        console.log('scope modal:', scope);
         // console.log('this is element from modal component', element[0]);
 
         /*

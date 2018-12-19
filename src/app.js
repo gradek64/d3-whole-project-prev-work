@@ -102,6 +102,7 @@ angular
       };
 
       const checkAuthorisation = (event, data) => {
+        console.log('......checkking the routes......authorized or not....');
         if (!authService.isAuthenticated()) {
           event.preventDefault();
           events.emit('NOT_AUTHENTICATED');
