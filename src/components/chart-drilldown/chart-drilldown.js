@@ -112,9 +112,11 @@ angular
         return _.prop('id', levels.find((e) => e.name === name));
       };
 
+      /* --------------------------------------*/
+
       const getData = (scope, level, params) => {
-        console.log('get data levelName', level);
-        console.log('get data params', level);
+        console.log('....get data levelName', level);
+        console.log('....get data params', level);
         // 6f286b17-9be8-4f2c-80c8-ad5e65951922
         console.log('levelId(scope, level)', levelId(scope, level));
         console.log('configId(scope)', configId(scope));
@@ -127,11 +129,28 @@ angular
         /* return costsService
           .getAll(configId(scope), levelId(scope, level), params)
           .then((res) => res.data);*/
+        console.log(
+          'scope.......:::::......::::',
+          scope,
+          '....::::....::::.....'
+        );
+        console.log(
+          '......\n\n\n',
+          'to get data U need to provide::: \n',
+          'configId:  ',
+          configId(scope),
+          'level Id:  ',
+          levelId(scope, level),
+          'params: ',
+          params
+        );
 
         return costsServiceMock
           .getAll(configId(scope), levelId(scope, level), params)
           .then((res) => res.data);
       };
+
+      /* --------------------------------------*/
 
       const selectedGroupBys = ({groupByButtons}) =>
         groupByButtons.filter((e) => e.selected);
@@ -153,7 +172,7 @@ angular
 
         getData(scope, levelName(scope, groupBys), {groupBy: groupBys})
           .then((data) => {
-            console.log('first data', data);
+            console.log('.....first data.....', data);
 
             const total = pds.computeTotal(data, 'amount');
             data = pds.addPercentage(data, 'amount', total);
@@ -170,7 +189,18 @@ angular
               '£'
             );
             // }
+
+            /*
+              *@scope.render1 is defined in chart.js and it being
+              *@curried over to renderFactoryUp
+            */
             scope.render1(data, accessor, comp);
+
+            console.log(
+              '\n\n\n\n......function curried to chart.js by renderFactoryUp:.....',
+              scope['render1'],
+              '\n\n\n\n'
+            );
           })
           .finally(() => {
             comp.isLoading = false;

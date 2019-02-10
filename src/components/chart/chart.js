@@ -320,10 +320,12 @@ angular
 
       const onEnterFactory = (el, data, accessor, opts) => {
         const avoid = avoidFactory(opts.type);
+        console.log('.....execute onEnterFactory\n\n\n\n', el, data, accessor);
         return (d, i, a) => {
           if (avoid(d)) {
             return;
           }
+          console.log('exeute on mouseenter factory', d, i, a);
           el.classList.add('mouse-over');
           a[i].classList.add('active');
         };
@@ -372,6 +374,19 @@ angular
         const onEnter = onEnterFactory(el, data, accessor, opts);
         const onLeave = onLeaveFactory(el, data, accessor, opts);
         const onMove = onMoveFactory(el, data, accessor, opts, total);
+
+        console.log(
+          'bindEvents',
+          '\n\n\n\n\n',
+          scope,
+          el,
+          data,
+          accessor,
+          opts,
+          total,
+          leaves,
+          '\n\n\n\n\n'
+        );
 
         leaves.each((d, i, a) => {
           a[i].addEventListener('click', function(event) {
@@ -435,15 +450,25 @@ angular
         const opts = Object.assign(defaults, options);
         const service = getService(scope);
 
+        console.log(
+          '\n\n\n\n chart service has been selected:: ',
+          service,
+          '\n\n\n\n\n'
+        );
+
         const total = propValue(accessor)
           ? prepareDataService.computeTotal(data, propValue(accessor))
           : undefined;
+
+        console.log('data before prepareDataService.....', data);
 
         const preparedData = prepareDataService.prepare(
           data,
           opts.type,
           accessor
         );
+
+        console.log('\n\n\n\n data after prepare', preparedData, '\n\n\n\n\n');
 
         if (opts.type === 'sankey') {
           let l = _.length(preparedData.links);
@@ -457,6 +482,12 @@ angular
 
         diagramContainer.innerHTML = '';
         const leaves = service.render(diagramContainer, preparedData, opts);
+
+        console.log(
+          '\n\n\n\n leaves outcome from chart service render',
+          leaves,
+          '\n\n\n\n\n'
+        );
 
         renderLegend(el, preparedData, 1, accessor, opts);
         renderLabels(el, preparedData, 1, accessor, opts, total);
@@ -519,6 +550,7 @@ angular
         // register render callback
         const renderFactoryUp = _.ifIsFunctionCallOrNoop(scope.renderFactory);
         renderFactoryUp((data, accessor, opts) => {
+          console.log('...renderFactoryUp....', data);
           render(scope, element[0], data, accessor, opts);
         });
 
@@ -538,6 +570,8 @@ angular
           _.ifIsFunctionCallOrNoop(scope.onChangeType),
           _.ifIsFunctionCallOrNoop(scope.onExit)
         );
+
+        console.log('....scope.data...', scope.data);
 
         render(scope, element[0], scope.data, scope.accessor, scope.opts);
       };
