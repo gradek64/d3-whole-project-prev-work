@@ -420,6 +420,9 @@ angular
         const canvas = el.querySelector('.canvas');
         canvas.style = '';
 
+        console.log('accessor......,: ', accessor);
+        console.log('options.......,: ', options);
+
         const defaults = {
           width: diagramContainer.clientWidth,
           height: diagramContainer.clientHeight,

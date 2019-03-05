@@ -22,7 +22,13 @@ angular
           (a, e) => (e.isNegative ? _.subtract(e.value, a) : _.add(e.value, a)),
           0
         );
-
+        console.log('\n\n\n\n');
+        console.log('data....', data);
+        console.log('opts.colors', opts.colors);
+        console.log('color', color);
+        console.log('total', total);
+        console.log('total2', total2);
+        console.log('\n\n\n\n');
         /* diagram */
         const chart = document.createElement('div');
         chart.style.height = 'calc(100% - 40px)';
@@ -31,6 +37,10 @@ angular
         const bars = data.map(function(e, i) {
           const bar = document.createElement('div');
           const width = Math.abs(e.value) / total * 100;
+
+          console.log('\n\n\n\n');
+          console.log('segments widths', width);
+
           bar.style.backgroundColor = color(i);
           bar.style.width = width + '%';
           bar.className = width < 5 ? 'bar too-small' : 'bar';
